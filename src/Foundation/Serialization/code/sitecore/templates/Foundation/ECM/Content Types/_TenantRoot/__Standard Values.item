@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {2149E8E0-9EBB-4B98-A811-854939DEC11B}
+database: master
+path: /sitecore/templates/Foundation/ECM/Content Types/_TenantRoot/__Standard Values
+parent: {FB1EC861-FC4E-4DA8-A163-AD0D088A4D23}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {FB1EC861-FC4E-4DA8-A163-AD0D088A4D23}
+templatekey: _TenantRoot
+created: 20190319T111616Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 41
+
+Flags/32x32/flag_united_arab_emirates.png
+----version----
+language: en
+version: 1
+revision: 96b68187-dee0-442a-b081-055a1f3f49f4
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190314T065549Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+96b68187-dee0-442a-b081-055a1f3f49f4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190319T115017Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {0725C346-59E6-4236-BD3B-E646B6ACD5AE}
+database: master
+path: /sitecore/templates/Feature/Emaarcommunities/FAQS/_Faqs/Data/Page Faqs
+parent: {E5928635-53BF-412B-B895-67151962AD2B}
+name: Page Faqs
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+created: 20190418T064135Z
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 9
+
+Multilist
+----field----
+field: {1EB8AE32-E190-44A6-968D-ED904C794EBF}
+name: Source
+key: source
+content-length: 100
+
+query:ancestor-or-self::*[@@templateid='{407F6EA5-A542-4D83-9D03-B598E06D3422}']/Site Content/Faqs/*
+----field----
+field: {FF8A2D01-8A77-4F1B-A966-65806993CD31}
+name: Blob
+key: blob
+content-length: 1
+
+1
+----field----
+field: {BE351A73-FCB0-4213-93FA-C302D8AB4F51}
+name: Shared
+key: shared
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 09411502-49a0-4f13-a73c-eedb724e4b3e
+
+----field----
+field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
+name: __Short description
+key: __short description
+content-length: 40
+
+Datasource items from Site Content/Faqs/
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190418T064135Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+09411502-49a0-4f13-a73c-eedb724e4b3e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190418T083359Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

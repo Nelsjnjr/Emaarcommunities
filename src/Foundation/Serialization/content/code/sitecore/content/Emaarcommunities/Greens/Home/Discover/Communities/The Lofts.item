@@ -1,0 +1,166 @@
+----item----
+version: 1
+id: {0E6CAB7A-2F7F-45B7-9C84-0E319A2C3063}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Home/Discover/Communities/The Lofts
+parent: {B4409D0F-5174-43FB-934F-26EFA57D6B15}
+name: The Lofts
+master: {00000000-0000-0000-0000-000000000000}
+template: {4FB05EC1-985E-46D3-A95B-A851FF0BE873}
+templatekey: Generic ContentPage
+created: 20190507T082451Z
+
+----field----
+field: {6D0A86EF-D757-4860-80F8-A79F4ECFDCC9}
+name: Amenities
+key: amenities
+content-length: 584
+
+{D895B605-5864-4C52-A7F3-528BBB36DC02}|{7EC78BFB-29D0-401C-8073-BF70B0926C8E}|{E4DB0213-9675-47AE-9F57-29EEEF8ED9CA}|{621E1619-6720-41A6-8422-B3C71B9E7FBC}|{D2023A01-31CD-4260-BD18-0E3B28DE54B6}|{961D8159-A76A-4E9D-AE5C-0EEC53150BAC}|{6E2C8BDA-0EB0-43AB-9F71-A683EA6C1855}|{3625330C-656C-4A17-A0B7-26B963EE8E22}|{832CD1FA-0A59-4E02-912D-A295424F2231}|{505EFCD8-FA4E-49D6-BFB7-EC5317FFC8BA}|{0BFAE7F5-3FEA-4441-AE4A-054BAC9445AE}|{D6255BC2-0922-4269-9572-404ED6453714}|{E041B73E-0F7F-436B-852B-A3F782FFCA2F}|{B9862981-A5FA-48D6-806B-40CDC7096857}|{FCE9022F-CF18-4AFC-8096-6206E11AAE72}
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 9
+
+The Lofts
+----version----
+language: en
+version: 1
+revision: cad30404-286b-4e71-b229-cba75951e564
+
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{D02DB6F2-6D33-4535-B6E8-BEBC80084C88}" />
+----field----
+field: {0BC802F1-146C-454E-A508-E72E5A1CF61D}
+name: Content
+key: content
+content-length: 486
+
+Located along the Sheikh Mohammed bin Rashid Boulevard, the east, west and central towers of The Lofts are linked by a four-storey podium, with air-conditioned arcades that open to al fresco terraces during the cooler months. There are studios, as well as one and two bedroom apartments in close proximity to Burj Dubai Square and the Dubai Financial District.&nbsp;&nbsp;The Lofts offer impressive views over the northern crescent of Downtown Dubai with floor-to-ceiling windows.&nbsp;
+----field----
+field: {9E0362E2-325D-4DD1-8559-188DED2F6380}
+name: Related Pages
+key: related pages
+content-length: 155
+
+{EA0297AC-228D-4E32-8880-D37840817DAA}|{1065F7C8-B428-45C1-BF8E-77943BC09772}|{7FA10983-1BCA-4368-BB8B-AF71A664F875}|{539CCD1E-9063-4B4E-9CF8-A7408EB97114}
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 9
+
+The Lofts
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 9
+
+The Lofts
+----field----
+field: {8097066D-26C3-44B9-8527-551A2CBB5A84}
+name: Meta Title
+key: meta title
+content-length: 54
+
+The Lofts | Community Living in Downtown Dubai | Emaar
+----field----
+field: {DACE23AF-D8B3-48F1-94E7-9AE3EE07CB35}
+name: Meta Keywords
+key: meta keywords
+content-length: 93
+
+The Lofts, Downtown Dubai, Emaar, family-friendly community, pet-friendly community, shopping
+----field----
+field: {8453AF30-1477-46FB-8094-BD5FDE72C89A}
+name: Meta Description
+key: meta description
+content-length: 326
+
+Live in the Heart of Downtown Dubai. Located on the Sheikh Mohammed bin Rashid Boulevard. Close Proximity to Burj Khalifa and Dubai Opera. 24 Hour Security. Family-friendly Community. Retail Centre Within Walking Distance. Amenities: Mini Theatre, Business Centre, Squash Court, Swimming Pool, BBQ Areas & Kids' Play Area.
+
+
+----field----
+field: {4F39872D-258B-45B8-926B-6297E2DC7CD4}
+name: og title
+key: og title
+content-length: 54
+
+The Lofts | Community Living in Downtown Dubai | Emaar
+----field----
+field: {89F0FE3C-744E-416C-B216-340E05F86EAC}
+name: og description
+key: og description
+content-length: 322
+
+Live in the Heart of Downtown Dubai. Located on the Sheikh Mohammed bin Rashid Boulevard. Close Proximity to Burj Khalifa and Dubai Opera. 24 Hour Security. Family-friendly Community. Retail Centre Within Walking Distance. Amenities: Mini Theatre, Business Centre, Squash Court, Swimming Pool, BBQ Areas & Kids' Play Area.
+----field----
+field: {B41E43E9-8AB5-4A00-B76B-1664C7161F82}
+name: og site_name
+key: og site_name
+content-length: 14
+
+Downtown Dubai
+----field----
+field: {CD25BC97-065E-4F79-B991-7C515DEDAB45}
+name: og url
+key: og url
+content-length: 30
+
+www.downtowndubai.com/TheLofts
+----field----
+field: {E4395580-B216-41E6-AD1F-8EC542DE11D6}
+name: twiiter title
+key: twiiter title
+content-length: 9
+
+The Lofts
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190507T082452Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cad30404-286b-4e71-b229-cba75951e564
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T083118Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

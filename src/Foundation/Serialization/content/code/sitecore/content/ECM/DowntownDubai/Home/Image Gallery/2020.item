@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {005C56C9-4F16-4169-8B1C-008C2FDAE903}
+database: master
+path: /sitecore/content/ECM/DowntownDubai/Home/Image Gallery/2020
+parent: {8A379D29-25E4-4DE5-B3AA-786E1E817F7E}
+name: 2020
+master: {00000000-0000-0000-0000-000000000000}
+template: {75D66F86-B219-4070-9820-AB948FD107A4}
+templatekey: Year Folder
+created: 20190425T080441Z
+
+----field----
+field: {105BAD38-1786-44F3-8ADA-ADB697F4EC9B}
+name: Year
+key: year
+content-length: 4
+
+2020
+----version----
+language: en
+version: 1
+revision: dbecac09-b4a5-4873-8e85-2db1e96bad9e
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190425T080409Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dbecac09-b4a5-4873-8e85-2db1e96bad9e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190426T114704Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

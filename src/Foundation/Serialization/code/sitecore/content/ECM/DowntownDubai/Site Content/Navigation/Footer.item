@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {3F18F351-6B1A-4580-ACAE-4E51CC4D2DCE}
+database: master
+path: /sitecore/content/ECM/DowntownDubai/Site Content/Navigation/Footer
+parent: {9F11BAA4-4954-43F4-8593-2CB1B16B8CA7}
+name: Footer
+master: {00000000-0000-0000-0000-000000000000}
+template: {FA10987C-AA12-47C7-ADCA-6044794AC47E}
+templatekey: Footer
+created: 20190326T130727Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: 41d3780f-a8a5-45ff-b877-09d606431081
+
+----field----
+field: {4518387F-0FE0-451A-B417-9BCC524E3012}
+name: Contact Info
+key: contact info
+content-length: 38
+
+{382D2C02-4F44-4DBF-9D61-8CC2520BD12A}
+----field----
+field: {B7301B8A-72C1-4ED0-B484-F5E3CC3B8AF4}
+name: Root Navigations
+key: root navigations
+content-length: 116
+
+{CFC2AEF7-EA53-49C0-948A-D721BBBA13E4}|{9BACCCE9-3952-4CB8-9726-475FB4AD3233}|{EFB10CFD-E455-47D2-95BE-6FDE536BB619}
+----field----
+field: {AD94DCD0-6573-4650-B8E2-CC29BAB61ABF}
+name: Legal Pages
+key: legal pages
+content-length: 77
+
+{C50EA893-8AF6-44B8-A412-B4BE956C9839}|{84C77302-B8B4-4BC8-9CB8-6F6E5DD1CD45}
+----field----
+field: {F868F9DA-AF3C-4A18-B6C3-4D80486243B4}
+name: Copyright
+key: copyright
+content-length: 59
+
+All rights reserved {year} © Emaar Community Management LLC
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190326T130727Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+41d3780f-a8a5-45ff-b877-09d606431081
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190328T115942Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

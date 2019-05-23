@@ -1,0 +1,19 @@
+﻿@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions.Settings
+@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Content_Types.Banner.IImageText
+    @{ 
+        if (Model == null)
+        {
+            return;
+        }
+    }
+<!--Start ImageText-->
+@if (Model.Image_Text_Alignment != null)
+{
+    @Html.Partial(String.Format("{0}Banner/ImageText/ImageTextVariants/_{1}ImageText.cshtml", SitecoreSettings.ViewPath, Model.Image_Text_Alignment.Key), Model)
+}
+else
+{
+    @Html.Partial(String.Format("{0}Banner/ImageText/ImageTextVariants/_LeftImageText.cshtml", SitecoreSettings.ViewPath), Model)
+
+}
+<!--End ImageText-->

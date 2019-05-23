@@ -1,0 +1,118 @@
+----item----
+version: 1
+id: {C8F29FC5-45E2-4A6D-A7D8-9DECB7E625C2}
+database: master
+path: /sitecore/media library/Project/Emaarcommunities/DowntownDubai/Amenities/Outdoor-childrens-play-area
+parent: {8F1A971F-518C-4617-9452-BDC1A02711BC}
+name: Outdoor-childrens-play-area
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20190515T063856Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 1888
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzZweCIg
+aGVpZ2h0PSI1MnB4IiB2aWV3Qm94PSIwIDAgNzYgNTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0
+dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcv
+MTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU0LjEgKDc2NDkwKSAtIGh0
+dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5TaGFwZTwvdGl0bGU+CiAgICA8ZGVz
+Yz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0i
+bm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgog
+ICAgICAgIDxwYXRoIGQ9Ik02My44NzIzNDA0LDcuNTQ1MDk4MDQgTDYzLjg3MjM0MDQsMS40Mjc0
+NTA5OCBMNTEuNzQ0NjgwOSwxLjQyNzQ1MDk4IEw1MS43NDQ2ODA5LDAgTDQ4LjUxMDYzODMsMCBM
+NDguNTEwNjM4MywxLjQyNzQ1MDk4IEwzMy41NTMxOTE1LDEuNDI3NDUwOTggTDMzLjU1MzE5MTUs
+MCBMMzAuMzE5MTQ4OSwwIEwzMC4zMTkxNDg5LDEuNDI3NDUwOTggTDAsMS40Mjc0NTA5OCBMMCw1
+MiBMMy4yMzQwNDI1NSw1MiBMMy4yMzQwNDI1NSw0Ny41MTM3MjU1IEwxOC4xOTE0ODk0LDQ3LjUx
+MzcyNTUgTDE4LjE5MTQ4OTQsNTIgTDIxLjQyNTUzMTksNTIgTDIxLjQyNTUzMTksNC42OTAxOTYw
+OCBMMzAuMzE5MTQ4OSw0LjY5MDE5NjA4IEwzMC4zMTkxNDg5LDQxLjM5NjA3ODQgTDUxLjc0NDY4
+MDksNDEuMzk2MDc4NCBMNTEuNzQ0NjgwOSw0LjY5MDE5NjA4IEw2MC42MzgyOTc5LDQuNjkwMTk2
+MDggTDYwLjYzODI5NzksNTIgTDYzLjg3MjM0MDQsNTIgTDYzLjg3MjM0MDQsMTAuODA3ODQzMSBM
+NzIuNzY1OTU3NCwxMC44MDc4NDMxIEw3Mi43NjU5NTc0LDUyIEw3Niw1MiBMNzYsNy41NDUwOTgw
+NCBMNjMuODcyMzQwNCw3LjU0NTA5ODA0IFogTTE5LDQzIEwzLDQzIEwzLDQwIEwxOSw0MCBMMTks
+NDMgWiBNMTksMzkgTDMsMzkgTDMsMzYgTDE5LDM2IEwxOSwzOSBaIE0xOSwzMiBMMywzMiBMMywy
+OSBMMTksMjkgTDE5LDMyIFogTTE5LDI1IEwzLDI1IEwzLDIyIEwxOSwyMiBMMTksMjUgWiBNMTks
+MjAgTDMsMjAgTDMsMTcgTDE5LDE3IEwxOSwyMCBaIE0xOSwxMyBMMywxMyBMMywxMCBMMTksMTAg
+TDE5LDEzIFogTTE5LDcgTDMsNyBMMyw0IEwxOSw0IEwxOSw3IFogTTQ5LDM5IEwzMywzOSBMMzMs
+MzYgTDQ5LDM2IEw0OSwzOSBaIE00OSwzMiBMMzMsMzIgTDMzLDUgTDQ5LDUgTDQ5LDMyIFoiIGlk
+PSJTaGFwZSIgZmlsbD0iIzg4N0M2OCIgZmlsbC1ydWxlPSJub256ZXJvIj48L3BhdGg+CiAgICA8
+L2c+Cjwvc3ZnPg==
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+svg
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 13
+
+image/svg+xml
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+1378
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/c8f29fc545e24a6da7d89decb7e625c2.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: 4cc5d982-44f5-4877-833d-0809f1c78d8b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190515T063856Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4cc5d982-44f5-4877-833d-0809f1c78d8b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190515T063856Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 12
+
+sitecore\cat

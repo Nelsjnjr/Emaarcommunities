@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {420C1014-94EA-48C8-91B2-7E6BC08FCC5B}
+database: core
+path: /sitecore/system/Settings/Html Editor Profiles/Emaarcommunities Rich Text Full/Configuration Type
+parent: {A922423F-DB59-4896-B0AE-43C963454E6C}
+name: Configuration Type
+master: {00000000-0000-0000-0000-000000000000}
+template: {ECA6E291-BB55-47AB-BD02-BE76B1BC884F}
+templatekey: Html Editor Configuration Type
+created: 20190415T052355Z
+
+----field----
+field: {FF617570-33A4-4D0E-931E-FFEB9FAB450F}
+name: Type
+key: type
+content-length: 124
+
+EMAAR.Emaarcommunities.Feature.ContentComponents.Pipelines.RteCustomization,EMAAR.Emaarcommunities.Feature.ContentComponents
+----version----
+language: en
+version: 1
+revision: ef26c84a-7a59-455a-9d3c-bf3dc83696f4
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190415T052355Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ef26c84a-7a59-455a-9d3c-bf3dc83696f4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190521T052510Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

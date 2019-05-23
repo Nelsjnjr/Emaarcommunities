@@ -1,0 +1,85 @@
+----item----
+version: 1
+id: {539CCD1E-9063-4B4E-9CF8-A7408EB97114}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Related Pages/Discover/Communities/Boulevard Plaza
+parent: {661B9FCC-9999-4201-A104-8761F064D769}
+name: Boulevard Plaza
+master: {00000000-0000-0000-0000-000000000000}
+template: {4619311D-5E83-43B6-9DEA-B807687651F5}
+templatekey: Related Page
+created: 20190506T132217Z
+
+----version----
+language: en
+version: 1
+revision: a47e5eb9-6f34-4a38-b717-5e4bed68bf3b
+
+----field----
+field: {F9401C09-1121-4BB5-ABED-48BC2B29DE71}
+name: CTA
+key: cta
+content-length: 196
+
+<link id="{80F51598-1F7C-4809-927B-3A0AA0BEAD63}" querystring="" text="" anchor="" url="/Emaarcommunities/Greens/Home/Discover/Communities/Boulevard Plaza" title="" class="" linktype="internal" />
+----field----
+field: {520D1EE2-19AC-49CF-8F30-EC5E587B5DCA}
+name: Title
+key: title
+content-length: 15
+
+Boulevard Plaza
+----field----
+field: {B6EEDE47-DC79-4D53-A828-02ECA99816CA}
+name: Summary
+key: summary
+content-length: 268
+
+<ul>
+    <li>Easy access from The Dubai Mall Metro Station</li>
+    <li>Central location to Dubai&rsquo;s financial hub</li>
+    <li>Expansive views of Burj Khalifa and Downtown Dubai</li>
+    <li>Features prayer rooms, a supermarket, restaurants and a bank</li>
+</ul>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190506T132217Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a47e5eb9-6f34-4a38-b717-5e4bed68bf3b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T132106Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

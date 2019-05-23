@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {94422E4A-004D-42FA-9240-9F1A7E7CBE30}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Page Datasources/InteractiveMaps/Community map
+parent: {DCEDC895-44DA-4F9D-BC01-8D467FDAE169}
+name: Community map
+master: {00000000-0000-0000-0000-000000000000}
+template: {849370A4-9478-486E-813B-8AED2F947AF9}
+templatekey: Interactive Map
+created: 20190501T132127Z
+
+----version----
+language: en
+version: 1
+revision: 3ad2b65f-b823-4b1d-a6f3-5f1b0bf508b9
+
+----field----
+field: {6D5D0A92-1283-4C10-B057-7D40A1B88DE6}
+name: Title
+key: title
+content-length: 27
+
+Click and discover the area
+----field----
+field: {661C5898-9DA8-4A26-B33D-E8F7797209F4}
+name: Hot spots
+key: hot spots
+content-length: 155
+
+{85A94395-C637-4B3C-9EBC-20228C0CCA13}|{75153B99-995A-4796-B6DD-9D9749327252}|{E4153BAB-E86A-4D21-AD1D-78C2F031D279}|{6200803F-5957-4704-BB88-7CC7B52DC00F}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190321T090417Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ad2b65f-b823-4b1d-a6f3-5f1b0bf508b9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190502T081702Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 12
+
+sitecore\cat

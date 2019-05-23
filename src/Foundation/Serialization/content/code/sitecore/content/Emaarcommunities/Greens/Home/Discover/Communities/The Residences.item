@@ -1,0 +1,175 @@
+----item----
+version: 1
+id: {B9983979-83DB-4FC9-8D60-D7612C26C0B2}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Home/Discover/Communities/The Residences
+parent: {B4409D0F-5174-43FB-934F-26EFA57D6B15}
+name: The Residences
+master: {00000000-0000-0000-0000-000000000000}
+template: {4FB05EC1-985E-46D3-A95B-A851FF0BE873}
+templatekey: Generic ContentPage
+created: 20190507T083427Z
+
+----field----
+field: {6D0A86EF-D757-4860-80F8-A79F4ECFDCC9}
+name: Amenities
+key: amenities
+content-length: 506
+
+{803A7478-CE58-4B79-A82F-F56308C42C11}|{7EC78BFB-29D0-401C-8073-BF70B0926C8E}|{E4DB0213-9675-47AE-9F57-29EEEF8ED9CA}|{961D8159-A76A-4E9D-AE5C-0EEC53150BAC}|{6E2C8BDA-0EB0-43AB-9F71-A683EA6C1855}|{19E6C03E-7566-4A6A-BD67-0A3571A926F2}|{832CD1FA-0A59-4E02-912D-A295424F2231}|{505EFCD8-FA4E-49D6-BFB7-EC5317FFC8BA}|{0BFAE7F5-3FEA-4441-AE4A-054BAC9445AE}|{D6255BC2-0922-4269-9572-404ED6453714}|{B9862981-A5FA-48D6-806B-40CDC7096857}|{DC1C40A3-EE3B-4707-B978-39CB7A11FF09}|{FCE9022F-CF18-4AFC-8096-6206E11AAE72}
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 14
+
+The Residences
+----version----
+language: en
+version: 1
+revision: 76f69285-b917-4c68-a277-eef6450585a6
+
+----field----
+field: {55768EBD-52C4-4340-9471-2C948D429BCF}
+name: Introduction
+key: introduction
+content-length: 150
+
+Located around the Burj Lake.
+
+Next-door to Emaar Square, Boulevard Plaza & Al Saaha offices.
+
+Features four parking levels and 24-hour security. 
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{0D6FD2FE-59D8-40D3-A9E8-ABBC05ADA3FF}" />
+----field----
+field: {0BC802F1-146C-454E-A508-E72E5A1CF61D}
+name: Content
+key: content
+content-length: 815
+
+The Residences I &amp; II is a mixed-use commercial and residential development of nine towers, offering one-, two-, three-and four-bedroom apartments, luxury penthouses and villas located around the Burj Lake.With four parking levels, concierge facility and 24-hour maintenance &amp; security, The Residences serves as the home next-door to corporate offices in Downtown Dubai’s Emaar Square, Boulevard Plaza, The Corporate Suites in Burj Khalifa, The Offices, and Al Saaha Offices in The Old Town Island.A completely self-contained community, there are retail shops and cafes on the podium level, that links the towers. The prime location affords residents enthralling lake views and vistas of the Dubai skyline at night.<strong>Community fact</strong>: The Residences is home to 996 apartments across 275 floors.
+----field----
+field: {9E0362E2-325D-4DD1-8559-188DED2F6380}
+name: Related Pages
+key: related pages
+content-length: 155
+
+{539CCD1E-9063-4B4E-9CF8-A7408EB97114}|{5CABC4EC-0377-44B2-8D57-1121AEF2DF81}|{B807A55B-7A18-4137-B53A-CA81EFF48919}|{1F472A23-CF70-40FC-AD22-EB44D2F3E718}
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 14
+
+The Residences
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 14
+
+The Residences
+----field----
+field: {8097066D-26C3-44B9-8527-551A2CBB5A84}
+name: Meta Title
+key: meta title
+content-length: 59
+
+The Residences | Community Living in Downtown Dubai | Emaar
+----field----
+field: {DACE23AF-D8B3-48F1-94E7-9AE3EE07CB35}
+name: Meta Keywords
+key: meta keywords
+content-length: 74
+
+The Residences, Downtown Dubai, shopping, dining, entertainment facilities
+----field----
+field: {8453AF30-1477-46FB-8094-BD5FDE72C89A}
+name: Meta Description
+key: meta description
+content-length: 258
+
+Live in the Heart of Downtown Dubai. A Mixed-use Commercial and Residential Development. Located Around the Burj Lake. Next-door to Emaar Square, Boulevard Plaza, The Corporate Suites in Burj Khalifa, The Offices, and Al Saaha Offices in The Old Town Island.
+----field----
+field: {4F39872D-258B-45B8-926B-6297E2DC7CD4}
+name: og title
+key: og title
+content-length: 59
+
+The Residences | Community Living in Downtown Dubai | Emaar
+----field----
+field: {89F0FE3C-744E-416C-B216-340E05F86EAC}
+name: og description
+key: og description
+content-length: 258
+
+Live in the Heart of Downtown Dubai. A Mixed-use Commercial and Residential Development. Located Around the Burj Lake. Next-door to Emaar Square, Boulevard Plaza, The Corporate Suites in Burj Khalifa, The Offices, and Al Saaha Offices in The Old Town Island.
+----field----
+field: {B41E43E9-8AB5-4A00-B76B-1664C7161F82}
+name: og site_name
+key: og site_name
+content-length: 14
+
+Downtown Dubai
+----field----
+field: {CD25BC97-065E-4F79-B991-7C515DEDAB45}
+name: og url
+key: og url
+content-length: 35
+
+www.downtowndubai.com/TheResidences
+----field----
+field: {E4395580-B216-41E6-AD1F-8EC542DE11D6}
+name: twiiter title
+key: twiiter title
+content-length: 14
+
+The Residences
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190507T083427Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+76f69285-b917-4c68-a277-eef6450585a6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T083119Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

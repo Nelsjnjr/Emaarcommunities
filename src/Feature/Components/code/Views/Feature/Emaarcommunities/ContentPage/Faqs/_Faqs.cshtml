@@ -1,0 +1,36 @@
+﻿@model IEnumerable<EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Content_Types.Faq.IFaq>
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@using Glass.Mapper.Sc.Web.Mvc
+@if (Model != null && Model.Count() > 0)
+{
+    int count = 1;
+    string faqId = String.Empty;
+    string randomId = String.Empty;
+    string faqCollapseId = String.Empty;
+    <div class="accordion custom-style" id="accordionExample">
+        @foreach (var faq in Model)
+        {
+            randomId = new Random().Next().ToString();
+            faqId = string.Format("heading{0}", randomId + count.ToString());
+            faqCollapseId = string.Format("collapse{0}", randomId + count.ToString());
+            <div class="accordionWrap">
+                @if (!String.IsNullOrEmpty(faq.Faq_Header))
+                {
+                    <h3> @Html.Glass().Editable(faq, x => x.Faq_Header)</h3>
+                }
+                <div class="accordionHeading" id="@faqId">
+                    <button class="collapsed" type="button" data-toggle="collapse" data-target="#@faqCollapseId" aria-expanded="false" aria-controls="@faqCollapseId">
+                        @Html.Glass().Editable(faq, x => x.Title)
+                    </button>
+                </div>
+                <div id="@faqCollapseId" class="collapse" aria-labelledby="@faqId"
+                     data-parent="#accordionExample">
+                    <div class="card-body">
+                        @Html.Glass().Editable(faq, x => x.Summary)
+                    </div>
+                </div>
+            </div>
+            count++;
+        }
+    </div>
+}

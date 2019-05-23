@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {5A3A18BB-838C-40C8-8EF3-42DB3271BB65}
+database: master
+path: /sitecore/content/ECM/Greens/Site Content/Navigation/Header
+parent: {92C68557-CECB-4440-BEA5-F00AF061F2F1}
+name: Header
+master: {00000000-0000-0000-0000-000000000000}
+template: {7FA54003-D505-4BDD-AA22-4C64E84849C3}
+templatekey: Header
+created: 20190325T130539Z
+
+----version----
+language: en
+version: 1
+revision: 61715944-3dde-463c-b152-cae2de981ffc
+
+----field----
+field: {E28651A0-D55A-47FA-987D-9528E30E9283}
+name: Root Navigations
+key: root navigations
+content-length: 155
+
+{1E368D69-804E-449A-BADD-43248ADF29F3}|{F468C5A4-EB52-4CF2-9989-C2D32F73E732}|{6CBE1557-C4B3-4DE7-B1ED-548A405ED1B3}|{F9485CC9-1F8F-4710-BC6A-3FD52AA914DF}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190325T055009Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+61715944-3dde-463c-b152-cae2de981ffc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190327T071915Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

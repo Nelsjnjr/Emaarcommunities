@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {EFC7B1B4-78BF-4B37-8500-96E83257AB74}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Navigation/Get in touch
+parent: {4C0506C0-3B76-449F-AF29-276E4F6F7EC7}
+name: Get in touch
+master: {00000000-0000-0000-0000-000000000000}
+template: {205AFEE9-2334-43BF-BF98-00F356C6E451}
+templatekey: FooterContacts
+created: 20190501T132134Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+175
+----version----
+language: en
+version: 1
+revision: 44640a0b-7970-43ac-9107-571d8d152828
+
+----field----
+field: {0E6606BD-D4F4-499B-BC1A-6F43CE363BEB}
+name: Title
+key: title
+content-length: 12
+
+Get in Touch
+----field----
+field: {09A37DDC-581D-4D28-A130-D4642CC5CE41}
+name: Contact Infos
+key: contact infos
+content-length: 155
+
+{BA96A144-2550-48FB-8EFB-8F40EE1C8624}|{29ADBD47-5794-46E2-BE48-DF000F16B8C4}|{39CA40CF-3BCF-4D14-B712-590E1A465667}|{D0A1B807-FEA6-462B-B182-D9D0D54DADA0}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190326T132417Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44640a0b-7970-43ac-9107-571d8d152828
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190508T123418Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 12
+
+sitecore\cat

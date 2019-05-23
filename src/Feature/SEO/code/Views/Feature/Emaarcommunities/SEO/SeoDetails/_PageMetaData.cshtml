@@ -1,0 +1,41 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Foundation.Emaarcommunities.Base.I_PageBase
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@using System.Text.RegularExpressions
+@if (Model == null)
+{
+    return;
+}
+@{
+    if (!string.IsNullOrEmpty(Model.Browser_Title))
+    {
+        <title>@Model.Browser_Title</title>
+    }
+    else
+    {
+        <title>@Model.Title</title>
+    }
+    <!--Start Meta tags-->
+    if (!string.IsNullOrEmpty(Model.Meta_Title))
+    {
+        <meta name="title" content="@Model.Meta_Title" />
+    }
+    if (!string.IsNullOrEmpty(Model.Meta_Description))
+    {
+        <meta name="description" content="@Model.Meta_Description" />
+    }
+    if (!string.IsNullOrEmpty(Model.Meta_Keywords))
+    {
+        <meta name="keywords" content="@Model.Meta_Keywords" />
+    }
+    if (!string.IsNullOrEmpty(Model.Custom_Meta_Tags))
+    {
+        var customTags = Regex.Replace(Model.Custom_Meta_Tags, @"\r\n?|\n", "");
+        foreach (var metaData in customTags.Split(','))
+        {
+            var metaKeyValue = metaData.Split(':');
+            <meta name="@metaKeyValue[0]" content="@metaKeyValue[1]" />
+        }
+    }
+    <!--End Meta tags-->
+
+}

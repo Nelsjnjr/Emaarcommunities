@@ -1,0 +1,15 @@
+﻿@model EMAAR.Emaarcommunities.Feature.SEO.Interfaces.ISeoViewModel
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@using System.Text.RegularExpressions
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions.Settings
+@using System.Web.Optimization
+@{
+    @Styles.Render(Model.SiteRoot.CSSFile.Url)
+}
+<!--Start Loading Seo tags-->
+@Html.Partial(String.Format("{0}SEO/SeoDetails/_PageMetaData.cshtml", SitecoreSettings.ViewPath), Model.Pagebase)
+@Html.Partial(String.Format("{0}SEO/SeoDetails/_SocialTags.cshtml", SitecoreSettings.ViewPath), Model.Pagebase)
+@Html.Partial(String.Format("{0}SEO/SeoDetails/_SeoTags.cshtml", SitecoreSettings.ViewPath), Model.Pagebase)
+@Html.Partial(String.Format("{0}SEO/SeoDetails/_Robots.cshtml", SitecoreSettings.ViewPath), Model.Pagebase)
+@Html.Partial(String.Format("{0}SEO/SeoDetails/_FavIcon.cshtml", SitecoreSettings.ViewPath))
+<!--End Loading Seo tags -->

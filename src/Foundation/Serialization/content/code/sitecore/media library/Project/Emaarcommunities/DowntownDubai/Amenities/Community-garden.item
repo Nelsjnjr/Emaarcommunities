@@ -1,0 +1,118 @@
+----item----
+version: 1
+id: {630525C9-5D75-4B6A-9789-7CC0648B9AA9}
+database: master
+path: /sitecore/media library/Project/Emaarcommunities/DowntownDubai/Amenities/Community-garden
+parent: {8F1A971F-518C-4617-9452-BDC1A02711BC}
+name: Community-garden
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20190515T063859Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 1944
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjdweCIg
+aGVpZ2h0PSI1N3B4IiB2aWV3Qm94PSIwIDAgNjcgNTciIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0
+dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcv
+MTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU0LjEgKDc2NDkwKSAtIGh0
+dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5Hcm91cCA5IENvcHkgMjwvdGl0bGU+
+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEi
+IHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2
+ZW5vZGQiPgogICAgICAgIDxnIGlkPSJHcm91cC05LUNvcHktMiIgdHJhbnNmb3JtPSJ0cmFuc2xh
+dGUoMS4wMDAwMDAsIDEuMDAwMDAwKSIgc3Ryb2tlPSIjODg3QzY4Ij4KICAgICAgICAgICAgPHBh
+dGggZD0iTTEwLDU1IEMyNi41MzY4NzE3LDQxLjY2NjY2NjcgNDIuODcwMjA1LDQxLjY2NjY2Njcg
+NTksNTUiIGlkPSJQYXRoLTciPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTIyLjUsMCBM
+MjIuNSw0OCIgaWQ9IlBhdGgtOCI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNNDcuNSwx
+NCBMNDcuNSw0OCIgaWQ9IlBhdGgtOSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMjMs
+MzAuMDI1MzAyMiBDMTYuNjUzMTI3OCwzNS4zNTIyNzY2IDEwLjgwMDY5MTksMzYuNDAxMTAzMiA1
+LjQ0MjY5MjI4LDMzLjE3MTc4MjIgQy0yLjU5NDMwNzEsMjguMzI3ODAwNyAtMC41MzMzNjQxOTQs
+MTUuODQzOTUyNyAzLjk2MDI1OTY3LDE0IiBpZD0iUGF0aC0xMCI+PC9wYXRoPgogICAgICAgICAg
+ICA8cGF0aCBkPSJNMjUsMjguNzcyNzAwMiBDMzUuMDc3MTI2NCwzMC4wMDcwODQ0IDQwLjk2MDUw
+MTEsMjYuMjEzODQyMyA0Mi42NTAxMjM4LDE3LjM5Mjk3MzkgQzQ0LjMzOTc0NjYsOC41NzIxMDU0
+NiAzOS45MDk3MjE3LDIuNzc0NDQ3NSAyOS4zNjAwNDksLTMuMjE5NjQ2NzdlLTE1IiBpZD0iUGF0
+aC0xMSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNNDcsMCBDNTksMS44MzIxNDAyNiA2
+NSw3Ljk5MTA3MzAzIDY1LDE4LjQ3Njc5ODMgQzY1LDI4Ljk2MjUyMzYgNTksMzQuODAzNTkwOCA0
+NywzNiIgaWQ9IlBhdGgtMTIiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTE0LDE1IEwy
+MywyNyIgaWQ9IlBhdGgtMTMiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTIzLDE0IEwy
+OSw3IiBpZD0iUGF0aC0xNCI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNNDcsMzEgTDU2
+LDIxIiBpZD0iUGF0aC0xNSI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+svg
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 13
+
+image/svg+xml
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+1422
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/630525c95d754b6a97897cc0648b9aa9.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: 077cebfb-6e6f-473f-9ee7-1b82d8968cad
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190515T063859Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+077cebfb-6e6f-473f-9ee7-1b82d8968cad
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190515T063859Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 12
+
+sitecore\cat

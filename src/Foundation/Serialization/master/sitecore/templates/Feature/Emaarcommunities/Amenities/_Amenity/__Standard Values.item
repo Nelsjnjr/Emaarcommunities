@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {2736CF2F-BF7B-426B-9590-664C7047193A}
+database: master
+path: /sitecore/templates/Feature/Emaarcommunities/Amenities/_Amenity/__Standard Values
+parent: {66E883C0-4A4F-4F82-8B6A-ABC2AFE57C81}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {66E883C0-4A4F-4F82-8B6A-ABC2AFE57C81}
+templatekey: _Amenity
+created: 20190417T063147Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 20
+
+Office/16x16/add.png
+----version----
+language: en
+version: 1
+revision: 5df9a782-76b2-4a67-8470-3051d80c01a6
+
+----field----
+field: {3D9DA5FD-F483-40BE-9947-10BB297C048C}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190417T063147Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5df9a782-76b2-4a67-8470-3051d80c01a6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190418T082313Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

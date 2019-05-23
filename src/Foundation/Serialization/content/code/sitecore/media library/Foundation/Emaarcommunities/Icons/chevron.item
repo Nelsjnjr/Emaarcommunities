@@ -1,0 +1,102 @@
+----item----
+version: 1
+id: {7545BB50-3C5B-4FC7-A052-51FD8DD65564}
+database: master
+path: /sitecore/media library/Foundation/Emaarcommunities/Icons/chevron
+parent: {30F290E0-F0C2-417A-A9FD-20062AB8B58D}
+name: chevron
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20190325T120021Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 1780
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNDRweCIg
+aGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgNDQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0
+dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcv
+MTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUzLjIgKDcyNjQzKSAtIGh0
+dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5jaGV2cm9uPC90aXRsZT4KICAgIDxk
+ZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tl
+PSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+
+CiAgICAgICAgPGcgaWQ9IjAzLU1vYmlsZS1zdWJtZW51IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgt
+OTg1LjAwMDAwMCwgLTM4NC4wMDAwMDApIiBmaWxsPSIjRkZGRkZGIiBmaWxsLXJ1bGU9Im5vbnpl
+cm8iPgogICAgICAgICAgICA8ZyBpZD0iY2hldnJvbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoOTg1
+LjAwMDAwMCwgMzg0LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTQzLjM3NzY2
+ODMsMC40NjM3NjgxMTYgQzQyLjc3MzYyNzYsLTAuMTU0NTg5MzcyIDQxLjc5MjA2MTYsLTAuMTU0
+NTg5MzcyIDQxLjE4ODAyMSwwLjQ2Mzc2ODExNiBMMjEuOTM0MjI1NiwyMC4yMTI1NjA0IEwyLjY0
+MjY3Nzc5LDAuNDYzNzY4MTE2IEMyLjAzODYzNzE1LC0wLjE1NDU4OTM3MiAxLjA1NzA3MTEyLC0w
+LjE1NDU4OTM3MiAwLjQ1MzAzMDQ3OCwwLjQ2Mzc2ODExNiBDLTAuMTUxMDEwMTU5LDEuMDgyMTI1
+NiAtMC4xNTEwMTAxNTksMi4wODY5NTY1MiAwLjQ1MzAzMDQ3OCwyLjcwNTMxNDAxIEwyMC44MDE2
+NDk1LDIzLjUzNjIzMTkgQzIxLjEwMzY2OTgsMjMuODQ1NDEwNiAyMS40ODExOTUyLDI0IDIxLjg5
+NjQ3MzEsMjQgQzIyLjI3Mzk5ODUsMjQgMjIuNjg5Mjc2NCwyMy44NDU0MTA2IDIyLjk5MTI5Njgs
+MjMuNTM2MjMxOSBMNDMuMzM5OTE1NywyLjcwNTMxNDAxIEM0My45ODE3MDg5LDIuMDg2OTU2NTIg
+NDMuOTgxNzA4OSwxLjA4MjEyNTYgNDMuMzc3NjY4MywwLjQ2Mzc2ODExNiBaIiBpZD0iU2hhcGUt
+Q29weS0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMS45MTMwNDMsIDEyLjAwMDAwMCkgcm90YXRl
+KC0zNjAuMDAwMDAwKSB0cmFuc2xhdGUoLTIxLjkxMzA0MywgLTEyLjAwMDAwMCkgIj48L3BhdGg+
+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+svg
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 13
+
+image/svg+xml
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+1300
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/7545BB503C5B4FC7A05251FD8DD65564.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: 89c4d845-a799-4751-858b-18bfd1bf1ba4
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190325T120021Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+89c4d845-a799-4751-858b-18bfd1bf1ba4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190325T120021Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

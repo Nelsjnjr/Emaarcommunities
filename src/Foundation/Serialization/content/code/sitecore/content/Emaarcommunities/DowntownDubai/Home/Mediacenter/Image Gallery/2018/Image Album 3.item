@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {73951373-0687-4123-A12E-D0FBDC7543D2}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Home/Mediacenter/Image Gallery/2018/Image Album 3
+parent: {41C35788-54CD-4200-BA10-905601F84C9D}
+name: Image Album 3
+master: {00000000-0000-0000-0000-000000000000}
+template: {5E7F38ED-D38C-4EA8-8DBD-D3606F4E1E08}
+templatekey: Image Album
+created: 20190414T061625Z
+
+----field----
+field: {BFDB03BC-9CEE-46CA-97D1-D69DE8C617C7}
+name: Categories
+key: categories
+content-length: 38
+
+{81680DD7-090E-4496-A096-C86CB89CD3AE}
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 13
+
+Image Album 3
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1080
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{1A1A3588-8B09-40ED-B3D2-9C783FCD122B}"><p:d /></r><r uid="{BA2FC8EE-8E23-42C8-BAB5-D057C6393A06}"><p:d /></r><r uid="{B1B97BEE-4591-4225-9D57-794032AFC010}"><p:d /></r><r uid="{188A0B89-250D-4B50-ADD7-A7F35CADCDE8}"><p:d /></r><r uid="{6A741D4D-121C-4F08-A7CA-326C41C246EE}" p:before="*" s:ds="" s:id="{00E5BEDC-930A-4E3C-BEB8-0901394E4040}" s:par="" s:ph="ecm_header" /><r uid="{4017EC07-10C3-41BC-BC70-CBDA511B2B82}" p:after="r[@uid='{6A741D4D-121C-4F08-A7CA-326C41C246EE}']" s:ds="" s:id="{E77F7584-4498-4F34-84EB-E1C0E05DC042}" s:par="" s:ph="ecm_footer" /><r uid="{83A7B187-1C45-42A0-BB52-C293A99D2361}" p:after="r[@uid='{4017EC07-10C3-41BC-BC70-CBDA511B2B82}']" s:id="{0B762C67-B738-4E9F-9DCE-3B6A1DD97541}" s:ph="ecm_seo" /><r uid="{CC3EE3E9-57B7-452B-8747-CCF7EDBD70DC}" p:after="*[1=2]" s:id="{DD1E2906-0E7F-4887-B6FF-5F4EA43FBA1B}" s:ph="ecm_content" /><r uid="{16F08FCE-0070-45E0-8EEB-23F052A1EE5C}"><p:d /></r><r uid="{F3213FA8-A8A7-4215-9D68-6F3812289D55}"><p:d /></r></d></r>
+----version----
+language: en
+version: 1
+revision: f0fea50f-ef80-4067-bcc8-ad7962ddce96
+
+----field----
+field: {0CBA5220-AA8B-4F75-BCD6-68000B38D8C1}
+name: Introduction
+key: introduction
+content-length: 21
+
+Intro of Image Album3
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 13
+
+Image Album 3
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 13
+
+Image Album 3
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190403T125857Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f0fea50f-ef80-4067-bcc8-ad7962ddce96
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T082644Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

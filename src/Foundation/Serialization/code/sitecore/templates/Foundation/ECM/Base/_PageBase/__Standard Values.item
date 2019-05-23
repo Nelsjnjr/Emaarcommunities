@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {635F5B24-BEC9-4D10-9478-DD14E95B7AC6}
+database: master
+path: /sitecore/templates/Foundation/ECM/Base/_PageBase/__Standard Values
+parent: {DA95565E-5CB7-4C2C-B195-DC55C5957181}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {DA95565E-5CB7-4C2C-B195-DC55C5957181}
+templatekey: _PageBase
+created: 20190403T071012Z
+
+----version----
+language: en
+version: 1
+revision: 9f6e7abe-d440-4393-83e6-f28530d53c8a
+
+----field----
+field: {8097066D-26C3-44B9-8527-551A2CBB5A84}
+name: Meta Title
+key: meta title
+content-length: 5
+
+$name
+----field----
+field: {4F39872D-258B-45B8-926B-6297E2DC7CD4}
+name: og title
+key: og title
+content-length: 5
+
+$name
+----field----
+field: {E4395580-B216-41E6-AD1F-8EC542DE11D6}
+name: twiiter title
+key: twiiter title
+content-length: 5
+
+$name
+----field----
+field: {88D50871-3AFA-4E05-AC0E-9FCB7A41353E}
+name: Robots Index this page
+key: robots index this page
+content-length: 1
+
+1
+----field----
+field: {DAAD817A-930F-4DAE-BE58-687BB95D6ED9}
+name: Robots Follow this page
+key: robots follow this page
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190403T071012Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9f6e7abe-d440-4393-83e6-f28530d53c8a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190403T111142Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

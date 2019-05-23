@@ -1,0 +1,62 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Content_Types.Interactive_Map.IInteractive_Map
+@using Sitecore.Framework.Fields.Extensions
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@using Glass.Mapper.Sc.Web.Mvc
+@{ 
+    if (Model == null)
+    {
+        return;
+    }
+}
+<!-- Interactive map starts here -->
+<section id="map-section" class="map-section viewport-section">
+    <div class="container">
+        <div class="title-holder">
+            <h2 class="heading wow fadeInUp"> @Html.Glass().Editable(Model, x => x.Title)</h2>
+        </div>
+    </div>
+    @using (Html.BeginEditFrame(Model.FullPath, CommonConstants.FullBannerImage, CommonConstants.WebEditExperinceEditorImageEditingText))
+    {
+        <div class="map-section-inner">
+            <div class="map-section-frame">
+
+                @Html.Sitecore().AdvancedImageField(CommonConstants.Image, Model.ContextItem, 0, 0, "image description", "mapMainimage", false)
+
+                @{
+                    float delay = 0.3f;
+                }
+                @foreach (var maps in Model.Hot_Spots)
+                {
+
+                    <div class="map-item" style="top: @maps.Top%; left: @maps.Left%;">
+                        <a href="#" class="map-item-link wow fadeInUp" data-wow-delay="@delay.ToString()s"><span class="map-item-text">@Html.Glass().Editable(maps, x => x.Title)</span></a>
+                        <div class="map-item-popup">
+                            <a href="#" class="close-ico"></a>
+                            <div class="map-item-popup-content">
+                                <div class="map-item-popup-content-img">
+                                    @if (maps.Image != null)
+                                    {
+                                        @Html.Glass().RenderImage(maps, x => x.Image, new { alt = !String.IsNullOrEmpty(maps.Image.Alt) ? maps.Image.Alt : "image" }, isEditable: true)
+
+                                    }
+                                </div>
+                                <div class="map-item-popup-content-text">
+                                    <h3> @Html.Glass().Editable(maps, x => x.Summary_Heading)</h3>
+                                    <p>
+                                        @Html.Glass().Editable(maps, x => x.Summary)
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    delay += 0.2f;
+                }
+
+
+            </div>
+        </div>
+    }
+    <img src="~/Assets/Project/Emaarcommunities/images/icon/icon-hand.svg" class="map-section-swipe-icon" alt="ico">
+</section>
+<!--Interactive map ends -->

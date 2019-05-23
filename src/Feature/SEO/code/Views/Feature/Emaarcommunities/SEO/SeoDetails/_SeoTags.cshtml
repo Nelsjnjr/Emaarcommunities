@@ -1,0 +1,37 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Foundation.Emaarcommunities.Base.I_PageBase
+@using System.Text.RegularExpressions
+@if (Model == null)
+{
+    return;
+}
+@{
+    <!--Start HrefLang Tags-->
+    if (!string.IsNullOrEmpty(Model.Hreflang_Tags))
+    {
+        var hreflang = Regex.Replace(Model.Hreflang_Tags, @"\r\n?|\n", "");
+        foreach (var hrefLang in hreflang.Split(','))
+        {
+            //example:   en:https://emaar.com/
+            var hrefLangKeyValue = hrefLang.Split(':');
+            //hrefLangKeyValue[1] = URl
+            //hrefLangKeyValue[0] =language code
+            <link rel="alternate" href="@String.Join("",hrefLangKeyValue.Skip(1))" hreflang="@hrefLangKeyValue[0]" />
+        }
+    }
+    <!--End HrefLang Tags-->
+    <!--Start Canonical Tags-->
+    if (!string.IsNullOrEmpty(Model.Canonical_Tags))
+    {
+        var canonicalTags = Regex.Replace(Model.Canonical_Tags, @"\r\n?|\n", "");
+        foreach (var canonicalUrl in canonicalTags.Split(','))
+        {
+            <link rel="canonical" href="@canonicalUrl" />
+        }
+    }
+    else
+    {
+        <link rel="canonical" href="@Request.Url.GetLeftPart(UriPartial.Path)" />
+    }
+    <!--End Canonical Tags-->
+
+}

@@ -1,0 +1,68 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Foundation.Emaarcommunities.Base.I_PageBase
+@if (Model == null)
+{
+    return;
+}
+@{
+    <!--Start Og tags-->
+    if (!string.IsNullOrEmpty(Model.Og_Title))
+    {
+        <meta name="og:title" content="@Model.Og_Title" />
+    }
+    if (!string.IsNullOrEmpty(Model.Og_Description))
+    {
+        <meta name="og:description" content="@Model.Og_Description" />
+    }
+    if (!string.IsNullOrEmpty(Model.Og_Image))
+    {
+        <meta name="og:image" content="@Model.Og_Image" />
+    }
+    if (!string.IsNullOrEmpty(Model.Og_Locale))
+    {
+        <meta name="og:locale" content="@Model.Og_Locale" />
+    }
+    if (!string.IsNullOrEmpty(Model.Og_Type))
+    {
+        <meta name="og:type" content="@Model.Og_Type" />
+    }
+    if (!string.IsNullOrEmpty(Model.Og_Url))
+    {
+        <meta name="og:url" content="@Model.Og_Url" />
+    }
+    if (!string.IsNullOrEmpty(Model.Og_Video))
+    {
+        <meta name="og:video" content="@Model.Og_Video" />
+    }
+    if (!string.IsNullOrEmpty(Model.Og_Site_Name))
+    {
+        <meta name="og:site_name" content="@Model.Og_Site_Name" />
+    }
+    <!--End Og tags-->
+    <!--Start twitter tags-->
+    if (!string.IsNullOrEmpty(Model.Twiiter_Title))
+    {
+        <meta name="twitter:title" content="@Model.Twiiter_Title" />
+    }
+    if (!string.IsNullOrEmpty(Model.Twitter_Card))
+    {
+        <meta name="twitter:card" content="@Model.Twitter_Card" />
+    }
+    if (!string.IsNullOrEmpty(Model.Twitter_Creator))
+    {
+        <meta name="twitter:creator" content="@Model.Twitter_Creator" />
+    }
+    if (!string.IsNullOrEmpty(Model.Twitter_Image))
+    {
+        <meta name="twitter:image" content="@Model.Twitter_Image" />
+    }
+    if (!string.IsNullOrEmpty(Model.Twitter_Site))
+    {
+        <meta name="twitter:site" content="@Model.Twitter_Site" />
+    }
+    if (!string.IsNullOrEmpty(Model.Twitter_Description))
+    {
+        <meta name="twitter:description" content="@Model.Twitter_Description" />
+    }
+    <!--End twitter tags--> 
+
+}

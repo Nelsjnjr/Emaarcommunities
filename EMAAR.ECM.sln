@@ -1,0 +1,200 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{95965C52-E791-4D58-A71A-CCE7A969DA10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{FFE7C731-AB9F-4B1A-981C-5024ABF419E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{0B776C14-1336-44FB-BEA9-03E309FE676C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{073A5A3F-26E7-44BD-A84C-F4791B69E0A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Project.Website", "src\Project\Website\code\EMAAR.Emaarcommunities.Project.Website.csproj", "{E9752059-9A34-4CFA-9B29-80DD8485F3C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ORM", "ORM", "{4A5988D6-DC30-4374-AD84-6D260C69FA5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Foundation.ORM", "src\Foundation\ORM\code\EMAAR.Emaarcommunities.Foundation.ORM.csproj", "{06009BA6-B14B-4018-9209-F483CB820555}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{4E5BB3FA-FAD3-46BB-AA03-C0F905885408}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{DE7EBC49-2A6F-4999-8FA7-00E8978022A4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Local Files To Stage Deployment\EmaarcommunitiesPackages.1.0.0.nupkg = ..\..\..\..\Desktop\Local Files To Stage Deployment\EmaarcommunitiesPackages.1.0.0.nupkg
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+		D:\Nelson\Habitat\Habitat-1.5\Habitat-1.5\publishsettings.targets = D:\Nelson\Habitat\Habitat-1.5\Habitat-1.5\publishsettings.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ErrorHandling", "ErrorHandling", "{F87BB540-719F-45EA-BACC-5DCCC365B345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Foundation.ErrorHandling", "src\Foundation\ErrorHandling\code\EMAAR.Emaarcommunities.Foundation.ErrorHandling.csproj", "{CE84DA7C-E46B-442E-BFF0-6BACDB7F33A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{E4020F51-AE16-4CC8-8D88-03D1B993BBCF}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "EMAAR.Emaarcommunities.Foundation.Serialization.Master", "src\Foundation\Serialization\master\EMAAR.Emaarcommunities.Foundation.Serialization.Master.scproj", "{85175316-7AAE-4E6D-9303-2E616184CBA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{3C51C9B8-38C4-411D-B411-5EED260E8F1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Foundation.DependencyInjection", "src\Foundation\DependencyInjection\code\EMAAR.Emaarcommunities.Foundation.DependencyInjection.csproj", "{E7ACC4FC-B18C-45A3-8871-D4AE93471623}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banner", "Banner", "{07EE97C3-856E-4BBF-BB14-C538E4C3B6A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Feature.Banner", "src\Feature\Banner\code\EMAAR.Emaarcommunities.Feature.Banner.csproj", "{551879C4-C1D7-4BF1-997D-CB0C796430B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreExtensions", "SitecoreExtensions", "{F721D22A-FB5B-431A-A0AF-D36E37544DB9}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "EMAAR.Emaarcommunities.Foundation.Serialization.Core", "src\Foundation\Serialization\Core\EMAAR.Emaarcommunities.Foundation.Serialization.Core.scproj", "{BB4A62B8-31DC-40DA-8B08-E1F4A8560059}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Map", "Map", "{604F352B-C7D7-4F79-92B2-1F4DAF1F5320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Feature.Map", "src\Feature\Map\code\EMAAR.Emaarcommunities.Feature.Map.csproj", "{2E0C4C0C-6CE9-47CF-9FDC-A1065EF60B0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Feature.Navigation", "src\Feature\Navigation\code\EMAAR.Emaarcommunities.Feature.Navigation.csproj", "{70787CF6-A67E-4DB3-868D-48230C93860C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Foundation.SitecoreExtensions", "src\Foundation\SitecoreExtensions\code\EMAAR.Emaarcommunities.Foundation.SitecoreExtensions.csproj", "{5A9C69D0-C859-4DF1-AC9C-4EF90D684B2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SEO", "SEO", "{30556D28-564D-4EE5-A23C-56F25E6D5D22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Feature.SEO", "src\Feature\SEO\code\EMAAR.Emaarcommunities.Feature.SEO.csproj", "{8C92C840-ACD8-4247-AA08-F349A31A8A36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{D7E4DC08-1AE3-40A7-9CCE-B8C1769D94AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Foundation.Search", "src\Foundation\Search\code\EMAAR.Emaarcommunities.Foundation.Search.csproj", "{C42A1245-A6DC-409B-9BBE-6F9475C42AC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Listing", "Listing", "{14104F60-09D3-4470-8E18-8B29E3A3EF92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Feature.Listing", "src\Feature\Listing\code\EMAAR.Emaarcommunities.Feature.Listing.csproj", "{5FD0445D-5C76-4CD1-A2AB-F6E7C71455A8}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "EMAAR.Emaarcommunities.Foundation.Serialization.Content", "src\Foundation\Serialization\content\code\EMAAR.Emaarcommunities.Foundation.Serialization.Content.scproj", "{251C1FDF-978E-4F34-BDBB-9EAD54AB802F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContentComponents", "ContentComponents", "{A9FB19E0-7AE5-4E28-AA74-01A9351AF54C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Feature.ContentComponents", "src\Feature\Components\code\EMAAR.Emaarcommunities.Feature.ContentComponents.csproj", "{C30BFE45-7425-4716-968E-CCAB88DFE6D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitemap", "Sitemap", "{BFF890E1-906D-4A9F-870C-DC7CB1A5B980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Foundation.Sitemap", "src\Foundation\Sitemap\code\EMAAR.Emaarcommunities.Foundation.Sitemap.csproj", "{5018D2E4-B7C6-4C18-8FA6-84EDB6EC1619}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdvanceImage", "AdvanceImage", "{E10254C2-6519-4C1C-A8DF-A44C8ECA1DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMAAR.Emaarcommunities.Foundation.AdvancedImage", "src\Foundation\AdvancedImage\code\EMAAR.Emaarcommunities.Foundation.AdvancedImage.csproj", "{BFE0455B-9E43-4468-8A1A-DCF617EDBE76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9752059-9A34-4CFA-9B29-80DD8485F3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9752059-9A34-4CFA-9B29-80DD8485F3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9752059-9A34-4CFA-9B29-80DD8485F3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9752059-9A34-4CFA-9B29-80DD8485F3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06009BA6-B14B-4018-9209-F483CB820555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06009BA6-B14B-4018-9209-F483CB820555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06009BA6-B14B-4018-9209-F483CB820555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06009BA6-B14B-4018-9209-F483CB820555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE84DA7C-E46B-442E-BFF0-6BACDB7F33A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE84DA7C-E46B-442E-BFF0-6BACDB7F33A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE84DA7C-E46B-442E-BFF0-6BACDB7F33A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE84DA7C-E46B-442E-BFF0-6BACDB7F33A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85175316-7AAE-4E6D-9303-2E616184CBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85175316-7AAE-4E6D-9303-2E616184CBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85175316-7AAE-4E6D-9303-2E616184CBA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7ACC4FC-B18C-45A3-8871-D4AE93471623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7ACC4FC-B18C-45A3-8871-D4AE93471623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7ACC4FC-B18C-45A3-8871-D4AE93471623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7ACC4FC-B18C-45A3-8871-D4AE93471623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551879C4-C1D7-4BF1-997D-CB0C796430B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551879C4-C1D7-4BF1-997D-CB0C796430B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551879C4-C1D7-4BF1-997D-CB0C796430B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551879C4-C1D7-4BF1-997D-CB0C796430B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4A62B8-31DC-40DA-8B08-E1F4A8560059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4A62B8-31DC-40DA-8B08-E1F4A8560059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4A62B8-31DC-40DA-8B08-E1F4A8560059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0C4C0C-6CE9-47CF-9FDC-A1065EF60B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0C4C0C-6CE9-47CF-9FDC-A1065EF60B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0C4C0C-6CE9-47CF-9FDC-A1065EF60B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0C4C0C-6CE9-47CF-9FDC-A1065EF60B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70787CF6-A67E-4DB3-868D-48230C93860C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70787CF6-A67E-4DB3-868D-48230C93860C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70787CF6-A67E-4DB3-868D-48230C93860C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70787CF6-A67E-4DB3-868D-48230C93860C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9C69D0-C859-4DF1-AC9C-4EF90D684B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9C69D0-C859-4DF1-AC9C-4EF90D684B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9C69D0-C859-4DF1-AC9C-4EF90D684B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9C69D0-C859-4DF1-AC9C-4EF90D684B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C92C840-ACD8-4247-AA08-F349A31A8A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C92C840-ACD8-4247-AA08-F349A31A8A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C92C840-ACD8-4247-AA08-F349A31A8A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C92C840-ACD8-4247-AA08-F349A31A8A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42A1245-A6DC-409B-9BBE-6F9475C42AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42A1245-A6DC-409B-9BBE-6F9475C42AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42A1245-A6DC-409B-9BBE-6F9475C42AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42A1245-A6DC-409B-9BBE-6F9475C42AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD0445D-5C76-4CD1-A2AB-F6E7C71455A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD0445D-5C76-4CD1-A2AB-F6E7C71455A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD0445D-5C76-4CD1-A2AB-F6E7C71455A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD0445D-5C76-4CD1-A2AB-F6E7C71455A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251C1FDF-978E-4F34-BDBB-9EAD54AB802F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251C1FDF-978E-4F34-BDBB-9EAD54AB802F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251C1FDF-978E-4F34-BDBB-9EAD54AB802F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{251C1FDF-978E-4F34-BDBB-9EAD54AB802F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251C1FDF-978E-4F34-BDBB-9EAD54AB802F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30BFE45-7425-4716-968E-CCAB88DFE6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30BFE45-7425-4716-968E-CCAB88DFE6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30BFE45-7425-4716-968E-CCAB88DFE6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30BFE45-7425-4716-968E-CCAB88DFE6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5018D2E4-B7C6-4C18-8FA6-84EDB6EC1619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5018D2E4-B7C6-4C18-8FA6-84EDB6EC1619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5018D2E4-B7C6-4C18-8FA6-84EDB6EC1619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5018D2E4-B7C6-4C18-8FA6-84EDB6EC1619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE0455B-9E43-4468-8A1A-DCF617EDBE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE0455B-9E43-4468-8A1A-DCF617EDBE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE0455B-9E43-4468-8A1A-DCF617EDBE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE0455B-9E43-4468-8A1A-DCF617EDBE76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{073A5A3F-26E7-44BD-A84C-F4791B69E0A6} = {0B776C14-1336-44FB-BEA9-03E309FE676C}
+		{E9752059-9A34-4CFA-9B29-80DD8485F3C4} = {073A5A3F-26E7-44BD-A84C-F4791B69E0A6}
+		{4A5988D6-DC30-4374-AD84-6D260C69FA5D} = {95965C52-E791-4D58-A71A-CCE7A969DA10}
+		{06009BA6-B14B-4018-9209-F483CB820555} = {4A5988D6-DC30-4374-AD84-6D260C69FA5D}
+		{4E5BB3FA-FAD3-46BB-AA03-C0F905885408} = {FFE7C731-AB9F-4B1A-981C-5024ABF419E4}
+		{F87BB540-719F-45EA-BACC-5DCCC365B345} = {95965C52-E791-4D58-A71A-CCE7A969DA10}
+		{CE84DA7C-E46B-442E-BFF0-6BACDB7F33A3} = {F87BB540-719F-45EA-BACC-5DCCC365B345}
+		{E4020F51-AE16-4CC8-8D88-03D1B993BBCF} = {95965C52-E791-4D58-A71A-CCE7A969DA10}
+		{85175316-7AAE-4E6D-9303-2E616184CBA1} = {E4020F51-AE16-4CC8-8D88-03D1B993BBCF}
+		{3C51C9B8-38C4-411D-B411-5EED260E8F1B} = {95965C52-E791-4D58-A71A-CCE7A969DA10}
+		{E7ACC4FC-B18C-45A3-8871-D4AE93471623} = {3C51C9B8-38C4-411D-B411-5EED260E8F1B}
+		{07EE97C3-856E-4BBF-BB14-C538E4C3B6A0} = {FFE7C731-AB9F-4B1A-981C-5024ABF419E4}
+		{551879C4-C1D7-4BF1-997D-CB0C796430B4} = {07EE97C3-856E-4BBF-BB14-C538E4C3B6A0}
+		{F721D22A-FB5B-431A-A0AF-D36E37544DB9} = {95965C52-E791-4D58-A71A-CCE7A969DA10}
+		{BB4A62B8-31DC-40DA-8B08-E1F4A8560059} = {E4020F51-AE16-4CC8-8D88-03D1B993BBCF}
+		{604F352B-C7D7-4F79-92B2-1F4DAF1F5320} = {FFE7C731-AB9F-4B1A-981C-5024ABF419E4}
+		{2E0C4C0C-6CE9-47CF-9FDC-A1065EF60B0A} = {604F352B-C7D7-4F79-92B2-1F4DAF1F5320}
+		{70787CF6-A67E-4DB3-868D-48230C93860C} = {4E5BB3FA-FAD3-46BB-AA03-C0F905885408}
+		{5A9C69D0-C859-4DF1-AC9C-4EF90D684B2B} = {F721D22A-FB5B-431A-A0AF-D36E37544DB9}
+		{30556D28-564D-4EE5-A23C-56F25E6D5D22} = {FFE7C731-AB9F-4B1A-981C-5024ABF419E4}
+		{8C92C840-ACD8-4247-AA08-F349A31A8A36} = {30556D28-564D-4EE5-A23C-56F25E6D5D22}
+		{D7E4DC08-1AE3-40A7-9CCE-B8C1769D94AF} = {95965C52-E791-4D58-A71A-CCE7A969DA10}
+		{C42A1245-A6DC-409B-9BBE-6F9475C42AC6} = {D7E4DC08-1AE3-40A7-9CCE-B8C1769D94AF}
+		{14104F60-09D3-4470-8E18-8B29E3A3EF92} = {FFE7C731-AB9F-4B1A-981C-5024ABF419E4}
+		{5FD0445D-5C76-4CD1-A2AB-F6E7C71455A8} = {14104F60-09D3-4470-8E18-8B29E3A3EF92}
+		{251C1FDF-978E-4F34-BDBB-9EAD54AB802F} = {E4020F51-AE16-4CC8-8D88-03D1B993BBCF}
+		{A9FB19E0-7AE5-4E28-AA74-01A9351AF54C} = {FFE7C731-AB9F-4B1A-981C-5024ABF419E4}
+		{C30BFE45-7425-4716-968E-CCAB88DFE6D1} = {A9FB19E0-7AE5-4E28-AA74-01A9351AF54C}
+		{BFF890E1-906D-4A9F-870C-DC7CB1A5B980} = {95965C52-E791-4D58-A71A-CCE7A969DA10}
+		{5018D2E4-B7C6-4C18-8FA6-84EDB6EC1619} = {BFF890E1-906D-4A9F-870C-DC7CB1A5B980}
+		{E10254C2-6519-4C1C-A8DF-A44C8ECA1DBB} = {95965C52-E791-4D58-A71A-CCE7A969DA10}
+		{BFE0455B-9E43-4468-8A1A-DCF617EDBE76} = {E10254C2-6519-4C1C-A8DF-A44C8ECA1DBB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {19DFE5D1-44BF-4ED4-8BC4-548544D4F79B}
+	EndGlobalSection
+EndGlobal

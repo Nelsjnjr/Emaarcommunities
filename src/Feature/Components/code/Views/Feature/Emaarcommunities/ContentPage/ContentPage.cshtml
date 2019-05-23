@@ -1,0 +1,53 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Page_Types.IGeneric_ContentPage
+@using Glass.Mapper.Sc.Web.Mvc
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions.Settings
+@using Sitecore.Framework.Fields.Extensions
+<!-- content starts here -->
+
+@if (Model != null)
+{
+    <div class="content-section">
+        <div class="section-header">
+
+            @if (!String.IsNullOrEmpty(Model.Title))
+            {
+                <h1 class="heading"> @Html.Glass().Editable(Model, x => x.Title)</h1>
+            }
+            @if (!String.IsNullOrEmpty(Model.Introduction))
+            {
+                <p>
+                    @Html.Glass().Editable(Model, x => x.Introduction)
+                </p>
+            }
+            @if (!String.IsNullOrEmpty(ViewBag.Date))
+            {
+                // Date field only displayed for News and Events pages items
+                @ViewBag.Date
+            }
+        </div>
+
+        <div>
+            @{
+                //Spilting wxh(Ex: 300x900)
+                var pixel = SitecoreSettings.ContentPageBannerpixel.ToLower().Split('x');
+                @Html.Sitecore().AdvancedImageField(CommonConstants.Banner, Model.ContextItem, System.Convert.ToInt32(pixel[0]), System.Convert.ToInt32(pixel[1]), "image", "full-image", false)
+            }
+        </div>
+
+        <!--Start Content from RTE-->
+        @Html.Glass().Editable(Model, x => x.Content)
+        <!--End Content from RTE-->
+        @if (Model.Amenities != null)
+        {
+            @Html.Partial(String.Format("{0}ContentPage/Amenities/_Amenities.cshtml", SitecoreSettings.ViewPath), Model.Amenities)
+        }
+        @if (Model.Faqs != null)
+        {
+            @Html.Partial(String.Format("{0}ContentPage/Faqs/_Faqs.cshtml", SitecoreSettings.ViewPath), Model.Faqs)
+        }
+
+    </div>
+
+}
+<!-- content ends here -->

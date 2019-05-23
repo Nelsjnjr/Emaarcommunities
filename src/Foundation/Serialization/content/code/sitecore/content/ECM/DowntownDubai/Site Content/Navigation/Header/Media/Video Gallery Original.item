@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {9577DD85-B654-483C-932D-BC96849581EF}
+database: master
+path: /sitecore/content/ECM/DowntownDubai/Site Content/Navigation/Header/Media/Video Gallery Original
+parent: {6CBE1557-C4B3-4DE7-B1ED-548A405ED1B3}
+name: Video Gallery Original
+master: {00000000-0000-0000-0000-000000000000}
+template: {D40F511D-B04A-45C9-84D5-5CA0EAE0CB5A}
+templatekey: Sub Navigation
+created: 20190424T092040Z
+
+----version----
+language: en
+version: 1
+revision: 1cad5097-813b-489e-803f-c7aa92fc0f11
+
+----field----
+field: {B66E4688-AB06-4FF0-A976-AA2492379CF5}
+name: Navigation Title
+key: navigation title
+content-length: 20
+
+Video Gallery Design
+----field----
+field: {6C2D0631-17E6-4BBB-BEDF-CEA0939448C9}
+name: Navigation Link
+key: navigation link
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{F36782A9-DC70-45D1-B2CF-9B23944E029B}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190325T055223Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1cad5097-813b-489e-803f-c7aa92fc0f11
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190424T092147Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\NGeepalem

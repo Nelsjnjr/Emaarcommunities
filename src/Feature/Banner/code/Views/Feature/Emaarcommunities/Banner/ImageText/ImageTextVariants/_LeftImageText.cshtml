@@ -1,0 +1,52 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Glass.Mapper.Sc
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions.Settings
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@using Sitecore.Framework.Fields.Extensions
+@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Content_Types.Banner.IImageText
+@{
+    if (Model == null)
+    {
+        return;
+    }
+}
+
+<!-- image with text starts -->
+<section class="text-img-box left-img">
+    @using (Html.BeginEditFrame(Model.FullPath, CommonConstants.FullBannerImage, CommonConstants.WebEditExperinceEditorImageEditingText))
+    {
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 d-none d-xl-block d-md-block">
+                    <div class="imgWrap wow fadeInUp">
+                        @{
+                            //Spilting wxh(Ex: 300x900)
+                            var pixel = SitecoreSettings.ImageTextpixel.ToLower().Split('x');
+                            @Html.Sitecore().AdvancedImageField(CommonConstants.Image, Model.ContextItem, System.Convert.ToInt32(pixel[0]), System.Convert.ToInt32(pixel[1]), "image", "img-fluid", false)
+                        }
+                    </div>
+                </div>
+
+                <div class="col-md-6 align-self-center">
+                    <div class="textWrap wow fadeInUp" data-wow-delay=".5s">
+                        <h2 class="heading">@Html.Glass().Editable(Model, x => x.Title)</h2>
+                        <p>@Html.Raw(Html.Glass().Editable(Model, x => x.Summary)) </p>
+                        @if (Model.Button != null)
+                        {
+                            using (Html.Glass().BeginRenderLink(Model, x => x.Button, new { @class = "btn btn-primary mt-3 mt-md-5" }, isEditable: true))
+                            {
+                                @Model.Button_Text
+                                <i>
+                                    <img src="@String.Format("{0}{1}", SitecoreSettings.IconRootPath, "btn-arrow.svg")" alt="arrow" class="svg">
+                                </i>
+                            }
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</section>
+<!-- image with text ends -->

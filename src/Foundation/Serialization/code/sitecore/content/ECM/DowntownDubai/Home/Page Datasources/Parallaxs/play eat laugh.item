@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {C6A8B0DD-0BA0-43FB-8B71-B3D0FE794153}
+database: master
+path: /sitecore/content/ECM/DowntownDubai/Home/Page Datasources/Parallaxs/play eat laugh
+parent: {374B1C5A-BC0F-4857-98F7-C4DCCB103DEC}
+name: play eat laugh
+master: {00000000-0000-0000-0000-000000000000}
+template: {6A9F0D09-6D4F-4814-8DEA-6054718A5CAC}
+templatekey: Parallax
+created: 20190401T125829Z
+
+----version----
+language: en
+version: 1
+revision: 7bbc596e-e28d-468e-a8ba-9cf80b24a5ed
+
+----field----
+field: {CD52C386-4EBE-4916-85B9-7128D2028100}
+name: Button
+key: button
+content-length: 133
+
+<link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+----field----
+field: {15B53931-2B97-438A-9254-06F70A60F952}
+name: Button Text
+key: button text
+content-length: 7
+
+Explore
+----field----
+field: {CDDD22F9-558A-4E98-A614-53C5E090FB96}
+name: Title
+key: title
+content-length: 27
+
+Play. Eat. Laugh. Together.
+----field----
+field: {86EF63D0-7E10-4DF7-80A7-28DF2D6BA18F}
+name: Summary
+key: summary
+content-length: 180
+
+Every home is well-finished and looks out over attractive green streetscapes or Al Alka’s open air swimming pool, enclosed in its own private courtyard, for all residents to enjoy.
+----field----
+field: {F6BA7B09-176F-4BB1-A680-C070D4B92C65}
+name: Image
+key: image
+content-length: 64
+
+<image mediaid="{19A12036-A979-4BEF-9877-D32384124E05}"></image>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190312T053720Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7bbc596e-e28d-468e-a8ba-9cf80b24a5ed
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190404T120455Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

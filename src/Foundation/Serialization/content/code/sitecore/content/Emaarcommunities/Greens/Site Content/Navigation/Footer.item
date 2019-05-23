@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {23DF3AE3-E1E6-4D27-8FD4-34CD8CE3233D}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Navigation/Footer
+parent: {4C0506C0-3B76-449F-AF29-276E4F6F7EC7}
+name: Footer
+master: {00000000-0000-0000-0000-000000000000}
+template: {FA10987C-AA12-47C7-ADCA-6044794AC47E}
+templatekey: Footer
+created: 20190501T132132Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: c46b8264-e94f-4640-b227-79b9a968d5f4
+
+----field----
+field: {4518387F-0FE0-451A-B417-9BCC524E3012}
+name: Contact Info
+key: contact info
+content-length: 38
+
+{EFC7B1B4-78BF-4B37-8500-96E83257AB74}
+----field----
+field: {B7301B8A-72C1-4ED0-B484-F5E3CC3B8AF4}
+name: Root Navigations
+key: root navigations
+content-length: 116
+
+{07C2A7DD-AC4C-490F-856C-4FAECC2E1FB5}|{78524C57-88FC-413A-B440-0C599A82D03D}|{19F7E2D5-9832-4324-B092-8DDAD4818350}
+----field----
+field: {AD94DCD0-6573-4650-B8E2-CC29BAB61ABF}
+name: Legal Pages
+key: legal pages
+content-length: 77
+
+{DB3F051A-7D33-4334-B427-4E5007E57038}|{D026F01C-9E11-49C7-B907-BD8BD07BA814}
+----field----
+field: {F868F9DA-AF3C-4A18-B6C3-4D80486243B4}
+name: Copyright
+key: copyright
+content-length: 59
+
+All rights reserved {year} © Emaar Community Management LLC
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190326T130727Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c46b8264-e94f-4640-b227-79b9a968d5f4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190508T131455Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 12
+
+sitecore\cat

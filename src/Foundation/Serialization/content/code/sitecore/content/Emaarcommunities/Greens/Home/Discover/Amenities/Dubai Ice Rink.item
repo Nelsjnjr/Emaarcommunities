@@ -1,0 +1,161 @@
+----item----
+version: 1
+id: {C1C9AAC5-314E-47FF-B112-93AA135B84DA}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Home/Discover/Amenities/Dubai Ice Rink
+parent: {EA27F5D2-C113-433B-932C-16C9E4589D80}
+name: Dubai Ice Rink
+master: {00000000-0000-0000-0000-000000000000}
+template: {4FB05EC1-985E-46D3-A95B-A851FF0BE873}
+templatekey: Generic ContentPage
+created: 20190508T115739Z
+
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 14
+
+Dubai Ice Rink
+----version----
+language: en
+version: 1
+revision: fdab1ff2-161d-4102-901c-244f491abcc6
+
+----field----
+field: {55768EBD-52C4-4340-9471-2C948D429BCF}
+name: Introduction
+key: introduction
+content-length: 58
+
+A sensational Olympic-size ice rink within The Dubai Mall.
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{45CD34C3-F333-420D-99E7-5BFC23B460B3}" />
+----field----
+field: {0BC802F1-146C-454E-A508-E72E5A1CF61D}
+name: Content
+key: content
+content-length: 1183
+
+<p>This Olympic-size ice rink offers world-class facilities for a variety of ice-skating activities and is the official venue of the Emirates Hockey League Cup. With a seating capacity of 350, Dubai Ice Rink offers professional ice skating lessons to Learn-to-Skate programmes as well as Disco and Mega Skate sessions. There's also the Dubai Ice Rink skating academy for figure skating and ice hockey!</p><ul><li>IceBykes - Exclusively in the country at Dubai Ice Rink, IceBykes glide seamlessly across the ice for a fun new way to experience both ice skating and cycling at the same time.</li><li>DJ Night Disco - Break out your coolest moves on ice, with music ranging from R&amp;B and Hip Hop/ Rap to Dubstep and World Music (International).</li><li>Freestyle sessions - Fancy yourself as an advanced skater? Perfect your jumps, spins and footwork during the freestyle sessions that allow you to practice to your own music routines.</li><li>Skating in snowfall - Slide around the rink under a flurry of gentle snowfall for a truly magical experience!</li></ul><p><strong>Begin your experience by visiting <a href="http://www.dubaiicerink.com">www.dubaiicerink.com</a></strong></p>
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 14
+
+Dubai Ice Rink
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 14
+
+Dubai Ice Rink
+----field----
+field: {8097066D-26C3-44B9-8527-551A2CBB5A84}
+name: Meta Title
+key: meta title
+content-length: 51
+
+Dubai Ice Rink | Downtown Dubai Experiences | Emaar
+----field----
+field: {DACE23AF-D8B3-48F1-94E7-9AE3EE07CB35}
+name: Meta Keywords
+key: meta keywords
+content-length: 54
+
+Dubai Ice Rink, Downtown Dubai, Emaar, Ice skating
+
+
+----field----
+field: {8453AF30-1477-46FB-8094-BD5FDE72C89A}
+name: Meta Description
+key: meta description
+content-length: 143
+
+Dance Over Ice. Glide on IceBykes. Skate Through an Olympic-sized Rink. Learn to Skate at the Official Venue of Emirates Hockey League Cup.
+
+
+----field----
+field: {4F39872D-258B-45B8-926B-6297E2DC7CD4}
+name: og title
+key: og title
+content-length: 51
+
+Dubai Ice Rink | Downtown Dubai Experiences | Emaar
+----field----
+field: {89F0FE3C-744E-416C-B216-340E05F86EAC}
+name: og description
+key: og description
+content-length: 139
+
+Dance Over Ice. Glide on IceBykes. Skate Through an Olympic-sized Rink. Learn to Skate at the Official Venue of Emirates Hockey League Cup.
+----field----
+field: {B41E43E9-8AB5-4A00-B76B-1664C7161F82}
+name: og site_name
+key: og site_name
+content-length: 14
+
+Downtown Dubai
+----field----
+field: {CD25BC97-065E-4F79-B991-7C515DEDAB45}
+name: og url
+key: og url
+content-length: 34
+
+www.downtowndubai.com/DubaiIceRink
+----field----
+field: {E4395580-B216-41E6-AD1F-8EC542DE11D6}
+name: twiiter title
+key: twiiter title
+content-length: 14
+
+Dubai Ice Rink
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190508T115740Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fdab1ff2-161d-4102-901c-244f491abcc6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T083120Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

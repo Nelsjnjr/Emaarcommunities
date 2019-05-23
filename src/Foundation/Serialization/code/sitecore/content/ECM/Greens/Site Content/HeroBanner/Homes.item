@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {959244EB-9D7B-4248-8B79-E97C62E02FF8}
+database: master
+path: /sitecore/content/ECM/Greens/Site Content/HeroBanner/Homes
+parent: {E3786EBC-341D-469F-8494-7F2234B9ABDF}
+name: Homes
+master: {00000000-0000-0000-0000-000000000000}
+template: {F37A4989-A6F5-40C9-B85F-921EB609BD74}
+templatekey: Statistics
+created: 20190325T130539Z
+
+----version----
+language: en
+version: 1
+revision: 3951ca3e-21e4-4678-aa5f-916e3f50c578
+
+----field----
+field: {574981A6-EFD9-442E-AC0D-706F77D72115}
+name: Title
+key: title
+content-length: 5
+
+Homes
+----field----
+field: {31D6185A-E7E2-42AD-B4AB-D96BD72D218E}
+name: Count
+key: count
+content-length: 5
+
+87243
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190320T070239Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3951ca3e-21e4-4678-aa5f-916e3f50c578
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190321T052354Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {BDE6D5FB-F4B2-4699-A80E-8796752DFF6A}
+database: master
+path: /sitecore/templates/Project/ECM/Common/Content Types/Header/__Standard Values
+parent: {7FA54003-D505-4BDD-AA22-4C64E84849C3}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {7FA54003-D505-4BDD-AA22-4C64E84849C3}
+templatekey: Header
+created: 20190324T125030Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{EF6B254F-A8B0-4294-AF1D-F41A1E7A9F7E}
+----version----
+language: en
+version: 1
+revision: ed40dded-608c-4dc4-a0f4-0861fbc0c442
+
+----field----
+field: {9C97A02A-585C-4A33-A821-92EF325D7CCD}
+name: Search Watermark
+key: search watermark
+content-length: 20
+
+How may we help you?
+----field----
+field: {C8825BF7-2E94-48AE-AFD0-B9B6B0A72BA5}
+name: Login Text
+key: login text
+content-length: 6
+
+Log in
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190324T125030Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ed40dded-608c-4dc4-a0f4-0861fbc0c442
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190331T065542Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

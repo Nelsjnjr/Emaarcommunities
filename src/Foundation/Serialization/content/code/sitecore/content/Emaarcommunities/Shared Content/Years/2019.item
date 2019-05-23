@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {28518FC7-58E5-4838-92C7-2F0BF3BFB15E}
+database: master
+path: /sitecore/content/Emaarcommunities/Shared Content/Years/2019
+parent: {368980BC-170D-4CDD-8DAF-72BC9D495CF0}
+name: 2019
+master: {00000000-0000-0000-0000-000000000000}
+template: {53B143D6-B50E-4304-9620-BAE0F90B290E}
+templatekey: Year Item
+created: 20190403T132220Z
+
+----version----
+language: en
+version: 1
+revision: 11810c3e-0f6b-44b0-832f-2d7685a2ccd6
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190403T132220Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+11810c3e-0f6b-44b0-832f-2d7685a2ccd6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190403T132220Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

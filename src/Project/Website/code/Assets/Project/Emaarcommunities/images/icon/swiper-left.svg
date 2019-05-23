@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="43px" viewBox="0 0 24 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Landing-Page" transform="translate(-80.000000, -1082.000000)" fill="#F3B329" fill-rule="nonzero" stroke="#F3B329" stroke-width="0.5">
+            <path d="M112.570265,1092.44444 C111.991393,1091.85185 111.050726,1091.85185 110.471853,1092.44444 L92.0202996,1111.37037 L73.5325662,1092.44444 C72.9536939,1091.85185 72.0130265,1091.85185 71.4341542,1092.44444 C70.8552819,1093.03704 70.8552819,1094 71.4341542,1094.59259 L90.9349141,1114.55556 C91.2243502,1114.85185 91.5861454,1115 91.9841201,1115 C92.3459152,1115 92.7438899,1114.85185 93.0333261,1114.55556 L112.534086,1094.59259 C113.149138,1094 113.149138,1093.03704 112.570265,1092.44444 Z" id="Shape-Copy" transform="translate(92.000000, 1103.500000) scale(-1, 1) rotate(-90.000000) translate(-92.000000, -1103.500000) "></path>
+        </g>
+    </g>
+</svg>

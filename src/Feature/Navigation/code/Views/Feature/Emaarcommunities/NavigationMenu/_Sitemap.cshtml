@@ -1,0 +1,69 @@
+﻿@using EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Common.Content_Types
+@model EMAAR.Emaarcommunities.Feature.Navigation.Interface.ISitemapViewModel
+@using Glass.Mapper.Sc.Web.Mvc
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+<div class="sitemap-section">
+    <div class="section-header">
+        <h1 class="heading">@Sitecore.Globalization.Translate.Text(CommonConstants.Sitemap)</h1>
+    </div>
+    @foreach (var level1 in Model.Sitemap.Root_Navigations)
+    {
+
+        <div class="site-list">
+            @if (level1.Navigation_Link != null)
+            {
+                //Checking Url referened item and getting its Title if Sitecore item,else displaying navigation item Name
+                if (level1.Navigation_Link.Type.ToString() == "Internal")
+                {
+                    var urlreferedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level1.Navigation_Link.TargetId));
+                    if (urlreferedItem != null)
+                    {
+                        <a href="@level1.Navigation_Link.Url" class="parent-page"> @Html.Sitecore().Field(CommonConstants.Title, urlreferedItem)</a>
+                    }
+                }
+                else //If in case of external url getting Navigation item Title
+                {
+                    <a href="@level1.Navigation_Link.Url" class="parent-page">@level1.Name</a>
+                }
+            }
+            else if(level1.Sub_Navigations.Any())
+            {
+                <a class="parent-page">@level1.Name</a>
+            }
+            @{
+              
+                if (level1.Sub_Navigations.Any())
+                {
+                    <ul class="listing">
+                        @foreach (var level2 in level1.Sub_Navigations)
+                        {
+                            if (level2.Navigation_Link != null)
+                            {
+                                //Checking Url referened item and getting its Title if Sitecore item,else displaying navigation item Name
+                                if (level2.Navigation_Link.Type.ToString() == CommonConstants.Internal)
+                                {
+                                    var urlreferedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level2.Navigation_Link.TargetId));
+                                    if (urlreferedItem != null)
+                                    {
+                                        <li>
+                                            <a href="@level2.Navigation_Link.Url">  @Html.Sitecore().Field(CommonConstants.Title, urlreferedItem)</a>
+                                        </li>
+                                    }
+                                }
+                                else //If in case of external url getting Navigation item Title
+                                {
+                                    <li>
+                                        <a href="@level2.Navigation_Link.Url"> @level2.Name</a>
+                                    </li>
+                                }
+                            }
+
+                        }
+                    </ul>
+
+                }
+
+            }
+        </div>
+    }
+</div>

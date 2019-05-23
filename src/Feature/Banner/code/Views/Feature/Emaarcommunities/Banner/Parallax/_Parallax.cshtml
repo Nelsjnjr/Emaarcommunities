@@ -1,0 +1,50 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions.Settings
+@using Sitecore.Framework.Fields.Extensions
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Content_Types.Banner.IParallax
+@using EMAAR.Emaarcommunities.Foundation.Search.Helpers
+@using Sitecore.Data.Fields;
+@using Sitecore.Framework.Helper
+@{
+    //Spilting wxh(Ex: 300x900)
+    var pixel = SitecoreSettings.Parallaxpixel.ToLower().Split('x');
+    ImageField imageField  = Model.ContextItem.Fields[CommonConstants.Image];
+    string image = String.Empty;
+    if (!imageField.MediaID.IsNull)
+    {
+        image = AdvancedImageHelper.GetImageFieldUrl(Model.ContextItem, CommonConstants.Image, System.Convert.ToInt32(pixel[0]), System.Convert.ToInt32(pixel[1]));
+    }
+}
+<!-- Start Parallax-->
+@using (Html.BeginEditFrame(Model.FullPath, CommonConstants.FullBannerImage, CommonConstants.WebEditExperinceEditorImageEditingText))
+{
+    <!-- background image with text starts(In Experience Editor mode) -->
+    <section style="background:url(@image ) no-repeat center center fixed" class="bg-image-text">
+        <div class="container">
+            <div class="text-wrap wow fadeInUp">
+                <h2 class="heading">@Html.Glass().Editable(Model, x => x.Title)</h2>
+                <p>
+                    @Html.Raw(Html.Glass().Editable(Model, x => x.Summary))
+                </p>
+                @if (Model.Button != null)
+                {
+                    using (Html.Glass().BeginRenderLink(Model, x => x.Button, new { @class = "btn btn-primary mt-3 mt-md-5" }, isEditable: true))
+                    {
+                        @Model.Button_Text
+                        <i>
+                            <img src="@String.Format("{0}{1}",SitecoreSettings.IconRootPath,"btn-arrow.svg")" alt="arrow" class="svg">
+
+                        </i>
+                    }
+                }
+
+
+
+            </div>
+        </div>
+    </section>
+}
+
+<!-- background image with text ends -->
+<!-- End Parallax-->

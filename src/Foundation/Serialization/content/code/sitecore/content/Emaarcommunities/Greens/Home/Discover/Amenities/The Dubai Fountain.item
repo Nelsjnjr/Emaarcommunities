@@ -1,0 +1,159 @@
+----item----
+version: 1
+id: {F0124A6F-2D82-4CDA-AFC4-B67E9782FAC0}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Home/Discover/Amenities/The Dubai Fountain
+parent: {EA27F5D2-C113-433B-932C-16C9E4589D80}
+name: The Dubai Fountain
+master: {00000000-0000-0000-0000-000000000000}
+template: {4FB05EC1-985E-46D3-A95B-A851FF0BE873}
+templatekey: Generic ContentPage
+created: 20190508T113427Z
+
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 18
+
+The Dubai Fountain
+----version----
+language: en
+version: 1
+revision: a881b0e4-44c8-43d9-9263-7cbf83031aeb
+
+----field----
+field: {55768EBD-52C4-4340-9471-2C948D429BCF}
+name: Introduction
+key: introduction
+content-length: 77
+
+A hypnotic exemplification of harmonious water, music and light choreography.
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{55624A2E-8622-4B83-8264-D757B96E6304}" />
+----field----
+field: {0BC802F1-146C-454E-A508-E72E5A1CF61D}
+name: Content
+key: content
+content-length: 1036
+
+<p>A captivating spectacle in Downtown Dubai, The Dubai Fountain is the world’s tallest performing fountain. The fountain has a unique design comprising five circles of varying sizes and two arcs, and features powerful water nozzles that shoot water up to impressive heights.</p><p>Some mind-boggling facts about The Dubai Fountain:</p><ul><li>When operational, over 22,000 gallons of water is in the air at any given moment.</li><li>Jets of water reach heights of a 45-storey tower – that’s 500 feet!</li><li>Pillars of water are choreographed to ‘sway and dance’ to the rhythm of music.</li><li>Over 6,500 large fountain lights and 50 colour projectors create a visual spectrum of over 1,000 different water expressions.</li><li>The fountain stretches to a length of 900 feet – equivalent to two football fields.</li></ul><p><em>P.S. - There's a boat ride that gets you even closer!</em><strong>Book a ride on the boat by visiting <a href="http://www.tickets.atthetop.ae/atthetop/en-us/booktickets/index/8">At The Top</a></strong></p>
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 18
+
+The Dubai Fountain
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 18
+
+The Dubai Fountain
+----field----
+field: {8097066D-26C3-44B9-8527-551A2CBB5A84}
+name: Meta Title
+key: meta title
+content-length: 43
+
+The Dubai Fountain | Downtown Dubai | Emaar
+----field----
+field: {DACE23AF-D8B3-48F1-94E7-9AE3EE07CB35}
+name: Meta Keywords
+key: meta keywords
+content-length: 57
+
+The Dubai Fountain, The Dubai Mall, Downtown Dubai, Emaar
+----field----
+field: {8453AF30-1477-46FB-8094-BD5FDE72C89A}
+name: Meta Description
+key: meta description
+content-length: 179
+
+Witness a 500-foot Water Spectacle. 80,000 Litres of Water in the Air. 6,500 Large Fountain Lights. 1,000 Different Water Expressions. Watch The Dubai Fountain for FREE Today.
+
+
+----field----
+field: {4F39872D-258B-45B8-926B-6297E2DC7CD4}
+name: og title
+key: og title
+content-length: 43
+
+The Dubai Fountain | Downtown Dubai | Emaar
+----field----
+field: {89F0FE3C-744E-416C-B216-340E05F86EAC}
+name: og description
+key: og description
+content-length: 175
+
+Witness a 500-foot Water Spectacle. 80,000 Litres of Water in the Air. 6,500 Large Fountain Lights. 1,000 Different Water Expressions. Watch The Dubai Fountain for FREE Today.
+----field----
+field: {B41E43E9-8AB5-4A00-B76B-1664C7161F82}
+name: og site_name
+key: og site_name
+content-length: 14
+
+Downtown Dubai
+----field----
+field: {CD25BC97-065E-4F79-B991-7C515DEDAB45}
+name: og url
+key: og url
+content-length: 38
+
+www.downtowndubai.com/TheDubaiFountain
+----field----
+field: {E4395580-B216-41E6-AD1F-8EC542DE11D6}
+name: twiiter title
+key: twiiter title
+content-length: 18
+
+The Dubai Fountain
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190508T113427Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a881b0e4-44c8-43d9-9263-7cbf83031aeb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T083122Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

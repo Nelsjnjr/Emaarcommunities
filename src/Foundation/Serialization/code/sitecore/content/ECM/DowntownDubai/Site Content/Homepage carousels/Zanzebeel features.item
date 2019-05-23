@@ -1,0 +1,85 @@
+----item----
+version: 1
+id: {393F7419-1028-48D8-878B-EB4C56677D2B}
+database: master
+path: /sitecore/content/ECM/DowntownDubai/Site Content/Homepage carousels/Zanzebeel features
+parent: {70406F63-A4EA-4369-A922-4DB3B2094CF2}
+name: Zanzebeel features
+master: {00000000-0000-0000-0000-000000000000}
+template: {1FE16DFE-5B53-447E-BB34-D945F6DE8CD0}
+templatekey: Homepage carousel
+created: 20190314T120842Z
+
+----version----
+language: en
+version: 1
+revision: dcc08fb1-7449-4454-b79e-630fce6d3683
+
+----field----
+field: {F9401C09-1121-4BB5-ABED-48BC2B29DE71}
+name: CTA
+key: cta
+content-length: 158
+
+<link id="{D19DCEB9-BE03-491E-9A68-B8A3B5944A3A}" querystring="" linktype="internal" text="" anchor="" url="/ECM/DowntownDubai" title="" class="" target="" />
+----field----
+field: {CDDD22F9-558A-4E98-A614-53C5E090FB96}
+name: Title
+key: title
+content-length: 18
+
+Zanzebeel features
+----field----
+field: {86EF63D0-7E10-4DF7-80A7-28DF2D6BA18F}
+name: Summary
+key: summary
+content-length: 248
+
+<ul>
+    <li>Panoramic views of the dubai Fountain &amp; Burj Khalifa</li>
+    <li>Next door to the Dubai Opera, Burj Park, The Dubai Mall</li>
+    <li>Only steps away from the vibrant Sheikh Mohammed boulevard</li>
+    <li>Infinity Pool</li>
+</ul>
+----field----
+field: {F6BA7B09-176F-4BB1-A680-C070D4B92C65}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{BBE3BB9E-43C5-426C-9690-220EEFB0D13E}" ></image>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190314T120842Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dcc08fb1-7449-4454-b79e-630fce6d3683
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190319T111902Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

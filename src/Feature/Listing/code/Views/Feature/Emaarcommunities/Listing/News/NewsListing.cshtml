@@ -1,0 +1,66 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Page_Types.INews_Listing_Page
+@using Glass.Mapper.Sc.Web.Mvc
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@using EMAAR.Emaarcommunities.Foundation.Search.Helpers
+<div class="download-section">
+    <div class="section-header">
+        <h1 class="heading">@Html.Glass().Editable(Model, x => x.Title)</h1>
+        <p>@Html.Glass().Editable(Model, x => x.Introduction)</p>
+    </div>
+    @{
+        string Year = String.Empty;
+        if (Model.ContextItem.TemplateID.Equals(Sitecore.Data.ID.Parse(CommonConstants.NewsYearFolderTemplateID)))
+        {
+            Year = Model.ContextItem.Name;
+        }
+        bool isfolder = Model.Parent.ContextItem.TemplateID.Equals(Sitecore.Data.ID.Parse(CommonConstants.NewsListingPageTemplateID)) ? true : false;
+        string parentItemId = isfolder ? Model.Parent.Id.ToString() : String.Empty;
+    }
+    <div id="templateInitializor" data-service-url="/api/sitecore/listing/GetListingJSON" data-ItemYearName="@Year" data-page-size="@Model.No_Of_Records" data-item-id="@Model.Id" data-listParentItemId="@parentItemId" data-listItemTemplateId="@SearchHelper.FormatGuid(CommonConstants.NewsTemplateID)" data-error-message="@Model.Error_Message" data-show-filters="true">
+        <div class="selectFilters"></div>
+        <script id="filter-template" type="text/x-handlebars-template">
+            <div class="row">
+                {{#each this}}
+                <div class="col-sm-6">
+                    <div class="selectWrap pb-5">
+                        <select name="{{this.filterLabel}}" id="{{this.filterLabel}}" class="js-example-basic-single imageGallery_year filters-support" data-label="{{this.filterLabel}}">
+                            {{#each this.filterValues}}
+                            {{#if this}}                           
+                                    <option value="{{id}}">{{label}}</option>
+                            {{/if}}
+                            {{/each}}
+                        </select>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <div class="galleryWrap">
+            <div class="row listingygrid" id="filter-template-result">
+                <!-- template generate -->
+            </div>
+            <script id="gallery-template" type="text/x-handlebars-template">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="news-item">
+                        <a href="{{pageUrl}}" class="news-item-link">
+                            <div class="imgholder">
+                                <span class="date">{{date}}</span>
+                                <img src="{{thumbnailurl}}" alt="{{imageAlttext}}" class="img">
+                            </div>
+                            <div class="title">{{title}}</div>
+                        </a>
+                    </div>
+                </div>
+            </script>
+            <script id="error-template" type="text/x-handlebars-template">
+                <div class="error-message">
+                    {{this}}
+                </div>
+            </script>
+            <div class="lm-btn-wrap">
+                <a href="javascript:;" class="btn btn-loadmore loadmore" data-pagenumber="0">@Html.Glass().Editable(Model, x => x.Load_More_Label)</a>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {78D249C8-1140-45EC-A10B-3D1B620B0206}
+database: master
+path: /sitecore/content/ECM/Greens/Home/Page Datasources/InteractiveMap/Click to discover the area
+parent: {F6CD4F24-1858-459B-99D3-A8134DE96778}
+name: Click to discover the area
+master: {00000000-0000-0000-0000-000000000000}
+template: {849370A4-9478-486E-813B-8AED2F947AF9}
+templatekey: Interactive Map
+created: 20190325T130539Z
+
+----version----
+language: en
+version: 1
+revision: 864055be-ee6b-466a-b7a9-38e0f0e5c60a
+
+----field----
+field: {6D5D0A92-1283-4C10-B057-7D40A1B88DE6}
+name: Title
+key: title
+content-length: 27
+
+Click and discover the area
+----field----
+field: {661C5898-9DA8-4A26-B33D-E8F7797209F4}
+name: Hot spots
+key: hot spots
+content-length: 155
+
+{6200803F-5957-4704-BB88-7CC7B52DC00F}|{75153B99-995A-4796-B6DD-9D9749327252}|{85A94395-C637-4B3C-9EBC-20228C0CCA13}|{E4153BAB-E86A-4D21-AD1D-78C2F031D279}
+----field----
+field: {F6BA7B09-176F-4BB1-A680-C070D4B92C65}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{D1D6A8AE-395C-46F8-BF8E-106D1ACD194A}" ></image>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190321T090417Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+864055be-ee6b-466a-b7a9-38e0f0e5c60a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190324T074405Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,84 @@
+----item----
+version: 1
+id: {3B014A96-42AD-4045-9206-2DE1376A6B46}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Related Pages/Discover/Communities/Claren
+parent: {661B9FCC-9999-4201-A104-8761F064D769}
+name: Claren
+master: {00000000-0000-0000-0000-000000000000}
+template: {4619311D-5E83-43B6-9DEA-B807687651F5}
+templatekey: Related Page
+created: 20190506T131514Z
+
+----version----
+language: en
+version: 1
+revision: c9c61379-987a-455f-8cb3-72f56872ad21
+
+----field----
+field: {F9401C09-1121-4BB5-ABED-48BC2B29DE71}
+name: CTA
+key: cta
+content-length: 187
+
+<link id="{D7D595F4-933A-4F31-AFD4-BAAE93BF1D4B}" querystring="" text="" anchor="" url="/Emaarcommunities/Greens/Home/Discover/Communities/Claren" title="" class="" linktype="internal" />
+----field----
+field: {520D1EE2-19AC-49CF-8F30-EC5E587B5DCA}
+name: Title
+key: title
+content-length: 6
+
+Claren
+----field----
+field: {B6EEDE47-DC79-4D53-A828-02ECA99816CA}
+name: Summary
+key: summary
+content-length: 240
+
+<ul>
+    <li>Comprising a range of one, two and three bedroom apartments.</li>
+    <li>Strategically located on the lively Sheikh Mohammed bin Rashid Boulevard.</li>
+    <li>In close proximity to The Dubai Mall and Souk Al Bahar.</li>
+</ul>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190506T131514Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c9c61379-987a-455f-8cb3-72f56872ad21
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T132106Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

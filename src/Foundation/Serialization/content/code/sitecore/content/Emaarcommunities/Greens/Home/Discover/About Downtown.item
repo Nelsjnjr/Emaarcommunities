@@ -1,0 +1,180 @@
+----item----
+version: 1
+id: {0EC74923-1001-4749-B8D2-8E87B6A6F0F2}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Home/Discover/About Downtown
+parent: {D16F2D5F-EB57-4952-85B9-8ADFA445BE6C}
+name: About Downtown
+master: {00000000-0000-0000-0000-000000000000}
+template: {4FB05EC1-985E-46D3-A95B-A851FF0BE873}
+templatekey: Generic ContentPage
+created: 20190501T132118Z
+
+----field----
+field: {6D0A86EF-D757-4860-80F8-A79F4ECFDCC9}
+name: Amenities
+key: amenities
+content-length: 0
+
+
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 14
+
+About Downtown
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 186
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{BC3E57FA-D4A0-4141-AB59-6D6DF839927E}" s:ds="{9D2E0F25-4B4A-4A86-BC03-616EBF084C09}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 7dfcae1b-3c49-44f6-a037-e256fbbaa807
+
+----field----
+field: {55768EBD-52C4-4340-9471-2C948D429BCF}
+name: Introduction
+key: introduction
+content-length: 113
+
+Downtown Dubai is no stranger to such accolades and yet, it’s hard to overstate the prominence of this community.
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{E8D85716-9CBB-4B56-BB75-13B8AF16F380}" />
+----field----
+field: {0BC802F1-146C-454E-A508-E72E5A1CF61D}
+name: Content
+key: content
+content-length: 1762
+
+<p>Comprising illustrious neighbourhoods such as the Opera District, Burj Plaza, and Sheikh Mohammed bin Rashid Boulevard, the 500-acre settlement houses numerous vertical and lateral developments that are home to tens of thousands of residents.</p><h2>A community of superlatives</h2><div class="image-left-section"><img src="-/media/4d60ca463e6544af981a2ee944f9f33e.ashx" alt="Your image" class="left-img-content"><p>Downtown Dubai is flanked by superlative structures – the breathtaking Dubai Mall and awe-inspiring Dubai Opera rest on either side of Emaar’s crown jewel, Burj Khalifa. Surging over 800 metres into the sky, the 500 kilo-tonne amalgamation of concrete, steel and aluminium is the tallest residential tower in the world. Opulent hotels line the carriageway, with other commercial, shopping and leisure venues scattered throughout open green spaces dotted with lakes and fountains. Statues, sculptures and other works of art abound the pedestrian walkways embroidering the neighbourhoods.</p></div><h2>#BuildingCommunities</h2><p>It’s not all about intricate craftsmanship and remarkable engineering though – Downtown Dubai’s pulse is inflamed by an underlying communal spirit, a sense of togetherness that’s nourished by events, festivals and celebrations held over the year.</p><h2>Come home to Downtown Dubai</h2><div class="image-right-section"><img src="-/media/2ebdd54b0f434bed8a450074698e8844.ashx" alt="Your image" class="right-img-content"><p>By coalescing a global icon, tourist attractions and residential dwellings into the world's most exclusive master community, Downtown Dubai delimits the realms of architectural audacity – it’s a place where every corner is a memorable landmark, every structure a spectacle to behold.</p></div>
+----field----
+field: {FA9B731E-69DB-454A-86DB-E1AAC4DF739C}
+name: Faqs
+key: faqs
+content-length: 0
+
+
+----field----
+field: {9E0362E2-325D-4DD1-8559-188DED2F6380}
+name: Related Pages
+key: related pages
+content-length: 0
+
+
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 89
+
+The Centre of Now. The heart of the city. Most prestigious square kilometre in the world.
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 14
+
+About Downtown
+----field----
+field: {8097066D-26C3-44B9-8527-551A2CBB5A84}
+name: Meta Title
+key: meta title
+content-length: 55
+
+Downtown Dubai | The community of superlatives | Emaar 
+----field----
+field: {DACE23AF-D8B3-48F1-94E7-9AE3EE07CB35}
+name: Meta Keywords
+key: meta keywords
+content-length: 150
+
+Opera District, Burj Plaza, Sheikh Mohammed bin Rashid Boulevard, Downtown Dubai, Dubai Mall, Emaar, Burj Khalifa, neighbourhoods, BuildingCommunities
+----field----
+field: {8453AF30-1477-46FB-8094-BD5FDE72C89A}
+name: Meta Description
+key: meta description
+content-length: 260
+
+Come Home to Downtown Dubai. The World's Most Exclusive Master Community. Every Corner is a Memorable Landmark. Every Structure a Spectacle to Behold. Share the Illustrious Neighbourhood of Opera District and Burj Khalifa. #BuildingCommunities starts here.
+
+
+----field----
+field: {4F39872D-258B-45B8-926B-6297E2DC7CD4}
+name: og title
+key: og title
+content-length: 20
+
+About Downtown Dubai
+----field----
+field: {89F0FE3C-744E-416C-B216-340E05F86EAC}
+name: og description
+key: og description
+content-length: 256
+
+Come Home to Downtown Dubai. The World's Most Exclusive Master Community. Every Corner is a Memorable Landmark. Every Structure a Spectacle to Behold. Share the Illustrious Neighbourhood of Opera District and Burj Khalifa. #BuildingCommunities Starts Here.
+----field----
+field: {B41E43E9-8AB5-4A00-B76B-1664C7161F82}
+name: og site_name
+key: og site_name
+content-length: 14
+
+Downtown Dubai
+----field----
+field: {CD25BC97-065E-4F79-B991-7C515DEDAB45}
+name: og url
+key: og url
+content-length: 27
+
+www.downtowndubai.com/about
+----field----
+field: {4EECCCC0-C96C-4EE6-B865-8F1DCC0BB1C6}
+name: Include in Sitemap XML
+key: include in sitemap xml
+content-length: 1
+
+1
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 148
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{BC3E57FA-D4A0-4141-AB59-6D6DF839927E}" s:ds="" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190417T070230Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7dfcae1b-3c49-44f6-a037-e256fbbaa807
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T083114Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

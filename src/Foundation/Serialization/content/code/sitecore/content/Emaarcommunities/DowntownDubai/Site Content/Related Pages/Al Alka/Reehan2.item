@@ -1,0 +1,78 @@
+----item----
+version: 1
+id: {65F76CB1-A28C-41C0-94C2-E4D2584356C1}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Site Content/Related Pages/Al Alka/Reehan2
+parent: {7B978AA7-A9B5-4815-BB49-266E13CC6FD1}
+name: Reehan2
+master: {00000000-0000-0000-0000-000000000000}
+template: {4619311D-5E83-43B6-9DEA-B807687651F5}
+templatekey: Related Page
+created: 20190415T070519Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 7bf838bb-aa29-47bb-95d8-a7eb65573cc2
+
+----field----
+field: {F9401C09-1121-4BB5-ABED-48BC2B29DE71}
+name: CTA
+key: cta
+content-length: 171
+
+<link id="{D19DCEB9-BE03-491E-9A68-B8A3B5944A3A}" querystring="" linktype="internal" text="" anchor="" url="/Emaarcommunities/DowntownDubai" title="" class="" target="" />
+----field----
+field: {520D1EE2-19AC-49CF-8F30-EC5E587B5DCA}
+name: Title
+key: title
+content-length: 8
+
+Reehan 2
+----field----
+field: {B6EEDE47-DC79-4D53-A828-02ECA99816CA}
+name: Summary
+key: summary
+content-length: 248
+
+<ul>
+    <li>Panoramic views of the dubai Fountain &amp; Burj Khalifa</li>
+    <li>Next door to the Dubai Opera, Burj Park, The Dubai Mall</li>
+    <li>Only steps away from the vibrant Sheikh Mohammed boulevard</li>
+    <li>Infinity Pool</li>
+</ul>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190314T120806Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7bf838bb-aa29-47bb-95d8-a7eb65573cc2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190521T051512Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

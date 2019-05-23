@@ -1,0 +1,27 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Foundation.Emaarcommunities.Base.I_PageBase
+
+@if (Model == null)
+{
+    return;
+}
+@{   
+    <!--Start Robots-->
+    if (Model.Robots_Index_This_Page && Model.Robots_Follow_This_Page)
+    {
+        <meta name="robots" content="index,follow" />
+    }
+    else if (!Model.Robots_Index_This_Page && Model.Robots_Follow_This_Page)
+    {
+        <meta name="robots" content="noindex,follow" />
+    }
+    else if (Model.Robots_Index_This_Page && !Model.Robots_Follow_This_Page)
+    {
+        <meta name="robots" content="index,nofollow" />
+    }
+    else
+    {
+        <meta name="robots" content="noindex,nofollow" />
+    }
+    <!--End Robots-->  
+
+}

@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {8EA480B1-C910-4042-94EE-B1BEACD598F7}
+database: master
+path: /sitecore/content/ECM/DowntownDubai/Site Content/Navigation/Footer/Discovery/Communities
+parent: {CFC2AEF7-EA53-49C0-948A-D721BBBA13E4}
+name: Communities
+master: {00000000-0000-0000-0000-000000000000}
+template: {D40F511D-B04A-45C9-84D5-5CA0EAE0CB5A}
+templatekey: Sub Navigation
+created: 20190326T130801Z
+
+----version----
+language: en
+version: 1
+revision: 05772f9b-a72e-4fdf-ad01-0f9465e38537
+
+----field----
+field: {B66E4688-AB06-4FF0-A976-AA2492379CF5}
+name: Navigation Title
+key: navigation title
+content-length: 11
+
+Communities
+----field----
+field: {6C2D0631-17E6-4BBB-BEDF-CEA0939448C9}
+name: Navigation Link
+key: navigation link
+content-length: 140
+
+<link text="" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{34853065-F482-4073-9AE0-73E2E2FBFEF3}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190326T130801Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+05772f9b-a72e-4fdf-ad01-0f9465e38537
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190327T101534Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

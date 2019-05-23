@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {B7704E0E-576D-4BCB-97F4-DCE61490880A}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Categories/Image Categories/Category3
+parent: {3B700F49-5033-435A-888B-1FBA03FB2A77}
+name: Category3
+master: {00000000-0000-0000-0000-000000000000}
+template: {05185736-1180-445F-A35E-BAA16580190C}
+templatekey: Category Item
+created: 20190501T132130Z
+
+----version----
+language: en
+version: 1
+revision: 73da48a7-b8da-440a-a148-61f39fd6f4f1
+
+----field----
+field: {810CF7CD-8276-4FA9-9E91-379D4855EDEF}
+name: Title
+key: title
+content-length: 10
+
+Category 3
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190408T131926Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+73da48a7-b8da-440a-a148-61f39fd6f4f1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190408T133415Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

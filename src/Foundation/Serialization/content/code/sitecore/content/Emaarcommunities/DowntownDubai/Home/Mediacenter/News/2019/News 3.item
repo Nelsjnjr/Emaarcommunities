@@ -1,0 +1,108 @@
+----item----
+version: 1
+id: {F1B8700A-1431-42A0-AA04-37D24837046E}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Home/Mediacenter/News/2019/News 3
+parent: {16B269A1-3EE7-42EC-81C0-40174379F334}
+name: News 3
+master: {00000000-0000-0000-0000-000000000000}
+template: {835DCB81-BBC5-4CB7-970D-4BE80A2D39D8}
+templatekey: News Page
+created: 20190426T115135Z
+
+----field----
+field: {4589BF11-0DAA-49BB-A5CA-4161FF9BDB79}
+name: Categories
+key: categories
+content-length: 38
+
+{3CAE0FB3-FEBA-4729-AD7C-4036882ACD50}
+----field----
+field: {CF42E222-73D6-460B-81EE-02DD95643CC0}
+name: Date
+key: date
+content-length: 16
+
+20190420T000000Z
+----field----
+field: {6D0A86EF-D757-4860-80F8-A79F4ECFDCC9}
+name: Amenities
+key: amenities
+content-length: 77
+
+{BB4FDB23-404C-4980-99F3-1634D662270D}|{C4ED3C56-2EEB-4C35-B925-5805C4230687}
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 6
+
+News 3
+----version----
+language: en
+version: 1
+revision: 234e5f1b-e847-4d65-bb0e-df093e19ef3b
+
+----field----
+field: {55768EBD-52C4-4340-9471-2C948D429BCF}
+name: Introduction
+key: introduction
+content-length: 18
+
+News3 Introduction
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{6A5D6A17-9A2F-4B6D-A724-E46312C0A9C3}" />
+----field----
+field: {9E0362E2-325D-4DD1-8559-188DED2F6380}
+name: Related Pages
+key: related pages
+content-length: 77
+
+{6D90E52D-0B8E-4893-8D1A-E9822E9941F2}|{B4212038-CA0C-4E79-871B-04498C5CC2CF}
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 68
+
+Curabitur arcu erat, accumsan haujiloyt aust, aclositer 2019-->News3
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 6
+
+News 3
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190426T111502Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+234e5f1b-e847-4d65-bb0e-df093e19ef3b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T082649Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

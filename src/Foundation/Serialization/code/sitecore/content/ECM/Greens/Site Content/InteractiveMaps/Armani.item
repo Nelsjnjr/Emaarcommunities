@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {D559FF9A-D3BA-4D74-8AE0-58104DFEDFC7}
+database: master
+path: /sitecore/content/ECM/Greens/Site Content/InteractiveMaps/Armani
+parent: {D8FD1A5B-B3EB-40EF-AA46-F83015BBBC30}
+name: Armani
+master: {00000000-0000-0000-0000-000000000000}
+template: {2F161DAF-D0F4-4372-929E-C6FC5DC4FBDA}
+templatekey: Hotspot
+created: 20190325T130539Z
+
+----version----
+language: en
+version: 1
+revision: efd184b0-45cb-40d4-aa85-de82b1ce4e9d
+
+----field----
+field: {24CEAAC1-8EA4-4625-9D60-844DDF3F8EBA}
+name: Top
+key: top
+content-length: 5
+
+42.8%
+----field----
+field: {0C64BB2B-9145-4140-B6BD-DAD404D34913}
+name: Left
+key: left
+content-length: 5
+
+40.2%
+----field----
+field: {CDDD22F9-558A-4E98-A614-53C5E090FB96}
+name: Title
+key: title
+content-length: 13
+
+Armani / Deli
+----field----
+field: {86EF63D0-7E10-4DF7-80A7-28DF2D6BA18F}
+name: Summary
+key: summary
+content-length: 152
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cumque, velit repellendus minima corrupti eos est odit unde possimus eveniet fugiat alias.
+----field----
+field: {F6BA7B09-176F-4BB1-A680-C070D4B92C65}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{877433FA-7A5E-454E-AD0C-6B6460D649A2}" ></image>
+----field----
+field: {EDA7D252-061D-4B6B-A69C-B6544172B348}
+name: Summary heading
+key: summary heading
+content-length: 13
+
+Armani / Deli
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190321T090709Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+efd184b0-45cb-40d4-aa85-de82b1ce4e9d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190324T074405Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {455BF6BA-6290-4B3A-86C2-AB4ED539C3BA}
+database: master
+path: /sitecore/templates/Branches/Generic Pages/$name
+parent: {A500A271-30B7-4684-9CE7-D59CC54AA8A5}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {D0841AC9-6C7E-4B07-A737-BF2562AF6501}
+templatekey: BranchPageContent
+created: 20190327T133416Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 24
+
+Office/32x32/windows.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 393
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B255404C-4183-4E11-BC30-74E4D4595BEC}"><r ds="" id="{00E5BEDC-930A-4E3C-BEB8-0901394E4040}" par="" ph="ecm_header" uid="{168E5916-01A4-4B24-BDAE-15C3C0BC9681}" /><r ds="" id="{E77F7584-4498-4F34-84EB-E1C0E05DC042}" par="" ph="ecm_footer" uid="{F63AFB8A-5751-4847-B135-30E90D57C1AE}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 0311e26f-d10e-4a1f-9d82-bb75f0a0e0ff
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190327T133416Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0311e26f-d10e-4a1f-9d82-bb75f0a0e0ff
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190404T112843Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

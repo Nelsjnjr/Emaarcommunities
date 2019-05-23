@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {DD5E8B50-2AFD-4323-8F97-AC0EA99AC18C}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Site Content/Amenities/Supermarket
+parent: {90CB5757-2538-4E18-921B-0BD6D89B2224}
+name: Supermarket
+master: {00000000-0000-0000-0000-000000000000}
+template: {A37083A5-2AA2-401F-A609-E95AD56239D8}
+templatekey: Amenity
+created: 20190417T065031Z
+
+----version----
+language: en
+version: 1
+revision: d3eba2dc-4e12-4e31-9460-2d81ed0f94ae
+
+----field----
+field: {3D9DA5FD-F483-40BE-9947-10BB297C048C}
+name: Title
+key: title
+content-length: 11
+
+Supermarket
+----field----
+field: {F6BA7B09-176F-4BB1-A680-C070D4B92C65}
+name: Image
+key: image
+content-length: 270
+
+<image mediapath="/Project/ECM/DowntownDubai/Amenities/shopping-cart" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Project/ECM/DowntownDubai/Amenities/shopping-cart" mediaid="{CB3FEDAE-F48E-45E2-9F13-72AC448F4F17}" ></image>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190417T065031Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d3eba2dc-4e12-4e31-9460-2d81ed0f94ae
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190421T070500Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

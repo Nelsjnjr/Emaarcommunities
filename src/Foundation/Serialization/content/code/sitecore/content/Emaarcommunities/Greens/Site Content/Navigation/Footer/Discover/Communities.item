@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {1C27B6A7-AB37-44AA-AEDB-946A6BC8DAF4}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Navigation/Footer/Discover/Communities
+parent: {07C2A7DD-AC4C-490F-856C-4FAECC2E1FB5}
+name: Communities
+master: {00000000-0000-0000-0000-000000000000}
+template: {D40F511D-B04A-45C9-84D5-5CA0EAE0CB5A}
+templatekey: Sub Navigation
+created: 20190501T132133Z
+
+----version----
+language: en
+version: 1
+revision: 421d16bf-aa51-406a-92a2-0e5b3786d0a3
+
+----field----
+field: {06B203A3-35AC-426C-9B8F-FCEBA771E80A}
+name: Navigation Title
+key: navigation title
+content-length: 11
+
+Communities
+----field----
+field: {6C2D0631-17E6-4BBB-BEDF-CEA0939448C9}
+name: Navigation Link
+key: navigation link
+content-length: 197
+
+<link id="{FA86873E-F6F9-4677-819B-E301AF1E0E75}" querystring="" text="" anchor="" url="/Emaarcommunities/Greens/Home/Discover/Communities/8 Boulevard Walk" title="" class="" linktype="internal" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190326T130801Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+421d16bf-aa51-406a-92a2-0e5b3786d0a3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T132106Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

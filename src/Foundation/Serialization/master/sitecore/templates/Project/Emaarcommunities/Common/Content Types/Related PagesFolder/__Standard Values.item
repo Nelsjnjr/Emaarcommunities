@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {95A33742-4B1C-42C6-B0B6-9B28FC5C7E66}
+database: master
+path: /sitecore/templates/Project/Emaarcommunities/Common/Content Types/Related PagesFolder/__Standard Values
+parent: {F0088EE8-0851-47E8-8B54-065D78222B80}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F0088EE8-0851-47E8-8B54-065D78222B80}
+templatekey: Related PagesFolder
+created: 20190421T081959Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 0
+
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{CEFC1B77-9A5B-4392-B048-43CAB547ABB4}
+----version----
+language: en
+version: 1
+revision: 21232a0d-ec2f-47fb-9765-202c6657a352
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190312T053225Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+21232a0d-ec2f-47fb-9765-202c6657a352
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190421T121215Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

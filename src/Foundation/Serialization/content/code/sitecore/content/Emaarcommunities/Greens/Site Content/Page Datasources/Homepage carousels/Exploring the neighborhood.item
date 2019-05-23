@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {958DF38D-6CD4-40D6-BFE5-F5C09836FBA2}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Page Datasources/Homepage carousels/Exploring the neighborhood
+parent: {47E5A952-5226-4DD4-BCED-58723FAC7652}
+name: Exploring the neighborhood
+master: {00000000-0000-0000-0000-000000000000}
+template: {82FE2EE5-75C5-4959-8BA0-5BFD5F29E2F5}
+templatekey: Homepage carousels
+created: 20190501T132127Z
+
+----version----
+language: en
+version: 1
+revision: 095fb993-50bc-49c2-985f-79b5b6c24577
+
+----field----
+field: {43AE9FAF-4548-4DF9-B505-C6928EA48B3D}
+name: Title
+key: title
+content-length: 26
+
+Exploring the neighborhood
+----field----
+field: {96C03C76-A871-4ACF-91F6-21A3E49A8E32}
+name: Carousels
+key: carousels
+content-length: 545
+
+{B5480D31-EDA8-4923-9981-AC84ACD39E69}|{A9531FEB-A934-47A9-98E8-E098A6EA439E}|{B924670A-2C45-4983-829E-4399CEBCD40A}|{F33FF662-FAFA-43C7-8B86-C8418661E163}|{981C790A-DE5E-4241-8F9C-3ECD3334ABD3}|{B36E2020-7E9A-4B7D-9CA0-00A7AFBDC199}|{69A01C3D-7474-4BAA-88BE-000760F32B75}|{800CB6EC-9BDA-40CF-A45F-F53C556381FB}|{9177C098-B2DA-4B09-B130-AD8314156FD2}|{C9F6EEF6-46F9-4137-B720-5375FFA89A01}|{69156C49-2272-4F9F-BD81-3942CF27194E}|{DFDDDF52-DA99-4078-BF08-ABE686030C04}|{A668506E-2E60-41BB-BC9A-9F70BDD88F30}|{7468C509-1908-43AC-9DFF-6A4A54B3D8EB}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190314T121450Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+095fb993-50bc-49c2-985f-79b5b6c24577
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190509T075827Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 12
+
+sitecore\cat

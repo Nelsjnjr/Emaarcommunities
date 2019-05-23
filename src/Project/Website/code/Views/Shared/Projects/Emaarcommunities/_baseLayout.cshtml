@@ -1,0 +1,29 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html lang="@Sitecore.Context.Language">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    @Html.Sitecore().Placeholder("ecm_seo")
+    @{
+        var SiteRoot = Sitecore.Context.Site.Database.GetItem(Sitecore.Context.Site.ContentStartPath);
+    }
+    <!--Start Page Pre site scripts-->
+    @Html.Raw(SiteRoot.Fields["Pre Site Scripts"].Value)
+    <!--End Page Pre site scripts-->
+</head>
+<body>
+    @Html.Sitecore().Placeholder("ecm_header")
+    @Html.Sitecore().Placeholder("ecm_content")
+    @Html.Sitecore().Placeholder("ecm_footer")
+    <!--Start  site scripts-->
+    @Scripts.Render("~/bundles/scripts")
+
+    <!--End site scripts-->
+    <!--Start Page Post site scripts-->
+    @Html.Raw(SiteRoot.Fields["Post Site Scripts"].Value)
+    <!--End Page Post site scripts-->
+</body>
+</html>

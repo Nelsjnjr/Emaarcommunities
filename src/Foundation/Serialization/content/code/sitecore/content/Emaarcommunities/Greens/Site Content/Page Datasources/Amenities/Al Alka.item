@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {0D4FB5A1-DE12-46BF-AED4-55525B90FE33}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Page Datasources/Amenities/Al Alka
+parent: {72667546-6460-47D4-988D-4028FE3FF2A4}
+name: Al Alka
+master: {00000000-0000-0000-0000-000000000000}
+template: {38C1C1A6-B02B-4BC6-BC2B-FDBCBC674E95}
+templatekey: Amenities
+created: 20190501T132126Z
+
+----version----
+language: en
+version: 1
+revision: bf959d9d-0f32-40c4-8110-b8021abf18e1
+
+----field----
+field: {6EA5414B-9BA9-4E66-B197-9AE1426132D6}
+name: Page Amenities
+key: page amenities
+content-length: 194
+
+{BB4FDB23-404C-4980-99F3-1634D662270D}|{714A65EB-C76A-44E2-AF05-BDD6FCEF04BE}|{9C33B1D1-CEEA-454D-ADCC-45E7F31AC535}|{C9951B99-2BC2-46CE-ADEF-1CA327D36D6E}|{C4ED3C56-2EEB-4C35-B925-5805C4230687}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190421T070417Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bf959d9d-0f32-40c4-8110-b8021abf18e1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190421T075836Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

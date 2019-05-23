@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {E6E613B4-AD53-4E3B-93D8-74891AD69A1B}
+database: master
+path: /sitecore/content/Emaarcommunities/Dictionary/Global/V/viewall
+parent: {7F6AD226-94A2-4182-8232-CF214BD5A521}
+name: viewall
+master: {00000000-0000-0000-0000-000000000000}
+template: {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
+templatekey: Dictionary entry
+created: 20190428T083026Z
+
+----field----
+field: {580C75A8-C01A-4580-83CB-987776CEB3AF}
+name: Key
+key: key
+content-length: 7
+
+viewall
+----version----
+language: en
+version: 1
+revision: 741aab07-3bae-43d9-8b90-67f90c39f57e
+
+----field----
+field: {2BA3454A-9A9C-4CDF-A9F8-107FD484EB6E}
+name: Phrase
+key: phrase
+content-length: 8
+
+View all
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190428T083026Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+741aab07-3bae-43d9-8b90-67f90c39f57e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190428T083040Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

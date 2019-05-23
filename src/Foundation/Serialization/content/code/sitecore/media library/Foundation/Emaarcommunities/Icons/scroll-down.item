@@ -1,0 +1,106 @@
+----item----
+version: 1
+id: {FFF50F5A-EFD9-4AE2-87FC-C4CE361544DD}
+database: master
+path: /sitecore/media library/Foundation/Emaarcommunities/Icons/scroll-down
+parent: {30F290E0-F0C2-417A-A9FD-20062AB8B58D}
+name: scroll-down
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20190325T120022Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 2048
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjJweCIg
+aGVpZ2h0PSIxM3B4IiB2aWV3Qm94PSIwIDAgMjIgMTMiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0
+dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcv
+MTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUzLjIgKDcyNjQzKSAtIGh0
+dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5zY3JvbGwtZG93bjwvdGl0bGU+CiAg
+ICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0
+cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5v
+ZGQiPgogICAgICAgIDxnIGlkPSIwMS1MYW5kaW5nLVBhZ2UiIHRyYW5zZm9ybT0idHJhbnNsYXRl
+KC02NzIuMDAwMDAwLCAtNjgwLjAwMDAwMCkiIGZpbGw9IiNGM0IzMjkiPgogICAgICAgICAgICA8
+ZyBpZD0iR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY0NS4wMDAwMDAsIDY4MC4wMDAwMDAp
+Ij4KICAgICAgICAgICAgICAgIDxnIGlkPSJzY3JvbGwtZG93biIgdHJhbnNmb3JtPSJ0cmFuc2xh
+dGUoMjcuMDAwMDAwLCAwLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJhcnJv
+dy1wb2ludC10by1yaWdodCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTEuMDAwMDAwLCA2LjUwMDAw
+MCkgcm90YXRlKC0yNzAuMDAwMDAwKSB0cmFuc2xhdGUoLTExLjAwMDAwMCwgLTYuNTAwMDAwKSB0
+cmFuc2xhdGUoNS4wMDAwMDAsIC00LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICA8
+cGF0aCBkPSJNMTEuNTY4MjU2MywxMS41Mzk2MDggTDIuNTE2NTQ3OTYsMjAuNTY4OTk0IEMxLjk0
+MDc0OTk3LDIxLjE0MzY2ODcgMS4wMDcxOTIyMywyMS4xNDM2Njg3IDAuNDMxNjczNzgxLDIwLjU2
+ODk5NCBDLTAuMTQzODkxMjYsMTkuOTk0ODMwNyAtMC4xNDM4OTEyNiwxOS4wNjM1OTI5IDAuNDMx
+NjczNzgxLDE4LjQ4OTQ3NiBMOC40NDEwMzgyNCwxMC40OTk4NDkgTDAuNDMxOTA2NzI4LDIuNTEw
+NTAwNzkgQy0wLjE0MzY1ODMxNCwxLjkzNjEwNTAzIC0wLjE0MzY1ODMxNCwxLjAwNDk2MDIgMC40
+MzE5MDY3MjgsMC40MzA3OTY4MTggQzEuMDA3NDcxNzcsLTAuMTQzNTk4OTM5IDEuOTQwOTgyOTIs
+LTAuMTQzNTk4OTM5IDIuNTE2NzgwOTEsMC40MzA3OTY4MTggTDExLjU2ODQ4OTMsOS40NjAzMjIz
+IEMxMS44NTYyNzE4LDkuNzQ3NTQzNDIgMTIsMTAuMTIzNTggMTIsMTAuNDk5ODAyNSBDMTIsMTAu
+ODc2MjEwOSAxMS44NTU5OTIzLDExLjI1MjUyNjMgMTEuNTY4MjU2MywxMS41Mzk2MDggWiIgaWQ9
+IlNoYXBlIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICA8
+L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAg
+ICA8L2c+Cjwvc3ZnPg==
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+svg
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 13
+
+image/svg+xml
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+1495
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/FFF50F5AEFD94AE287FCC4CE361544DD.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: c75793a2-af6b-4c05-8988-80399b73e984
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190325T120022Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c75793a2-af6b-4c05-8988-80399b73e984
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190325T120022Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

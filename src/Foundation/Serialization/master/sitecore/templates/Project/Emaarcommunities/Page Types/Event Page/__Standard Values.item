@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {1231D010-9554-4BFA-A04A-3C7411C5BA78}
+database: master
+path: /sitecore/templates/Project/Emaarcommunities/Page Types/Event Page/__Standard Values
+parent: {AA1DC073-7B89-4945-A520-D5313AC3BC6C}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {AA1DC073-7B89-4945-A520-D5313AC3BC6C}
+templatekey: Event Page
+created: 20190427T121703Z
+
+----field----
+field: {CF42E222-73D6-460B-81EE-02DD95643CC0}
+name: Date
+key: date
+content-length: 5
+
+$date
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 36
+
+applications/32x32/document_time.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 838
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B255404C-4183-4E11-BC30-74E4D4595BEC}"><r ds="" id="{00E5BEDC-930A-4E3C-BEB8-0901394E4040}" par="" ph="ecm_header" uid="{7E693888-209F-4E08-9FE7-57589241390D}" /><r id="{0B762C67-B738-4E9F-9DCE-3B6A1DD97541}" ph="ecm_seo" uid="{B40348D4-F65E-4F9D-A7AF-95A17BEB1C15}" /><r id="{28B71257-87C8-4F1F-B89C-1ED3B10C308C}" ph="ecm_content" uid="{2A0DF178-9CF1-413E-94E7-1E67B1FEAB71}" /><r id="{3199C575-1F49-43F8-A6DE-8E180A618E67}" ph="ecm_bodycontent" uid="{9E3E5EDD-41BB-46D5-A1B3-0E460BA5BACD}" /><r id="{597CAEAE-E891-4070-9C3F-CE6EF8F27B6F}" ph="ecm_leftnav" uid="{63B8B895-2E29-435D-A8C4-749190F990CE}" /><r ds="" id="{F07079B3-C84D-4354-BF03-B59CA3EC81BF}" par="" ph="ecm_content" uid="{64D20A99-7F34-45DC-8F8A-BC02073C01A2}" /></d></r>
+----version----
+language: en
+version: 1
+revision: bcf9df2e-c25a-4d49-9446-3a4a4311e4a9
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190426T110445Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bcf9df2e-c25a-4d49-9446-3a4a4311e4a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190507T073224Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

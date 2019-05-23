@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {4444AC70-E052-4845-B216-3B7793406508}
+database: master
+path: /sitecore/content/ECM/DowntownDubai/Site Settings/Site Specific Images/Content/ContentPageClose
+parent: {5A35293E-138E-4168-84E2-79F8DA38B675}
+name: ContentPageClose
+master: {00000000-0000-0000-0000-000000000000}
+template: {6A90871F-2DD9-406F-96B8-EDC42B7D044D}
+templatekey: IconImages
+created: 20190326T053955Z
+
+----version----
+language: en
+version: 1
+revision: a1062088-64cd-4a68-a500-1b9329a436a8
+
+----field----
+field: {B50BDDD1-AFAA-4A00-BF33-21ABB35DF20F}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{C8FBADD9-604D-4E62-B87B-21D150337897}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190326T053845Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a1062088-64cd-4a68-a500-1b9329a436a8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190326T054349Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

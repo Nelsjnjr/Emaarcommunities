@@ -1,0 +1,261 @@
+﻿@using EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Common.Content_Types
+@model EMAAR.Emaarcommunities.Feature.Navigation.Interface.IHeaderViewModel
+@using Glass.Mapper.Sc.Web.Mvc
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+<!-- Header starts here -->
+<header class="@Model.HeaderCss">
+    <div class="container">
+        <div class="flexBox">
+            @{
+
+                //Switching the HEader component by verifying whether is home page or not
+                if (Model.IsHomePage)
+                {
+                    if (Model != null && Model.SiteRoot != null && Model.SiteRoot.Site_Logo != null)
+                    {
+                        using (Html.Glass().BeginRenderLink(Model.SiteRoot, x => x.Site_Logo_Url, new { @class = "siteLogo" }, isEditable: true))
+                        {
+                            @Html.Glass().RenderImage(Model.SiteRoot, x => x.Site_Logo, new { alt = !String.IsNullOrEmpty(Model.SiteRoot.Site_Logo.Alt) ? Model.SiteRoot.Site_Logo.Alt : "image" }, isEditable: true)
+                        }
+                    }
+                }
+                else
+                {
+                    if (Model != null && Model.SiteRoot != null && Model.SiteRoot.ContentPage_SiteLogo != null)
+                    {
+                        using (Html.Glass().BeginRenderLink(Model.SiteRoot, x => x.Site_Logo_Url, new { @class = "siteLogo" }, isEditable: true))
+                        {
+                            @Html.Glass().RenderImage(Model.SiteRoot, x => x.ContentPage_SiteLogo, new { alt = !String.IsNullOrEmpty(Model.SiteRoot.ContentPage_SiteLogo.Alt) ? Model.SiteRoot.ContentPage_SiteLogo.Alt : "image" }, isEditable: true)
+                        }
+                    }
+                }
+
+            }
+            <nav class="siteNavigation">
+                <ul>
+                    @{
+                        int count = 0;
+                        if (Model != null && Model.Header.Root_Navigations != null)
+                        {
+                            var navigation = new List<INavigation>(Model.Header.Root_Navigations).Count;
+                            if (navigation > 0)
+                            {
+                                foreach (var level1 in Model.Header.Root_Navigations)
+                                {
+
+                                    //If no Subnavigation (childs) then make this item as clickable(example: Mediacenter)
+                                    if (!level1.Sub_Navigations.Any())
+                                    {
+                                        //On initial menu loading always select first item as active(example: Discovery)
+                                        //If has link set the link and referenced item's Title ,if external url then add Name of Navigation Item and Navigation_Link
+                                        if (level1.Navigation_Link != null)
+                                        {
+                                            <li class="nosub">
+
+                                                @using (Html.Glass().BeginRenderLink(level1, x => x.Navigation_Link, new { @class = count == 0 ? "active" : String.Empty }, isEditable: true))
+                                                {
+                                                    //If no Url available then no need to add Title even if  Navigation Item exists in Sitecore
+                                                    //Checking Url referened item and getting its Title if Sitecore item,else displaying navigation item Name
+                                                    if (level1.Navigation_Link.Type.ToString() == CommonConstants.Internal)
+                                                    {
+                                                        var level1ReferencedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level1.Navigation_Link.TargetId));
+
+                                                        @CommonUtility.GetTitle(level1ReferencedItem, level1.ContextItem)
+                                                    }
+                                                    else //If in case of external url getting Navigation item Title
+                                                    {
+                                                        @Html.Raw(!String.IsNullOrEmpty(level1.Navigation_Title) ? level1.Navigation_Title : level1.Name)
+                                                    }
+                                                }
+                                            </li>
+                                        }
+
+                                        count++;
+                                        continue;
+                                    }
+                                    <li>
+                                        <!--Link with Sub navigation-->
+                                        <!--Setting top level item assign class to it if it has child items -->
+                                        @{
+                                            //IF Level1 item itself has link example if (Discovery its self has link)
+                                            if (level1.Navigation_Link != null)
+                                            {
+                                                //On initial menu loading always select first item as active(example: Discovery)
+                                                if (count == 0)
+                                                {
+
+                                                    //Checking Url referened item and getting its Title if Sitecore item,else displaying navigation item Name
+                                                    if (level1.Navigation_Link.Type.ToString() == CommonConstants.Internal)
+                                                    {
+                                                        var level1ReferencedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level1.Navigation_Link.TargetId));
+                                                        if (level1ReferencedItem != null)
+                                                        {
+                                                            <a href="@level1.Navigation_Link.Url" class="active">
+                                                                <!--first Check Navigation title field Available if not Fall to Title Field again if not Fallback to Item name -->
+                                                                @CommonUtility.GetTitle(level1ReferencedItem, level1.ContextItem)
+
+                                                            </a>
+                                                        }
+                                                    }
+                                                    else //If in case of external url getting Navigation item Title
+                                                    {
+                                                        <a href="@level1.Navigation_Link.Url" class="active">
+                                                            @Html.Raw(!String.IsNullOrEmpty(level1.Navigation_Title) ? level1.Navigation_Title : level1.Name)
+                                                        </a>
+                                                    }
+
+                                                }
+                                                else //If not initial menu loading
+                                                {
+                                                    //Checking Url referened item and getting its Title if Sitecore item,else displaying navigation item Name
+                                                    if (level1.Navigation_Link.Type.ToString() == CommonConstants.Internal)
+                                                    {
+                                                        var level1ReferencedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level1.Navigation_Link.TargetId));
+                                                        if (level1ReferencedItem != null)
+                                                        {
+                                                            <a href="javascript:;">
+                                                                <!--first Check Navigation title field Available if not Fall to Title Field again if not Fallback to Item name -->
+                                                                @CommonUtility.GetTitle(level1ReferencedItem, level1.ContextItem)
+
+
+                                                            </a>
+                                                        }
+                                                    }
+                                                    else //If in case of external url getting Navigation item Title
+                                                    {
+                                                        <a href="javascript:;">    @Html.Raw(!String.IsNullOrEmpty(level1.Navigation_Title) ? level1.Navigation_Title : level1.Name)</a>
+                                                    }
+
+
+                                                }
+                                            }
+                                            else //IF no url link available in Level1 item then just display Navigation Item name
+                                            {
+                                                <a href="javascript:;">
+                                                    @Html.Raw(!String.IsNullOrEmpty(level1.Navigation_Title) ? level1.Navigation_Title : level1.Name)
+                                                </a>
+                                            }
+                                        }
+                                        <!--Add sub menu items-->
+                                        <div class="sub-menu">
+                                            <ul>
+                                                @if (level1.Sub_Navigations.Any())
+                                                {
+                                                    foreach (var level2 in level1.Sub_Navigations)
+                                                    {
+                                                        if (level2.Navigation_Link != null)
+                                                        {
+                                                            <li>
+                                                                @using (Html.Glass().BeginRenderLink(level2, x => x.Navigation_Link, isEditable: true))
+                                                                {
+                                                                    //Checking Url referened item and getting its Title if Sitecore item,else displaying navigation item Name
+                                                                    if (level2.Navigation_Link.Type.ToString() == CommonConstants.Internal)
+                                                                    {
+                                                                        var level2ReferencedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level2.Navigation_Link.TargetId));
+                                                                        if (level2ReferencedItem != null)
+                                                                        {
+                                                                            <!--first Check Navigation title field Available if not Fall to Title Field again if not Fallback to Item name -->
+                                                                            @CommonUtility.GetTitle(level2ReferencedItem, level2.ContextItem)
+
+                                                                        }
+                                                                    }
+                                                                    else //If in case of external url getting Navigation item Title
+                                                                    {
+                                                                        @Html.Raw(!String.IsNullOrEmpty(level2.Navigation_Title) ? level2.Navigation_Title : level2.Name)
+                                                                    }
+                                                                }
+                                                            </li>
+                                                        }
+
+                                                    }
+                                                }
+                                            </ul>
+                                        </div>
+
+                                    </li>
+
+                                    count++;
+                                }
+                            }
+                        }
+                    }
+                </ul>
+                <aside class="siteSearch js-sOnTrigger">
+                    @{
+                        var searchPage = string.Empty;
+                        if (Model != null && Model.SiteRoot != null && Model.SiteRoot.Search_Page != null)
+                        {
+                            searchPage = Model.SiteRoot.Search_Page.Url;
+                        }
+                    }
+                    <form action="@searchPage">
+                        <div class="swrap">
+                            <button class="sbtn" type="submit">
+                                <img src="@Model.SearchIcon" alt="">
+                            </button>
+                            <div class="searchFielfds">
+                                <input name="q" autocomplete="off" type="search" placeholder="@Html.Glass().Editable(Model.Header,  x => x.Search_Watermark)" class="searchinput" />
+                                <a href="javascript:;" class="clsoebtn">
+
+                                    <img src="@Model.CloseIcon" alt="">
+
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </aside>
+                <!-- siteSearch ends here -->
+            </nav>
+            <!-- siteNavigation ends here -->
+            <div class="mobileWrapper">
+                @if (Model != null && Model.SiteRoot != null && Model.SiteRoot.Login_Page != null)
+                {
+                    using (Html.Glass().BeginRenderLink(Model.SiteRoot, x => x.Login_Page, new { @class = "loginmobile" }, isEditable: true))
+                    {
+                        <i class="ico">
+                            <img src="~/Assets/Project/Emaarcommunities/images/icon/login.svg" alt="login">
+                        </i>
+                    }
+                }
+                else
+                {
+                    <a href="javascript:;" class="loginmobile">
+                        <img src="~/Assets/Project/Emaarcommunities/images/icon/login.svg" alt="login">
+                    </a>
+                }
+                <a class="hamburgers hamburger--squeeze js-hamburger mobile-menu-trigger" href="javascript:;">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    @if (Model != null && Model.SiteRoot != null && Model.SiteRoot.Login_Page != null)
+    {
+        using (Html.Glass().BeginRenderLink(Model.SiteRoot, x => x.Login_Page, new { @class = "siteLogin" }, isEditable: true))
+        {
+            <i class="ico">
+                <img src="~/Assets/Project/Emaarcommunities/images/icon/login.svg" alt="login" class="svg">
+            </i>
+            <span>@Html.Glass().Editable(Model.Header, x => x.Login_Text)</span>
+        }
+    }
+    else
+    {
+        <a href="javascript:;" class="siteLogin">
+            <i class="ico">
+                <img src="~/Assets/Project/Emaarcommunities/images/icon/login.svg" alt="login" class="svg">
+            </i>
+            <span>@Html.Glass().Editable(Model.Header, x => x.Login_Text)</span>
+        </a>
+    }
+    <!-- siteLogin ends here -->
+</header>
+<!-- Header ends here -->
+@{ if (!Model.IsHomePage && !Model.IsSearchPage)
+    {
+        <div class="headerSpace"></div>
+    }
+}
+

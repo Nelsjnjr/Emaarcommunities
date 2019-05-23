@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {90498C05-0351-4EE0-80E7-CE96A174BF02}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Faqs/Alterations and common repairs/Own repairs
+parent: {232B9608-F112-4B3E-9506-5403304EAB46}
+name: Own repairs
+master: {00000000-0000-0000-0000-000000000000}
+template: {4596FB2C-CE09-4EB7-8210-FAB33D7F84B3}
+templatekey: Faq
+created: 20190501T132131Z
+
+----version----
+language: en
+version: 1
+revision: d6f520a5-6b1b-42a8-860b-1f4d379a094a
+
+----field----
+field: {CDDD22F9-558A-4E98-A614-53C5E090FB96}
+name: Title
+key: title
+content-length: 45
+
+Can I make my own repairs to common property?
+----field----
+field: {86EF63D0-7E10-4DF7-80A7-28DF2D6BA18F}
+name: Summary
+key: summary
+content-length: 44
+
+No. Please contact ECM at communities@ecm.ae
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190418T070439Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d6f520a5-6b1b-42a8-860b-1f4d379a094a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190507T132623Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 12
+
+sitecore\cat

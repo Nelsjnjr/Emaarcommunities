@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {87F5DD29-753B-4BB9-ACA7-426883C408F1}
+database: master
+path: /sitecore/media library/Images/Foundation/ECM/DowntownDubai/Icons/play-button
+parent: {30F290E0-F0C2-417A-A9FD-20062AB8B58D}
+name: play-button
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20190325T120022Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 1624
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNDRweCIg
+aGVpZ2h0PSI0NHB4IiB2aWV3Qm94PSIwIDAgNDQgNDQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0
+dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcv
+MTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjIgKDY3MTQ1KSAtIGh0
+dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5TaGFwZTwv
+dGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJT
+eW1ib2xzIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1y
+dWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0icGxheS1idXR0b24tKDEpIiBmaWxsPSIjRkZG
+RkZGIj4KICAgICAgICAgICAgPGcgaWQ9IlNoYXBlIj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9
+Ik0yMiwwIEM5Ljg0OTg5ODQ0LDAgMCw5Ljg0OTcyNjU2IDAsMjIgQzAsMzQuMTUwMjczNCA5Ljg0
+OTg5ODQ0LDQ0IDIyLDQ0IEMzNC4xNTAxMDE2LDQ0IDQ0LDM0LjE1MDI3MzQgNDQsMjIgQzQ0LDku
+ODQ5NzI2NTYgMzQuMTUwMTAxNiwwIDIyLDAgWiBNMjkuNjAzNzUsMjMuMTY2MTcxOSBMMTguNjAz
+NzUsMzAuMDQxMTcxOSBDMTguMzgxMTcxOSwzMC4xODAxMzI4IDE4LjEyODA4NTksMzAuMjUgMTcu
+ODc1LDMwLjI1IEMxNy42NDU3MTg4LDMwLjI1IDE3LjQxNjA5MzgsMzAuMTkyOTM3NSAxNy4yMDgy
+OTY5LDMwLjA3NzQzNzUgQzE2Ljc3MTIxODcsMjkuODM1MDkzNyAxNi41LDI5LjM3NTE1NjIgMTYu
+NSwyOC44NzUgTDE2LjUsMTUuMTI1IEMxNi41LDE0LjYyNDg0MzcgMTYuNzcxMjE4NywxNC4xNjQ5
+MDYyIDE3LjIwODI5NjksMTMuOTIyNTYyNSBDMTcuNjQ1Mzc1LDEzLjY3ODg0MzcgMTguMTc5ODIw
+MywxMy42OTM2MjUgMTguNjAzNzUsMTMuOTU4ODI4MSBMMjkuNjAzNzUsMjAuODMzODI4MSBDMzAu
+MDA1NTkzNywyMS4wODU2MjUgMzAuMjUsMjEuNTI2MDU0NyAzMC4yNSwyMiBDMzAuMjUsMjIuNDcz
+OTQ1MyAzMC4wMDU1OTM3LDIyLjkxNDQ2MDkgMjkuNjAzNzUsMjMuMTY2MTcxOSBaIj48L3BhdGg+
+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+svg
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 13
+
+image/svg+xml
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+1186
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/87F5DD29753B4BB9ACA7426883C408F1.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: 670525b8-fb21-4800-b47b-0a2fba8ba9a8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190325T120022Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+670525b8-fb21-4800-b47b-0a2fba8ba9a8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190325T120022Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,59 @@
+﻿@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions.Settings
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@if (Model == null)
+{
+    return;
+
+}
+@{
+    string Authority = Request.Url.GetLeftPart(UriPartial.Authority).TrimStart('/').TrimEnd('/');
+    string ApplicationPath = Request.ApplicationPath.TrimStart('/').TrimEnd('/');
+    string imagePath = String.Format("~/{0}{1}", SitecoreSettings.ImageLocatation, Sitecore.Context.Site.Name);
+    string fallbackImagePath = String.Format("{0}/{1}", CommonConstants.Global,SitecoreSettings.ImageLocatation);
+    <!-- Fav Icon -->
+    if (System.IO.Directory.Exists(Server.MapPath(imagePath)) &&
+    System.IO.Directory.GetFiles(Server.MapPath(imagePath)).Length > 0)
+    {
+        imagePath = string.Format("{0}{1}{2}", Authority, ApplicationPath, imagePath.Replace("~", null));
+        <link rel="apple-touch-icon" sizes="57x57" href="@String.Format("{0}/apple-icon-57x57.png",imagePath)">
+        <link rel="apple-touch-icon" sizes="60x60" href="@String.Format("{0}/apple-icon-60x60.png",imagePath)">
+        <link rel="apple-touch-icon" sizes="72x72" href="@String.Format("{0}/apple-icon-72x72.png",imagePath)">
+        <link rel="apple-touch-icon" sizes="76x76" href="@String.Format("{0}/apple-icon-76x76.png",imagePath)">
+        <link rel="apple-touch-icon" sizes="114x114" href="@String.Format("{0}/apple-icon-114x114.png",imagePath)">
+        <link rel="apple-touch-icon" sizes="120x120" href="@String.Format("{0}/apple-icon-120x120.png",imagePath)">
+        <link rel="apple-touch-icon" sizes="144x144" href="@String.Format("{0}/apple-icon-144x144.png",imagePath)">
+        <link rel="apple-touch-icon" sizes="152x152" href="@String.Format("{0}/apple-icon-152x152.png",imagePath)">
+        <link rel="apple-touch-icon" sizes="180x180" href="@String.Format("{0}/apple-icon-180x180.png",imagePath)">
+        <link rel="icon" type="image/png" sizes="192x192" href="@String.Format("{0}/android-icon-192x192.png",imagePath)">
+        <link rel="icon" type="image/png" sizes="32x32" href="@String.Format("{0}/favicon-32x32.png",imagePath)">
+        <link rel="icon" type="image/png" sizes="96x96" href="@String.Format("{0}/favicon-96x96.png",imagePath)">
+        <link rel="icon" type="image/png" sizes="16x16" href="@String.Format("{0}/favicon-16x16.png",imagePath)">
+        <link rel="manifest" href="@String.Format("{0}/manifest.json",imagePath)">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content=" @String.Format("{0}/ms-icon-144x144.png", imagePath) ">
+        <meta name="theme-color" content="#ffffff">
+    }
+    else
+    {
+        fallbackImagePath = string.Format("{0}{1}{2}", Authority, ApplicationPath, imagePath);
+        <!--Fallback Fav icon from Global-->
+        <link rel="apple-touch-icon" sizes="57x57" href="@String.Format("{0}/apple-icon-57x57.png", fallbackImagePath)">
+        <link rel="apple-touch-icon" sizes="60x60" href="@String.Format("{0}/apple-icon-60x60.png", fallbackImagePath)">
+        <link rel="apple-touch-icon" sizes="72x72" href="@String.Format("{0}/apple-icon-72x72.png", fallbackImagePath)">
+        <link rel="apple-touch-icon" sizes="76x76" href="@String.Format("{0}/apple-icon-76x76.png", fallbackImagePath)">
+        <link rel="apple-touch-icon" sizes="114x114" href="@String.Format("{0}/apple-icon-114x114.png", fallbackImagePath)">
+        <link rel="apple-touch-icon" sizes="120x120" href="@String.Format("{0}/apple-icon-120x120.png", fallbackImagePath)">
+        <link rel="apple-touch-icon" sizes="144x144" href="@String.Format("{0}/apple-icon-144x144.png", fallbackImagePath)">
+        <link rel="apple-touch-icon" sizes="152x152" href="@String.Format("{0}/apple-icon-152x152.png", fallbackImagePath)">
+        <link rel="apple-touch-icon" sizes="180x180" href="@String.Format("{0}/apple-icon-180x180.png", fallbackImagePath)">
+        <link rel="icon" type="image/png" sizes="192x192" href="@String.Format("{0}/android-icon-192x192.png", fallbackImagePath)">
+        <link rel="icon" type="image/png" sizes="32x32" href="@String.Format("{0}/favicon-32x32.png", fallbackImagePath)">
+        <link rel="icon" type="image/png" sizes="96x96" href="@String.Format("{0}/favicon-96x96.png", fallbackImagePath)">
+        <link rel="icon" type="image/png" sizes="16x16" href="@String.Format("{0}/favicon-16x16.png", fallbackImagePath)">
+        <link rel="manifest" href="@String.Format("{0}/manifest.json", fallbackImagePath)">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="@String.Format("{0}/ms-icon-144x144.png", fallbackImagePath)">
+        <meta name="theme-color" content="#ffffff">
+    }
+    <!-- End Fav Icon -->
+}

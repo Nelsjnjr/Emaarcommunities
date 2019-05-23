@@ -1,0 +1,55 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Page_Types.IImage_Album
+@using Glass.Mapper.Sc.Web.Mvc
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@using EMAAR.Emaarcommunities.Foundation.Search.Helpers
+<div class="gallery-section">
+    <div class="section-header">
+        <h1 class="heading"> @Html.Glass().Editable(Model, x => x.Title)</h1>
+        <p>@Html.Glass().Editable(Model, x => x.Introduction)</p>
+    </div>
+    <div id="templateInitializor" data-service-url="/api/sitecore/listing/GetListingJSON" data-page-size="@Model.No_Of_Records" data-listParentItemId="" data-item-id="@Model.Id" data-listItemTemplateId="@SearchHelper.FormatGuid(CommonConstants.ImageItemTemplateID)" data-error-message="@Model.Error_Message" data-show-filters="false">
+        <div class="selectFilters"></div>
+        <script id="filter-template" type="text/x-handlebars-template">
+            <div class="row">
+                {{#each this}}
+                <div class="col-sm-6">
+                    <div class="selectWrap pb-5">
+                        <select name="{{this.filterLabel}}" id="{{this.filterLabel}}" class="js-example-basic-single imageGallery_year filters-support" data-label="{{this.filterLabel}}">
+                            {{#each this.filterValues}}
+                            {{#if this}}
+                            <option value="{{id}}">{{label}}</option>
+                            {{/if}}
+                            {{/each}}
+                        </select>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <div class="galleryWrap">
+            <div class="row gallerygrid" id="filter-template-result">
+                <!-- template generate -->
+            </div>
+            <script id="gallery-template" type="text/x-handlebars-template">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="gallery-item">
+                        <a href="{{imageUrl}}" rel="1" class="fancyimages gallery-item-link" title="{{imageAlttext}}">
+                            <img src="{{thumbnailurl}}" alt="" class="img">
+                            <div class="title">{{title}}</div>
+                        </a>
+                    </div>
+                </div>
+            </script>
+            <script id="error-template" type="text/x-handlebars-template">
+                <div class="error-message">
+                    {{this}}
+                </div>
+            </script>
+            <div class="lm-btn-wrap">
+                <a href="javascript:;" class="btn btn-loadmore loadmore" data-pagenumber="0">@Html.Glass().Editable(Model, x => x.Load_More_Label)</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

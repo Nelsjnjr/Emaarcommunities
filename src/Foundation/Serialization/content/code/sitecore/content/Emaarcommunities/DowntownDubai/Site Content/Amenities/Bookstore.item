@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {C7BF35E7-5C85-457E-9B2C-184009A31D02}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Site Content/Amenities/Bookstore
+parent: {90CB5757-2538-4E18-921B-0BD6D89B2224}
+name: Bookstore
+master: {00000000-0000-0000-0000-000000000000}
+template: {A37083A5-2AA2-401F-A609-E95AD56239D8}
+templatekey: Amenity
+created: 20190417T071144Z
+
+----version----
+language: en
+version: 1
+revision: 24d8f02f-3814-4d3b-bbc9-d17e726ddea9
+
+----field----
+field: {3D9DA5FD-F483-40BE-9947-10BB297C048C}
+name: Title
+key: title
+content-length: 9
+
+Bookstore
+----field----
+field: {F6BA7B09-176F-4BB1-A680-C070D4B92C65}
+name: Image
+key: image
+content-length: 252
+
+<image mediapath="/Project/ECM/DowntownDubai/Amenities/book" src="~/media/Project/ECM/DowntownDubai/Amenities/book" height="" mediaid="{E4D630A5-67C2-407A-B67C-3584FEF7FF19}" hspace="" usethumbnail="" showineditor="" width="" alt="" vspace="" ></image>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190417T071144Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+24d8f02f-3814-4d3b-bbc9-d17e726ddea9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190421T070500Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

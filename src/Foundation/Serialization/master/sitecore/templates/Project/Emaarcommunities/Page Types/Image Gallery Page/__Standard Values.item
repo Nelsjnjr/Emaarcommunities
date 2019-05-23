@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {03569E3B-9C0E-4C91-88C9-5369CBF33B7E}
+database: master
+path: /sitecore/templates/Project/Emaarcommunities/Page Types/Image Gallery Page/__Standard Values
+parent: {70422DB2-25AF-483F-A3F1-AAF7CD751D5D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {70422DB2-25AF-483F-A3F1-AAF7CD751D5D}
+templatekey: Image Gallery Page
+created: 20190403T134832Z
+
+----field----
+field: {44195A16-B523-44EF-B2FD-6304B28E16FB}
+name: No of Records
+key: no of records
+content-length: 1
+
+9
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 40
+
+applications/32x32/text_rich_colored.png
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{6D64A541-EA75-4422-BE92-02541C818115}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 837
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B255404C-4183-4E11-BC30-74E4D4595BEC}"><r ds="" id="{00E5BEDC-930A-4E3C-BEB8-0901394E4040}" par="" ph="ecm_header" uid="{6A741D4D-121C-4F08-A7CA-326C41C246EE}" /><r ds="" id="{E77F7584-4498-4F34-84EB-E1C0E05DC042}" par="" ph="ecm_footer" uid="{4017EC07-10C3-41BC-BC70-CBDA511B2B82}" /><r id="{0B762C67-B738-4E9F-9DCE-3B6A1DD97541}" ph="ecm_seo" uid="{B1767A54-FE71-4688-B625-537AC46EBFC1}" /><r id="{28B71257-87C8-4F1F-B89C-1ED3B10C308C}" ph="ecm_content" uid="{7C312381-DD1A-4C6C-AFA3-1E06CF64B5AB}" /><r id="{0CFCBD3A-14A1-4454-A3E5-06F0154B78BA}" ph="ecm_bodycontent" uid="{5093F9D9-6CA7-4C5C-95F4-C325D1EB08CD}" /><r id="{597CAEAE-E891-4070-9C3F-CE6EF8F27B6F}" ph="ecm_leftnav" uid="{B5364826-1990-41F0-81F9-B3140DEABA47}" /></d></r>
+----version----
+language: en
+version: 1
+revision: c9477a73-3198-45e5-a77d-639e1f1a0f53
+
+----field----
+field: {FE683723-D22F-4A7E-A074-7E3BAB2817C4}
+name: Load More Label
+key: load more label
+content-length: 9
+
+Load More
+----field----
+field: {FD8D09C0-26C9-4C9B-BA05-8D4621A0F1F3}
+name: Error Message
+key: error message
+content-length: 24
+
+Albums are not available
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190403T132845Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c9477a73-3198-45e5-a77d-639e1f1a0f53
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190506T065503Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

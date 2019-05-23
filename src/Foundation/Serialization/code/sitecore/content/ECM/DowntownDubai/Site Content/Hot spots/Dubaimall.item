@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {E4153BAB-E86A-4D21-AD1D-78C2F031D279}
+database: master
+path: /sitecore/content/ECM/DowntownDubai/Site Content/Hot spots/Dubaimall
+parent: {189E5AD4-6645-4EEB-82C2-FF32165999FA}
+name: Dubaimall
+master: {00000000-0000-0000-0000-000000000000}
+template: {2F161DAF-D0F4-4372-929E-C6FC5DC4FBDA}
+templatekey: Hotspot
+created: 20190321T090742Z
+
+----version----
+language: en
+version: 1
+revision: 07da56df-3286-4eaf-b2a5-5fe2d1b76144
+
+----field----
+field: {24CEAAC1-8EA4-4625-9D60-844DDF3F8EBA}
+name: Top
+key: top
+content-length: 4
+
+57.5
+----field----
+field: {0C64BB2B-9145-4140-B6BD-DAD404D34913}
+name: Left
+key: left
+content-length: 4
+
+58.0
+----field----
+field: {CDDD22F9-558A-4E98-A614-53C5E090FB96}
+name: Title
+key: title
+content-length: 10
+
+Dubai Mall
+----field----
+field: {86EF63D0-7E10-4DF7-80A7-28DF2D6BA18F}
+name: Summary
+key: summary
+content-length: 105
+
+The Greens &amp; Views Master Community is strategically located next to Dubai&rsquo;s Sheikh Zayed Road.
+----field----
+field: {F6BA7B09-176F-4BB1-A680-C070D4B92C65}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1D61F22E-29AA-4556-B5FC-434EB823995D}" ></image>
+----field----
+field: {EDA7D252-061D-4B6B-A69C-B6544172B348}
+name: Summary heading
+key: summary heading
+content-length: 10
+
+Dubai Mall
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190321T090742Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+07da56df-3286-4eaf-b2a5-5fe2d1b76144
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190331T065624Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

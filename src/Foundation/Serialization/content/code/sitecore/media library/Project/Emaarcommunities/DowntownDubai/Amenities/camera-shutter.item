@@ -1,0 +1,106 @@
+----item----
+version: 1
+id: {74AB2B69-0ED5-4771-B951-302213F8D22F}
+database: master
+path: /sitecore/media library/Project/Emaarcommunities/DowntownDubai/Amenities/camera-shutter
+parent: {8F1A971F-518C-4617-9452-BDC1A02711BC}
+name: camera-shutter
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20190417T070711Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 2084
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzNweCIg
+aGVpZ2h0PSIzM3B4IiB2aWV3Qm94PSIwIDAgMzMgMzMiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0
+dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcv
+MTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjIgKDY3MTQ1KSAtIGh0
+dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5jYW1lcmEt
+c2h1dHRlcjwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAg
+IDxnIGlkPSJTeW1ib2xzIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9u
+ZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iY2FtZXJhLXNodXR0ZXIiIGZp
+bGw9IiM4ODdDNjgiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSJTaGFw
+ZSI+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTEsMjEgTDIuNzQ0NTA4NCw3IEMxLjAxMjM5
+MjgxLDkuNjE2NzQ4NCAwLDEyLjc2ODIwMDcgMCwxNi4xNTg2MTk0IEMwLDE3Ljg0MzI2NjcgMC4y
+NTA2NzU0MzgsMTkuNDY5ODIyNyAwLjcxNTIwMDI4MiwyMSBMMTEsMjEgWiI+PC9wYXRoPgogICAg
+ICAgICAgICAgICAgPHBhdGggZD0iTTE1LDEwIEwzMiwxMCBDMjkuODE2NjQ1Myw1LjAxNzk0MjE1
+IDI1LjU4NzEyMDYsMS4yNjY5MzUxOSAyMC40Nzg1MjEsMCBMMTUsMTAgWiI+PC9wYXRoPgogICAg
+ICAgICAgICAgICAgPHBhdGggZD0iTTkuNDQ0NDgxNDMsMTUgTDE4LDAuMDgyNTUyNTMzNCBDMTcu
+NDY4NzMzNywwLjAyODY1NDU5ODQgMTYuOTMxNDc1NiwwIDE2LjM4NjIyODUsMCBDMTEuNDU4MzY3
+LDAgNy4wMzA0ODE3MiwyLjIyNDE0MjY0IDQsNS43NDE4MzU3MSBMOS40NDQ0ODE0MywxNSBaIj48
+L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTIuNjkyMTQyNywzMi43NjA4MDMgTDE4
+LDIzIEwxLDIzIEMzLjIyOTg0MDMxLDI4LjExMjgzNTUgNy43MDUwNTI4MywzMS45MTQzNTg5IDEz
+LjA4Nzg2ODQsMzMgTDEyLjY5MjE0MjcsMzIuNzYwODAzIFoiPjwvcGF0aD4KICAgICAgICAgICAg
+ICAgIDxwYXRoIGQ9Ik0yMiwxMSBMMzAuMDg4MDY0NywyNSBDMzEuOTIwNDMxMiwyMi40MDQ1NzM4
+IDMzLDE5LjI0NTk1ODkgMzMsMTUuODM4NTM3OCBDMzMsMTQuMTUyMTg1OSAzMi43MzQ0NTgzLDEy
+LjUyNjkxMDQgMzIuMjQ1OTEzMiwxMSBMMjIsMTEgWiI+PC9wYXRoPgogICAgICAgICAgICAgICAg
+PHBhdGggZD0iTTIzLjU0NzI3NDksMTggTDE1LDMyLjkyOTQ2NDkgQzE1LjQ5MTU5OTksMzIuOTcy
+NjA3NyAxNS45ODg2Njk3LDMzIDE2LjQ5MTIwOTIsMzMgQzIxLjQzNjYwODcsMzMgMjUuODk0NTEw
+NiwzMC44Njk1NjcyIDI5LDI3LjQ3NzcyMSBMMjMuNTQ3Mjc0OSwxOCBaIj48L3BhdGg+CiAgICAg
+ICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+svg
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 13
+
+image/svg+xml
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+1522
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/74ab2b690ed54771b951302213f8d22f.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: 9494b704-8d4a-462a-998c-a66e118e3470
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190417T070711Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9494b704-8d4a-462a-998c-a66e118e3470
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190417T070711Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {2014A772-6971-4FBA-A95E-6BC3FDDF3815}
+database: master
+path: /sitecore/templates/Feature/ECM/Homepage carousel/_Homepage carousels/__Standard Values
+parent: {76F66DE5-20EE-453C-8DE7-33BAEFDE659A}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {76F66DE5-20EE-453C-8DE7-33BAEFDE659A}
+templatekey: _Homepage carousels
+created: 20190314T120452Z
+
+----field----
+field: {61CF7151-0CBD-4DB4-9738-D753A55A6E65}
+name: __Enforce version presence
+key: __enforce version presence
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: e60588b0-d80c-4828-b6d3-ce120186a026
+
+----field----
+field: {43AE9FAF-4548-4DF9-B505-C6928EA48B3D}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {4A8BFF42-5E3B-4BB1-BA59-1DB2FDFAE5C5}
+name: IsBackgroundColorAvailable
+key: isbackgroundcoloravailable
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190314T120452Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e60588b0-d80c-4828-b6d3-ce120186a026
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190327T120015Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

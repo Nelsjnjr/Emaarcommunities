@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {364D01A9-2DBB-4CF5-8FAA-6BB1D06641F4}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Page Datasources/Related Pages/Al Alka
+parent: {CCF018F3-ECF2-4418-ACD2-6BBE317A38FC}
+name: Al Alka
+master: {00000000-0000-0000-0000-000000000000}
+template: {CEFC1B77-9A5B-4392-B048-43CAB547ABB4}
+templatekey: Related Pages
+created: 20190501T132128Z
+
+----version----
+language: en
+version: 1
+revision: 0527769f-eab7-4ec9-9422-fb377c35eabc
+
+----field----
+field: {DA0F8E41-B029-4CAA-AC34-3FFD4BD3A5A7}
+name: Title
+key: title
+content-length: 7
+
+Al Alka
+----field----
+field: {3A754C56-5D9D-44AE-8D50-8394F9F55E5A}
+name: Pages
+key: pages
+content-length: 116
+
+{65F76CB1-A28C-41C0-94C2-E4D2584356C1}|{6D90E52D-0B8E-4893-8D1A-E9822E9941F2}|{566D1178-7612-494A-AA11-42809C97C406}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190421T082632Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0527769f-eab7-4ec9-9422-fb377c35eabc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190421T114248Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

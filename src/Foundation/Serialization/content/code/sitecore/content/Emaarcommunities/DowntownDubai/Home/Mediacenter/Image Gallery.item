@@ -1,0 +1,115 @@
+----item----
+version: 1
+id: {8A379D29-25E4-4DE5-B3AA-786E1E817F7E}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Home/Mediacenter/Image Gallery
+parent: {30DA3B03-6DBA-463F-A55A-0D9F5D80C9D4}
+name: Image Gallery
+master: {00000000-0000-0000-0000-000000000000}
+template: {70422DB2-25AF-483F-A3F1-AAF7CD751D5D}
+templatekey: Image Gallery Page
+created: 20190414T061619Z
+
+----field----
+field: {44195A16-B523-44EF-B2FD-6304B28E16FB}
+name: No of Records
+key: no of records
+content-length: 1
+
+9
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 13
+
+Image Gallery
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 40
+
+applications/32x32/text_rich_colored.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{75D66F86-B219-4070-9820-AB948FD107A4}
+----version----
+language: en
+version: 1
+revision: 5c4f4305-e2d9-48be-9109-7977d211aee9
+
+----field----
+field: {0CBA5220-AA8B-4F75-BCD6-68000B38D8C1}
+name: Introduction
+key: introduction
+content-length: 118
+
+Description of Image Gallery Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+----field----
+field: {FE683723-D22F-4A7E-A074-7E3BAB2817C4}
+name: Load More Label
+key: load more label
+content-length: 16
+
+Load More Albums
+----field----
+field: {FD8D09C0-26C9-4C9B-BA05-8D4621A0F1F3}
+name: Error Message
+key: error message
+content-length: 45
+
+Albums are not available for selected filters
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 13
+
+Image Gallery
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 13
+
+Image Gallery
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190403T134357Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5c4f4305-e2d9-48be-9109-7977d211aee9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T082643Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

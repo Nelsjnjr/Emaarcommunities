@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {2BD03C13-2AC7-4A34-A331-45235AA85FE8}
+database: master
+path: /sitecore/content/ECM/Greens/Home/Page Datasources/HeroBanner/Reach the stars
+parent: {56B45402-9F40-42BA-B44A-079933AC48EF}
+name: Reach the stars
+master: {00000000-0000-0000-0000-000000000000}
+template: {0496AB1E-5630-4089-9991-579420B9D7A2}
+templatekey: Hero
+created: 20190325T130539Z
+
+----version----
+language: en
+version: 1
+revision: 8c1f140a-413b-4e18-8515-3658c09c2c8a
+
+----field----
+field: {3E63B712-D4BA-479B-943B-2589BAF36631}
+name: Title
+key: title
+content-length: 49
+
+Reach the stars, in the world's tallest community
+----field----
+field: {61256258-C337-4D5A-B150-6B765A10FBBF}
+name: Statistics
+key: statistics
+content-length: 155
+
+{924CAD77-FC1E-440E-9E00-EEFE1061B3E1}|{F542FB99-D510-4D55-AA21-275542151A4F}|{4B3FF8A1-453E-49D6-9E6C-DBCEE8904065}|{A29BF6EC-980A-4795-BA64-EE653F68A949}
+----field----
+field: {18AED467-A7BF-4E76-AA40-FAE487B2308F}
+name: Hero Image
+key: hero image
+content-length: 279
+
+<image mediapath="/Images/Feature/ECM/HeroBanner/Downtown-Dubai_tcm223-49617" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Feature/ECM/HeroBanner/Downtown-Dubai_tcm223-49617" mediaid="{7955B05B-2A73-49D1-9834-8BA6F7B0F04C}" />
+----field----
+field: {DB9AFE05-491A-4F77-BE15-6E14C9AE15A4}
+name: Mobile Hero Image
+key: mobile hero image
+content-length: 269
+
+<image mediapath="/Images/Feature/ECM/HeroBanner/Mobile_BackgroundImage" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Feature/ECM/HeroBanner/Mobile_BackgroundImage" mediaid="{D0FB1A05-6A84-413A-86DE-2E84CCA27FC0}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190320T065757Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8c1f140a-413b-4e18-8515-3658c09c2c8a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190321T052354Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

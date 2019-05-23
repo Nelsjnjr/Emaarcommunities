@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {FD450310-1574-4E1C-88CA-F462ACB41571}
+database: master
+path: /sitecore/media library/Foundation/Emaarcommunities/Icons/swiper-left
+parent: {30F290E0-F0C2-417A-A9FD-20062AB8B58D}
+name: swiper-left
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20190325T120022Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 1706
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIg
+aGVpZ2h0PSI0M3B4IiB2aWV3Qm94PSIwIDAgMjQgNDMiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0
+dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcv
+MTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjIgKDY3MTQ1KSAtIGh0
+dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5TaGFwZSBD
+b3B5PC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcg
+aWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZp
+bGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IjAxLUxhbmRpbmctUGFnZSIgdHJhbnNm
+b3JtPSJ0cmFuc2xhdGUoLTgwLjAwMDAwMCwgLTEwODIuMDAwMDAwKSIgZmlsbD0iI0YzQjMyOSIg
+ZmlsbC1ydWxlPSJub256ZXJvIiBzdHJva2U9IiNGM0IzMjkiIHN0cm9rZS13aWR0aD0iMC41Ij4K
+ICAgICAgICAgICAgPHBhdGggZD0iTTExMi41NzAyNjUsMTA5Mi40NDQ0NCBDMTExLjk5MTM5Mywx
+MDkxLjg1MTg1IDExMS4wNTA3MjYsMTA5MS44NTE4NSAxMTAuNDcxODUzLDEwOTIuNDQ0NDQgTDky
+LjAyMDI5OTYsMTExMS4zNzAzNyBMNzMuNTMyNTY2MiwxMDkyLjQ0NDQ0IEM3Mi45NTM2OTM5LDEw
+OTEuODUxODUgNzIuMDEzMDI2NSwxMDkxLjg1MTg1IDcxLjQzNDE1NDIsMTA5Mi40NDQ0NCBDNzAu
+ODU1MjgxOSwxMDkzLjAzNzA0IDcwLjg1NTI4MTksMTA5NCA3MS40MzQxNTQyLDEwOTQuNTkyNTkg
+TDkwLjkzNDkxNDEsMTExNC41NTU1NiBDOTEuMjI0MzUwMiwxMTE0Ljg1MTg1IDkxLjU4NjE0NTQs
+MTExNSA5MS45ODQxMjAxLDExMTUgQzkyLjM0NTkxNTIsMTExNSA5Mi43NDM4ODk5LDExMTQuODUx
+ODUgOTMuMDMzMzI2MSwxMTE0LjU1NTU2IEwxMTIuNTM0MDg2LDEwOTQuNTkyNTkgQzExMy4xNDkx
+MzgsMTA5NCAxMTMuMTQ5MTM4LDEwOTMuMDM3MDQgMTEyLjU3MDI2NSwxMDkyLjQ0NDQ0IFoiIGlk
+PSJTaGFwZS1Db3B5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5Mi4wMDAwMDAsIDExMDMuNTAwMDAw
+KSBzY2FsZSgtMSwgMSkgcm90YXRlKC05MC4wMDAwMDApIHRyYW5zbGF0ZSgtOTIuMDAwMDAwLCAt
+MTEwMy41MDAwMDApICI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+svg
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 13
+
+image/svg+xml
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+1248
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/FD45031015744E1C88CAF462ACB41571.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: 7fa9be83-fb07-418b-b136-86871d05a38f
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190325T120022Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7fa9be83-fb07-418b-b136-86871d05a38f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190325T120022Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

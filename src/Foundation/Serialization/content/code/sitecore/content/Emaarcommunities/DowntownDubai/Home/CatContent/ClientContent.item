@@ -1,0 +1,169 @@
+----item----
+version: 1
+id: {516BCC5C-E7D1-4ADE-A606-97BABEC5565B}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Home/CatContent/ClientContent
+parent: {D06A8BCE-8161-4008-912C-24FA17555044}
+name: ClientContent
+master: {00000000-0000-0000-0000-000000000000}
+template: {4FB05EC1-985E-46D3-A95B-A851FF0BE873}
+templatekey: Generic ContentPage
+created: 20190423T130429Z
+
+----field----
+field: {6D0A86EF-D757-4860-80F8-A79F4ECFDCC9}
+name: Amenities
+key: amenities
+content-length: 350
+
+{FBFC2647-BC5B-4A93-ABA9-4F5EA10CF58C}|{DD5E8B50-2AFD-4323-8F97-AC0EA99AC18C}|{C4ED3C56-2EEB-4C35-B925-5805C4230687}|{714A65EB-C76A-44E2-AF05-BDD6FCEF04BE}|{C7BF35E7-5C85-457E-9B2C-184009A31D02}|{C9951B99-2BC2-46CE-ADEF-1CA327D36D6E}|{9C33B1D1-CEEA-454D-ADCC-45E7F31AC535}|{595FB246-4D11-43C8-88BA-ADC6AF81CF7B}|{BB4FDB23-404C-4980-99F3-1634D662270D}
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 13
+
+ClientContent
+----version----
+language: en
+version: 1
+revision: 8414eaae-1fef-4727-9919-25409bb13aba
+
+----field----
+field: {55768EBD-52C4-4340-9471-2C948D429BCF}
+name: Introduction
+key: introduction
+content-length: 11
+
+Client into
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
+----field----
+field: {0BC802F1-146C-454E-A508-E72E5A1CF61D}
+name: Content
+key: content
+content-length: 4105
+
+<p>Every home is well-finished and looks out over attractive green streetscapes or Al Alka’s open air swimming pool, enclosed in its own private courtyard, for all residents to enjoy. Every home is well-finished and looks out over attractive green streetscapes or Al Alka’s open air swimming pool, enclosed in its own private courtyard, for all residents to enjoy. Every home is well-finished and looks out over attractive green streetscapes or Al Alka’s open air swimming. ddf dcdf</p><div class="image-left-section"><img src="-/media/4d60ca463e6544af981a2ee944f9f33e.ashx" alt="Your image" class="left-img-content"><p>Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p><p>Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id</p></div><p>Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis ptitor volutpat.</p><div class="image-right-section"><img src="-/media/2ebdd54b0f434bed8a450074698e8844.ashx" alt="Your image" class="right-img-content"><p>Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis ptitor volutpat.</p></div><div><img src="-/media/6a5d6a179a2f4b6da724e46312c0a9c3.ashx" alt="alt" class="full-image"></div><h1>   HEading 1</h1><h3>HEading 3</h3><p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</p><ul><li>bbb</li><li>fgfjgjf</li><li>jfkgfhgf</li><li>fgfgfg</li></ul><ol><li>hhfd fd</li><li>hdjgfdgd&nbsp;</li><li>hdfdfgfdgdf</li></ol><div class="table-responsive"><table class="table table-bordered custom-style">                            <thead>                                <tr>                                    <th scope="col">SNo</th>                                    <th scope="col">new column&nbsp;</th><th scope="col">Column 2</th>                                                                        <th scope="col">Column 4</th>                                    <th scope="col">Column 5</th>                                </tr>                            </thead>                            <tbody>                                <tr>                                    <th>Value 1</th>                                    <td>eyrtet&nbsp;</td><td>tyuetywer</td>                                                                        <td>uyetywet</td>                                    <td></td>                                </tr>                                <tr>                                    <th>ddfdf</th>                                    <td>&nbsp;</td><td></td>                                                                        <td></td>                                    <td></td>                                </tr>                            <tr><td>&nbsp;dfdfdf</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;dfdfdf</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;dfdfdf</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>                        </table></div>
+----field----
+field: {FA9B731E-69DB-454A-86DB-E1AAC4DF739C}
+name: Faqs
+key: faqs
+content-length: 116
+
+{64C9F581-4BE0-4B89-923F-450E042DEEB2}|{3425535F-0B63-426F-AE0E-12DBBA319374}|{865F7713-172F-4D46-922D-63862C79B023}
+----field----
+field: {9E0362E2-325D-4DD1-8559-188DED2F6380}
+name: Related Pages
+key: related pages
+content-length: 155
+
+{B4212038-CA0C-4E79-871B-04498C5CC2CF}|{566D1178-7612-494A-AA11-42809C97C406}|{6D90E52D-0B8E-4893-8D1A-E9822E9941F2}|{65F76CB1-A28C-41C0-94C2-E4D2584356C1}
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 13
+
+ClientContent
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 13
+
+ClientContent
+----field----
+field: {4EECCCC0-C96C-4EE6-B865-8F1DCC0BB1C6}
+name: Include in Sitemap XML
+key: include in sitemap xml
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190423T130429Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8414eaae-1fef-4727-9919-25409bb13aba
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190522T072754Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 487efce0-8a96-4221-baf2-6dbdb2a75c10
+
+----field----
+field: {4EECCCC0-C96C-4EE6-B865-8F1DCC0BB1C6}
+name: Include in Sitemap XML
+key: include in sitemap xml
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190522T101230Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+487efce0-8a96-4221-baf2-6dbdb2a75c10
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190522T104811Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

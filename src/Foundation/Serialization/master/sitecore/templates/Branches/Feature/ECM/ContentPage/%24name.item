@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {6EE32015-B72B-4B13-8BD2-14FD84544E85}
+database: master
+path: /sitecore/templates/Branches/Feature/ECM/ContentPage/$name
+parent: {EBD509A6-4194-48E8-8CFC-213BC34BD59A}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {27B693EF-6229-4377-8FE9-FCF75D786007}
+templatekey: GenericContentRootPage
+created: 20190418T062033Z
+
+----version----
+language: en
+version: 1
+revision: db5d3ce3-6e2e-4f95-9b9e-6056ff0319c8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190418T062033Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+db5d3ce3-6e2e-4f95-9b9e-6056ff0319c8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190418T062033Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

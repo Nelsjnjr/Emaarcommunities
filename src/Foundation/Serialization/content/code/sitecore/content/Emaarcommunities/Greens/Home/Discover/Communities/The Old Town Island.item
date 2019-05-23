@@ -1,0 +1,173 @@
+----item----
+version: 1
+id: {AA2C2480-C7E0-40ED-A7A6-0FCBE7224A1F}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Home/Discover/Communities/The Old Town Island
+parent: {B4409D0F-5174-43FB-934F-26EFA57D6B15}
+name: The Old Town Island
+master: {00000000-0000-0000-0000-000000000000}
+template: {4FB05EC1-985E-46D3-A95B-A851FF0BE873}
+templatekey: Generic ContentPage
+created: 20190507T082745Z
+
+----field----
+field: {6D0A86EF-D757-4860-80F8-A79F4ECFDCC9}
+name: Amenities
+key: amenities
+content-length: 194
+
+{E4DB0213-9675-47AE-9F57-29EEEF8ED9CA}|{961D8159-A76A-4E9D-AE5C-0EEC53150BAC}|{D6255BC2-0922-4269-9572-404ED6453714}|{E041B73E-0F7F-436B-852B-A3F782FFCA2F}|{FCE9022F-CF18-4AFC-8096-6206E11AAE72}
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 19
+
+The Old Town Island
+----version----
+language: en
+version: 1
+revision: 09a7566f-82a2-4a2b-97b1-6688da7038fd
+
+----field----
+field: {55768EBD-52C4-4340-9471-2C948D429BCF}
+name: Introduction
+key: introduction
+content-length: 165
+
+Features Souk Al Bahar, Tajer, Attareen and The Palace Downtown.  
+Quaint village-inspired development. 
+Has a market square, quiet alleyways and inner courtyards.
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{A7C07A83-CD09-4BFB-9EF6-447A0D70CDB9}" />
+----field----
+field: {0BC802F1-146C-454E-A508-E72E5A1CF61D}
+name: Content
+key: content
+content-length: 712
+
+The Old Town Island is a quaint village-inspired development in Downtown Dubai. Low-rise buildings hide a market square, quiet alleyways and inner courtyards that represent traditional Arabic architecture.There are four quarters, namely Al Bahar, Tajer, Attareen and The Palace Downtown Dubai with views of the lake and Burj Khalifa, offering accommodation ranging from one- to four-bedrooms.&nbsp;<strong>Interesting feature</strong>: The community is home to 405 apartments, 161 hotel rooms, 83 suites, 2,100 parking bays, 15 restaurants and cafes, 89 shops, 130,000 sq ft of boutique spaces and four pools.&nbsp;<strong>Community fact</strong>: The Old Town Island is home to 405 apartments across 101 floors.
+----field----
+field: {9E0362E2-325D-4DD1-8559-188DED2F6380}
+name: Related Pages
+key: related pages
+content-length: 155
+
+{1065F7C8-B428-45C1-BF8E-77943BC09772}|{7FA10983-1BCA-4368-BB8B-AF71A664F875}|{539CCD1E-9063-4B4E-9CF8-A7408EB97114}|{5CABC4EC-0377-44B2-8D57-1121AEF2DF81}
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 19
+
+The Old Town Island
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 19
+
+The Old Town Island
+----field----
+field: {8097066D-26C3-44B9-8527-551A2CBB5A84}
+name: Meta Title
+key: meta title
+content-length: 64
+
+The Old Town Island | Community Living in Downtown Dubai | Emaar
+----field----
+field: {DACE23AF-D8B3-48F1-94E7-9AE3EE07CB35}
+name: Meta Keywords
+key: meta keywords
+content-length: 93
+
+The Old Town Island, Downtown Dubai, Emaar, family-friendly community, pet-friendly community
+----field----
+field: {8453AF30-1477-46FB-8094-BD5FDE72C89A}
+name: Meta Description
+key: meta description
+content-length: 218
+
+Live in the Heart of Downtown Dubai. Located right next to Souk Al Bahar. 24 Hour Security. Family-friendly Community. Retail Centre Within Walking Distance. Amenities: Swimming Pool, Gymnasium, Kids' Play Area, Sauna.
+----field----
+field: {4F39872D-258B-45B8-926B-6297E2DC7CD4}
+name: og title
+key: og title
+content-length: 64
+
+The Old Town Island | Community Living in Downtown Dubai | Emaar
+----field----
+field: {89F0FE3C-744E-416C-B216-340E05F86EAC}
+name: og description
+key: og description
+content-length: 218
+
+Live in the Heart of Downtown Dubai. Located right next to Souk Al Bahar. 24 Hour Security. Family-friendly Community. Retail Centre Within Walking Distance. Amenities: Swimming Pool, Gymnasium, Kids' Play Area, Sauna.
+----field----
+field: {B41E43E9-8AB5-4A00-B76B-1664C7161F82}
+name: og site_name
+key: og site_name
+content-length: 14
+
+Downtown Dubai
+----field----
+field: {CD25BC97-065E-4F79-B991-7C515DEDAB45}
+name: og url
+key: og url
+content-length: 38
+
+www.downtowndubai.com/TheOldTownIsland
+----field----
+field: {E4395580-B216-41E6-AD1F-8EC542DE11D6}
+name: twiiter title
+key: twiiter title
+content-length: 19
+
+The Old Town Island
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190507T082745Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+09a7566f-82a2-4a2b-97b1-6688da7038fd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T083118Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

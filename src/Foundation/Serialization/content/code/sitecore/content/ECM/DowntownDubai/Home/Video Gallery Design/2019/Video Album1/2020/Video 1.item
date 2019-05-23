@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {84032929-6553-42E1-B157-F2C6D48A56B8}
+database: master
+path: /sitecore/content/ECM/DowntownDubai/Home/Video Gallery Design/2019/Video Album1/2020/Video 1
+parent: {22642618-61A5-42A4-BCE1-763CC342C4FB}
+name: Video 1
+master: {00000000-0000-0000-0000-000000000000}
+template: {AF5D11D7-F83A-4D16-8747-D92F6F873071}
+templatekey: Video Item
+created: 20190411T072244Z
+
+----field----
+field: {EB2D8D5B-6335-44D6-9237-6AA5CE248871}
+name: Years
+key: years
+content-length: 4
+
+2019
+----field----
+field: {FBA4C0E5-44E0-4E57-9611-4AB5DC370F9C}
+name: Categories
+key: categories
+content-length: 38
+
+{A2A716CC-AFC8-408A-A1A2-B8C9EF928B28}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: 9c09d76b-134c-4b6f-ab01-568741465fad
+
+----field----
+field: {162B4DCB-8AEB-4385-B1AC-D8A9256B775E}
+name: Title
+key: title
+content-length: 7
+
+Video 1
+----field----
+field: {F89F4F46-510B-4DFB-AE2E-F5C234E7AAE2}
+name: Video
+key: video
+content-length: 96
+
+<link linktype="external" url="https://www.youtube.com/embed/3TNJuT7quSA" anchor="" target="" />
+----field----
+field: {E6AE526A-FA8B-4B69-A0D1-277162D7FA7F}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{4A8CEA77-AFE9-432C-8837-A698DBE8D941}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190411T072244Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9c09d76b-134c-4b6f-ab01-568741465fad
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190425T095056Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

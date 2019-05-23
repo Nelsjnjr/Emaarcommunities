@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {7ED020F6-C10F-4C2D-9563-D8FEE555DF91}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Faqs/Fire procedures and drills/Quisque velit nisi pretium ut lacinia in  elementum id enim
+parent: {2AA53932-01FF-4405-96E4-2A831C6BEA57}
+name: Quisque velit nisi pretium ut lacinia in  elementum id enim
+master: {00000000-0000-0000-0000-000000000000}
+template: {4596FB2C-CE09-4EB7-8210-FAB33D7F84B3}
+templatekey: Faq
+created: 20190501T132132Z
+
+----version----
+language: en
+version: 1
+revision: acbe5366-4470-432b-ada2-ac85f9230979
+
+----field----
+field: {CDDD22F9-558A-4E98-A614-53C5E090FB96}
+name: Title
+key: title
+content-length: 59
+
+Quisque velit nisi pretium ut lacinia in  elementum id enim
+----field----
+field: {86EF63D0-7E10-4DF7-80A7-28DF2D6BA18F}
+name: Summary
+key: summary
+content-length: 602
+
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190418T070151Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+acbe5366-4470-432b-ada2-ac85f9230979
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190424T071443Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

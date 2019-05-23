@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {EDF12F0B-5E5F-4CBC-A9CE-25ECB1BE5230}
+database: master
+path: /sitecore/content/ECM/DowntownDubai/Site Content/Navigation/Get in touch/we care
+parent: {382D2C02-4F44-4DBF-9D61-8CC2520BD12A}
+name: we care
+master: {00000000-0000-0000-0000-000000000000}
+template: {29B114B8-EB5B-4E78-8DB7-FF419CEBE66D}
+templatekey: FooterContact
+created: 20190328T120417Z
+
+----version----
+language: en
+version: 1
+revision: 2e28184b-0030-45d1-9b93-6745a00f8eb0
+
+----field----
+field: {8C21DA68-3647-4B11-AE50-F456692E678E}
+name: Title
+key: title
+content-length: 7
+
+we care
+----field----
+field: {0A8939EA-CD6E-46C0-A61D-9489B4F660EA}
+name: LinkUrl
+key: linkurl
+content-length: 133
+
+<link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+----field----
+field: {DDEB70AE-536A-492A-9635-B363EDA13056}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{F799BC33-65B6-4AA4-BD93-186C73D58500}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190328T120417Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2e28184b-0030-45d1-9b93-6745a00f8eb0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190331T072852Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

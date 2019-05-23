@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="13px" viewBox="0 0 22 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>scroll-down</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Landing-Page" transform="translate(-672.000000, -680.000000)" fill="#F3B329">
+            <g id="Group" transform="translate(645.000000, 680.000000)">
+                <g id="scroll-down" transform="translate(27.000000, 0.000000)">
+                    <g id="arrow-point-to-right" transform="translate(11.000000, 6.500000) rotate(-270.000000) translate(-11.000000, -6.500000) translate(5.000000, -4.000000)">
+                        <path d="M11.5682563,11.539608 L2.51654796,20.568994 C1.94074997,21.1436687 1.00719223,21.1436687 0.431673781,20.568994 C-0.14389126,19.9948307 -0.14389126,19.0635929 0.431673781,18.489476 L8.44103824,10.499849 L0.431906728,2.51050079 C-0.143658314,1.93610503 -0.143658314,1.0049602 0.431906728,0.430796818 C1.00747177,-0.143598939 1.94098292,-0.143598939 2.51678091,0.430796818 L11.5684893,9.4603223 C11.8562718,9.74754342 12,10.12358 12,10.4998025 C12,10.8762109 11.8559923,11.2525263 11.5682563,11.539608 Z" id="Shape" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

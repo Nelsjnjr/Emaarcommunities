@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {09592022-8EF8-4F7B-811A-5DEBD859D75F}
+database: master
+path: /sitecore/templates/Project/ECM/Content Types/Interactive Map/Interactive Map/__Standard Values
+parent: {849370A4-9478-486E-813B-8AED2F947AF9}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {849370A4-9478-486E-813B-8AED2F947AF9}
+templatekey: Interactive Map
+created: 20190321T084858Z
+
+----version----
+language: en
+version: 1
+revision: 98f4fc79-5f49-4a69-814c-95543db8f4e4
+
+----field----
+field: {6D5D0A92-1283-4C10-B057-7D40A1B88DE6}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190321T084858Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+98f4fc79-5f49-4a69-814c-95543db8f4e4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190327T101902Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

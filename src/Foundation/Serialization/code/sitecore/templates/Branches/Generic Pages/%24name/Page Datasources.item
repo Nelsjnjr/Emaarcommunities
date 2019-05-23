@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {A9E225A5-DD72-404B-BA1F-62A92DCA38F8}
+database: master
+path: /sitecore/templates/Branches/Generic Pages/$name/Page Datasources
+parent: {455BF6BA-6290-4B3A-86C2-AB4ED539C3BA}
+name: Page Datasources
+master: {00000000-0000-0000-0000-000000000000}
+template: {ED8E33E9-4A95-4747-9D0E-9B7B2C796A4C}
+templatekey: PageDatasources
+created: 20190327T133520Z
+
+----version----
+language: en
+version: 1
+revision: 79758d5e-cad3-41fa-a479-fe9f84395922
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190327T133520Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+79758d5e-cad3-41fa-a479-fe9f84395922
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190327T133520Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

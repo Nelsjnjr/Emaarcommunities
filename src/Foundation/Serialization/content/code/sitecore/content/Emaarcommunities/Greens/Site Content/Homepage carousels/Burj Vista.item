@@ -1,0 +1,77 @@
+----item----
+version: 1
+id: {A9531FEB-A934-47A9-98E8-E098A6EA439E}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Homepage carousels/Burj Vista
+parent: {9757BB09-2E82-4606-A907-5F2E95DAD77C}
+name: Burj Vista
+master: {00000000-0000-0000-0000-000000000000}
+template: {1FE16DFE-5B53-447E-BB34-D945F6DE8CD0}
+templatekey: Homepage carousel
+created: 20190501T132135Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 96e987f7-6529-4ba6-9f96-f697ecc23b50
+
+----field----
+field: {F9401C09-1121-4BB5-ABED-48BC2B29DE71}
+name: CTA
+key: cta
+content-length: 191
+
+<link id="{C5113E90-5D94-49B0-87CE-E3F2D1F62C45}" querystring="" text="" anchor="" url="/Emaarcommunities/Greens/Home/Discover/Communities/Burj Vista" title="" class="" linktype="internal" />
+----field----
+field: {87F46FB3-8FF4-4318-BCC2-C4EBBB0C4963}
+name: Title
+key: title
+content-length: 10
+
+Burj Vista
+----field----
+field: {9DE3E904-B947-4547-BBF2-7983FF99FF1A}
+name: Summary
+key: summary
+content-length: 217
+
+<ul>
+    <li>Strategically located on the Sheikh Mohammed bin Rashid Boulevard.</li>
+    <li>In close proximity to Burj Khalifa.</li>
+    <li>Offers luxury apartments in one, two, and three-bedroom layouts.</li>
+</ul>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190314T120806Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+96e987f7-6529-4ba6-9f96-f697ecc23b50
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T132106Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

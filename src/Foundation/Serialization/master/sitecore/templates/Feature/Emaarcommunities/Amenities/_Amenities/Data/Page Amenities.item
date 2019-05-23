@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {6EA5414B-9BA9-4E66-B197-9AE1426132D6}
+database: master
+path: /sitecore/templates/Feature/Emaarcommunities/Amenities/_Amenities/Data/Page Amenities
+parent: {C27DB9AF-E2AF-409E-AB58-5EB13C6C0421}
+name: Page Amenities
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+created: 20190417T062916Z
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 9
+
+Multilist
+----field----
+field: {1EB8AE32-E190-44A6-968D-ED904C794EBF}
+name: Source
+key: source
+content-length: 105
+
+query:ancestor-or-self::*[@@templateid='{407F6EA5-A542-4D83-9D03-B598E06D3422}']/Site Content/Amenities/*
+----version----
+language: en
+version: 1
+revision: 56327ada-f319-4aed-96fa-2b2ea1dc20c6
+
+----field----
+field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
+name: __Short description
+key: __short description
+content-length: 43
+
+Datasource items from /Site Content/Amenity
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190417T062916Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+56327ada-f319-4aed-96fa-2b2ea1dc20c6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190417T101334Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

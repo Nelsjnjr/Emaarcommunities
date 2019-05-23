@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {60143804-A205-4649-9ABF-CAB413C648E8}
+database: master
+path: /sitecore/content/ECM/Dictionary/DowntownDubai
+parent: {1A8F4BE2-9B1C-47C6-B9AC-7F32F8275C3A}
+name: DowntownDubai
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A2847E6-9885-450B-B61E-F9E6528480EF}
+templatekey: Dictionary Domain
+created: 20190319T111957Z
+
+----field----
+field: {CD72E892-D8BB-487C-9EB1-6A57C48C72CC}
+name: Fallback Domain
+key: fallback domain
+content-length: 38
+
+{669512A7-356F-4DB5-AAAB-909F69F37C87}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 23
+
+Network/16x16/earth.png
+----version----
+language: en
+version: 1
+revision: 1c5e83cd-ffa1-41af-b418-aa8810bf83c6
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190319T111957Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1c5e83cd-ffa1-41af-b418-aa8810bf83c6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190327T122043Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

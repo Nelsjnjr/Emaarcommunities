@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {982613AC-FCEF-42E3-924D-FE4E510D4CB1}
+database: master
+path: /sitecore/content/ECM/Greens/Home/Page Datasources
+parent: {AE899A37-5D4D-4075-A7DB-D24B55426863}
+name: Page Datasources
+master: {00000000-0000-0000-0000-000000000000}
+template: {ED8E33E9-4A95-4747-9D0E-9B7B2C796A4C}
+templatekey: PageDatasources
+created: 20190325T130539Z
+
+----version----
+language: en
+version: 1
+revision: afad3c33-cdbf-48ae-a2d2-4cabbbbf2647
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190314T124126Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+afad3c33-cdbf-48ae-a2d2-4cabbbbf2647
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190314T124126Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

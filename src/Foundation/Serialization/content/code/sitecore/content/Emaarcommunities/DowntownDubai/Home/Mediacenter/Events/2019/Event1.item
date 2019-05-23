@@ -1,0 +1,122 @@
+----item----
+version: 1
+id: {5AA32D5F-82D1-444C-AF04-2C5F4E6AD195}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Home/Mediacenter/Events/2019/Event1
+parent: {08911FEB-8C65-40A1-B0D1-CC62EFEFEDA9}
+name: Event1
+master: {00000000-0000-0000-0000-000000000000}
+template: {AA1DC073-7B89-4945-A520-D5313AC3BC6C}
+templatekey: Event Page
+created: 20190427T123048Z
+
+----field----
+field: {8E7F0ABD-113A-4653-B769-00518DE8283D}
+name: Categories
+key: categories
+content-length: 38
+
+{AB07777D-AD94-4C49-A1C6-A1745971BB7D}
+----field----
+field: {CF42E222-73D6-460B-81EE-02DD95643CC0}
+name: Date
+key: date
+content-length: 16
+
+20190427T000000Z
+----field----
+field: {6D0A86EF-D757-4860-80F8-A79F4ECFDCC9}
+name: Amenities
+key: amenities
+content-length: 155
+
+{595FB246-4D11-43C8-88BA-ADC6AF81CF7B}|{BB4FDB23-404C-4980-99F3-1634D662270D}|{DD5E8B50-2AFD-4323-8F97-AC0EA99AC18C}|{C7BF35E7-5C85-457E-9B2C-184009A31D02}
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 6
+
+Event1
+----version----
+language: en
+version: 1
+revision: 4ead1d28-7f3e-4acc-9964-9c1d1b01f484
+
+----field----
+field: {2F142564-A4BB-4FA4-A366-9B78D128D9B5}
+name: Navigation URL
+key: navigation url
+content-length: 0
+
+
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{6A5D6A17-9A2F-4B6D-A724-E46312C0A9C3}" />
+----field----
+field: {0BC802F1-146C-454E-A508-E72E5A1CF61D}
+name: Content
+key: content
+content-length: 4804
+
+<p>Every home is well-finished and looks out over attractive green streetscapes or Al Alka’s open air swimming pool, enclosed in its own private courtyard, for all residents to enjoy. Every home is well-finished and looks out over attractive green streetscapes or Al Alka’s open air swimming pool, enclosed in its own private courtyard, for all residents to enjoy. Every home is well-finished and looks out over attractive green streetscapes or Al Alka’s open air swimming. ddf dcdf</p><div class="image-left-section"><img src="-/media/4d60ca463e6544af981a2ee944f9f33e.ashx" alt="Your image" class="left-img-content" /><p>Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis ptitor volutpat.</p><p>Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, ele vvv mentum id enim. Proin eget tortor risus. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia i ddd n, elementum id enim. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis ptitor volutpat.</p><p>Vivamus suscipit tortor eg cet felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut xx lacinia in, elementum id enim. Proin eget tortor risus. Sed porttitor lectus nibh. Quisque velit nisi, pretium udddt lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis ptitor volutpat.</p></div><div class="image-right-section"><img src="-/media/2ebdd54b0f434bed8a450074698e8844.ashx" alt="Your image" class="right-img-content" /><p>Vivamus suscipit tortor eget felis porttitor volutpat. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit tortor eget felis ptitor volutpat.</p></div><div><img src="-/media/6a5d6a179a2f4b6da724e46312c0a9c3.ashx" alt="alt" class="full-image" /></div><h2>Heading 2</h2><h3>Heading 3</h3><p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</p><ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.ccccc</li><li>Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Donec rutrum congue leo eget malesuada.</li><li>Nulla porttitor accumsan tincidunt.</li></ul><p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</p><ol><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li>Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Donec rutrum congue leo eget malesuada.</li><li>Nulla porttitor accumsan tincidunt. dd&nbsp;</li></ol><div class="table-responsive"><table class="table table-bordered custom-style">                            <thead>                                <tr>                                    <th scope="col">Column 1</th>                                    <th scope="col">Column 2</th>                                    <th scope="col">Column 3</th>                                    <th scope="col">Column 4</th>                                    <th scope="col">Column 5</th>                                </tr>                            </thead>                            <tbody>                                <tr>                                    <th>Value 1</th>                                    <td></td>                                    <td></td>                                    <td></td>                                    <td></td>                                </tr>                                <tr>                                    <th>Value 2</th>                                    <td></td>                                    <td></td>                                    <td></td>                                    <td></td>                                </tr>                            </tbody>                        </table></div>
+----field----
+field: {FA9B731E-69DB-454A-86DB-E1AAC4DF739C}
+name: Faqs
+key: faqs
+content-length: 116
+
+{865F7713-172F-4D46-922D-63862C79B023}|{3425535F-0B63-426F-AE0E-12DBBA319374}|{64C9F581-4BE0-4B89-923F-450E042DEEB2}
+----field----
+field: {9E0362E2-325D-4DD1-8559-188DED2F6380}
+name: Related Pages
+key: related pages
+content-length: 116
+
+{6D90E52D-0B8E-4893-8D1A-E9822E9941F2}|{566D1178-7612-494A-AA11-42809C97C406}|{B4212038-CA0C-4E79-871B-04498C5CC2CF}
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 70
+
+Curabitur arcu erat, accumsan haujiloyt aust, aclositer 2019--> Event1
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 6
+
+Event1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190427T123048Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4ead1d28-7f3e-4acc-9964-9c1d1b01f484
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T082647Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

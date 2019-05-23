@@ -1,0 +1,61 @@
+﻿@model  EMAAR.Emaarcommunities.Feature.Navigation.Interface.ILeftNavigation
+@if (Model != null && Model.CurrentNavigationItem != null && Model.ParentNavigationItem != null)
+{
+    <div class="mobileAccordionHolder">
+        <span class="placehold"></span>
+    </div>
+    <div class="sideNavigation">
+        <ul>
+            @if (Model.ParentNavigationItem.Children.Count() > 0 && Model.ParentNavigationItem.Include_In_Left_Navigation)
+            {
+                //By default the left navigation heading is not clickable , but it is decided based on the selection of field from sitecore "Is Left Navigation Root Clicakable"
+                if (Model.ParentNavigationItem.Is_Left_Navigation_Root_Clickable)
+                {
+                    //Getting Title  item
+                    if (Model.ParentNavigationItem.ContextItem != null)
+                    {
+                        <li>
+                            @{ //If there is no Title field then don not show the link in Left navigation
+                                if (!String.IsNullOrEmpty(Model.ParentNavigationItem.NavigationTitle) || !String.IsNullOrEmpty(Model.ParentNavigationItem.PageTitle))
+                                {
+                                    <a href="@Model.ParentNavigationItem.Url">
+                                        @Html.Raw(!String.IsNullOrEmpty(Model.ParentNavigationItem.NavigationTitle) ? Model.ParentNavigationItem.NavigationTitle : Model.ParentNavigationItem.PageTitle)
+
+                                    </a>
+                                }
+                            }
+                        </li>
+                    }
+                }
+                else
+                {
+                    <li><a>    @Html.Raw(!String.IsNullOrEmpty(Model.ParentNavigationItem.NavigationTitle) ? Model.ParentNavigationItem.NavigationTitle : Model.ParentNavigationItem.PageTitle)</a></li>
+                }
+
+                foreach (var nav in Model.ParentNavigationItem.Children.ToList())
+                {
+                    if (nav.Include_In_Left_Navigation)
+                    {
+                        //If context item is a child item then make active class
+                        if (nav.ContextItem != null)
+                        {
+                            <li class="@(Model.CurrentNavigationItem.Id == nav.Id ? "active" : String.Empty)">
+
+                                @{ //If there is no Title field then don not show the link in Left navigation
+                                    if (!String.IsNullOrEmpty(nav.NavigationTitle) || !String.IsNullOrEmpty(nav.PageTitle))
+                                    {
+                                        <a href="@nav.Url">
+                                            @Html.Raw(!String.IsNullOrEmpty(nav.NavigationTitle) ? nav.NavigationTitle : nav.PageTitle)
+
+                                        </a>
+                                    }
+                                }
+                            </li>
+                        }
+                    }
+                }
+            }
+        </ul>
+    </div>
+
+}

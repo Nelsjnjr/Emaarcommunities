@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {614EB08E-07F1-4174-A569-C762B0F8E710}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Site Content/Page Datasources/Homepage carousels/Exploring the neighborhood
+parent: {CE4A12C0-4284-4AB7-9BFA-5AA8C10F3B27}
+name: Exploring the neighborhood
+master: {00000000-0000-0000-0000-000000000000}
+template: {82FE2EE5-75C5-4959-8BA0-5BFD5F29E2F5}
+templatekey: Homepage carousels
+created: 20190314T121450Z
+
+----version----
+language: en
+version: 1
+revision: ad268353-1566-4f16-89e1-7070a7e2fb55
+
+----field----
+field: {43AE9FAF-4548-4DF9-B505-C6928EA48B3D}
+name: Title
+key: title
+content-length: 26
+
+Exploring the neighborhood
+----field----
+field: {96C03C76-A871-4ACF-91F6-21A3E49A8E32}
+name: Carousels
+key: carousels
+content-length: 194
+
+{C23A1C62-693E-42E7-AB15-28F089D7F787}|{4B8D3F56-1CAE-4D76-8FEE-AD2CD4219472}|{FC5C34B0-7ADB-4476-AF69-96C1883EF937}|{393F7419-1028-48D8-878B-EB4C56677D2B}|{62199104-C6F7-4D73-862A-94B6656C1B53}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190314T121450Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ad268353-1566-4f16-89e1-7070a7e2fb55
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190410T075035Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

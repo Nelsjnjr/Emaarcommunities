@@ -1,0 +1,159 @@
+----item----
+version: 1
+id: {7F56F4CD-C537-438E-8512-E367DAEF3185}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Home/Discover/Amenities/The Dubai Fountain Lake Ride
+parent: {EA27F5D2-C113-433B-932C-16C9E4589D80}
+name: The Dubai Fountain Lake Ride
+master: {00000000-0000-0000-0000-000000000000}
+template: {4FB05EC1-985E-46D3-A95B-A851FF0BE873}
+templatekey: Generic ContentPage
+created: 20190508T111618Z
+
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 28
+
+The Dubai Fountain Lake Ride
+----version----
+language: en
+version: 1
+revision: 439c3465-61db-4611-aa5a-5e4658480766
+
+----field----
+field: {55768EBD-52C4-4340-9471-2C948D429BCF}
+name: Introduction
+key: introduction
+content-length: 74
+
+Take in spectacular views of The Dubai Fountain from a unique perspective.
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{53555993-BB2A-4FAD-A18D-EBB1CCF47F9C}" />
+----field----
+field: {0BC802F1-146C-454E-A508-E72E5A1CF61D}
+name: Content
+key: content
+content-length: 830
+
+<p>Set sail on a traditional Abra for an ultimate ride on the Burj Lake, home to the world’s largest performing fountain.Operational daily between 5:45pm to 11:30pm, The Dubai Fountain Lake Ride offers you front row seats to the best water show in town.</p><h3>Bonus: The Dubai Fountain Boardwalk</h3><p>A brand-new floating platform located within the The Dubai Fountain, The Boardwalk allows you to get closer than ever, giving you a whole new perspective of the captivating performances.You can start their journey from Burj Park or the Fountain Promenade and stroll down the 272-metre boardwalk, with the closest point putting you only 9 metres away from the fountains!</p><p><strong>Hop on today! Visit <a href="http://www.tickets.atthetop.ae/atthetop/en-us/booktickets/index/8">At The Top</a> to book your ride.</strong></p>
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 28
+
+The Dubai Fountain Lake Ride
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 28
+
+The Dubai Fountain Lake Ride
+----field----
+field: {8097066D-26C3-44B9-8527-551A2CBB5A84}
+name: Meta Title
+key: meta title
+content-length: 55
+
+The Dubai Fountain | Downtown Dubai Experiences | Emaar
+----field----
+field: {DACE23AF-D8B3-48F1-94E7-9AE3EE07CB35}
+name: Meta Keywords
+key: meta keywords
+content-length: 52
+
+The Dubai Fountain, Lake ride, The Dubai Mall, Emaar
+----field----
+field: {8453AF30-1477-46FB-8094-BD5FDE72C89A}
+name: Meta Description
+key: meta description
+content-length: 186
+
+Front Row Seats to The Dubai Fountain. Sail Past Towering Pillars of Water, Lights and Music on Burj Lake. Stroll down the 272-metre Boardwalk - Get 9 Metres Close to the Fountains! 
+
+
+----field----
+field: {4F39872D-258B-45B8-926B-6297E2DC7CD4}
+name: og title
+key: og title
+content-length: 55
+
+The Dubai Fountain | Downtown Dubai Experiences | Emaar
+----field----
+field: {89F0FE3C-744E-416C-B216-340E05F86EAC}
+name: og description
+key: og description
+content-length: 181
+
+Front Row Seats to The Dubai Fountain. Sail Past Towering Pillars of Water, Lights and Music on Burj Lake. Stroll down the 272-metre Boardwalk - get 9 Metres Close to the Fountains!
+----field----
+field: {B41E43E9-8AB5-4A00-B76B-1664C7161F82}
+name: og site_name
+key: og site_name
+content-length: 14
+
+Downtown Dubai
+----field----
+field: {CD25BC97-065E-4F79-B991-7C515DEDAB45}
+name: og url
+key: og url
+content-length: 46
+
+www.downtowndubai.com/TheDubaiFountainLakeRide
+----field----
+field: {E4395580-B216-41E6-AD1F-8EC542DE11D6}
+name: twiiter title
+key: twiiter title
+content-length: 28
+
+The Dubai Fountain Lake Ride
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190508T111619Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+439c3465-61db-4611-aa5a-5e4658480766
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T083123Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

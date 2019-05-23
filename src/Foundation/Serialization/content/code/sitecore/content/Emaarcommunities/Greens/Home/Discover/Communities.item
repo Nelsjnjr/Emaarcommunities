@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {B4409D0F-5174-43FB-934F-26EFA57D6B15}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Home/Discover/Communities
+parent: {D16F2D5F-EB57-4952-85B9-8ADFA445BE6C}
+name: Communities
+master: {00000000-0000-0000-0000-000000000000}
+template: {4FB05EC1-985E-46D3-A95B-A851FF0BE873}
+templatekey: Generic ContentPage
+created: 20190501T132118Z
+
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 11
+
+Communities
+----version----
+language: en
+version: 1
+revision: 25bb3a3e-c97c-4e58-90ba-ceb3ef4aa8f7
+
+----field----
+field: {55768EBD-52C4-4340-9471-2C948D429BCF}
+name: Introduction
+key: introduction
+content-length: 22
+
+This is community page
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{6A5D6A17-9A2F-4B6D-A724-E46312C0A9C3}" />
+----field----
+field: {0BC802F1-146C-454E-A508-E72E5A1CF61D}
+name: Content
+key: content
+content-length: 3824
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><div class="image-left-section"><img src="-/media/4d60ca463e6544af981a2ee944f9f33e.ashx" alt="Your image" class="left-img-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p></div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><h1>Heading 1</h1><h2>HEading 2</h2><ol><li>this is bulletlist1</li><li>bulletlist2</li></ol><ul><li>bullet list1</li><li>bullet list2</li></ul><div><img src="-/media/6a5d6a179a2f4b6da724e46312c0a9c3.ashx" alt="alt" class="full-image"></div><div class="table-responsive"><table class="table table-bordered custom-style">                            <thead>                                <tr>                                    <th scope="col">Column 1</th>                                    <th scope="col">Column 2</th>                                    <th scope="col">Column 3</th>                                    <th scope="col">Column 4</th>                                    <th scope="col">Column 5</th>                                </tr>                            </thead>                            <tbody>                                <tr>                                    <th>Value 1</th>                                    <td>test</td>                                    <td>test</td>                                    <td>test</td>                                    <td>test</td>                                </tr>                                <tr>                                    <th>Value 2</th>                                    <td>test</td>                                    <td>test</td>                                    <td></td>                                    <td></td>                                </tr>                            </tbody>                        </table></div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><div class="image-right-section"><img src="-/media/2ebdd54b0f434bed8a450074698e8844.ashx" alt="Your image" class="right-img-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p></div>
+----field----
+field: {FA9B731E-69DB-454A-86DB-E1AAC4DF739C}
+name: Faqs
+key: faqs
+content-length: 77
+
+{64C9F581-4BE0-4B89-923F-450E042DEEB2}|{3425535F-0B63-426F-AE0E-12DBBA319374}
+----field----
+field: {9E0362E2-325D-4DD1-8559-188DED2F6380}
+name: Related Pages
+key: related pages
+content-length: 77
+
+{6D90E52D-0B8E-4893-8D1A-E9822E9941F2}|{566D1178-7612-494A-AA11-42809C97C406}
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 11
+
+Communities
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 11
+
+Communities
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190418T062421Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25bb3a3e-c97c-4e58-90ba-ceb3ef4aa8f7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T083114Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {9182E68F-50BA-469D-9B02-D220B99C59D6}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Home/Mediacenter/Video Gallery
+parent: {D996D8D6-69D8-43DD-92DA-4DEBD66411B4}
+name: Video Gallery
+master: {00000000-0000-0000-0000-000000000000}
+template: {2C088140-3A80-4CB7-9E80-198AFCB01574}
+templatekey: Video Album Without Filters
+created: 20190501T132124Z
+
+----field----
+field: {4B7178EA-4352-4D1F-A98F-81FEB23895AF}
+name: Categories
+key: categories
+content-length: 38
+
+{A2A716CC-AFC8-408A-A1A2-B8C9EF928B28}
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 13
+
+Video Gallery
+----version----
+language: en
+version: 1
+revision: e6b2dd36-80f4-4e3c-aa66-e1c0d9cdb002
+
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 13
+
+Video Gallery
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 13
+
+Video Gallery
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190411T072210Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e6b2dd36-80f4-4e3c-aa66-e1c0d9cdb002
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T083132Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

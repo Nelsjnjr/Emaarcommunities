@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {683F0C4E-BD4B-4FEF-9DBB-703619380125}
+database: master
+path: /sitecore/templates/Foundation/ECM/Content Types/_Navigation/Navigation
+parent: {3F106CE8-3E4D-4649-B1C2-8DD7F13CF266}
+name: Navigation
+master: {00000000-0000-0000-0000-000000000000}
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
+created: 20190324T124428Z
+
+----version----
+language: en
+version: 1
+revision: 6889216a-7b28-4857-8f69-799a95042ba4
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190324T124428Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6889216a-7b28-4857-8f69-799a95042ba4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190324T124428Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

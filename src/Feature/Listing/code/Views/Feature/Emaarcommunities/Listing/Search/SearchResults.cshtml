@@ -1,0 +1,45 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Page_Types.ISearchPage
+@using Glass.Mapper.Sc.Web.Mvc
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div id="templateInitializor" data-service-url="/api/sitecore/listing/GetSearchJSON" data-page-size="@Model.No_Of_Records" data-error-message="@Model.Error_Message">
+                <div class="search-section">
+                    <div class="section-header">
+                    </div>
+                    <script id="search-header" type="text/x-handlebars-template">
+                        <h1 class="heading">@Html.Glass().Editable(Model, x => x.Title)</h1>
+                    </script>
+                    <div class="search-field-box">
+                        <form id="searchBox">
+                            <input type="text" name="q" autocomplete="off" class="input-field" placeholder="@Sitecore.Globalization.Translate.Text(CommonConstants.SearchWatermarkText)" value="@Request.QueryString["q"]">
+                            <input type="submit" class="submit" value="submit">
+                        </form>
+                    </div>
+                    <div class="searchresult">
+                        <div id="filter-template-result">
+                            <!-- template generate -->
+                        </div>
+                        <script id="gallery-template" type="text/x-handlebars-template">
+                            <div class="search-data">
+                                <a href="{{pageUrl}}"><h4 class="title">{{{title}}}</a>
+                                <p>{{{description}}}</p>
+                            </div>
+                        </script>
+                        <script id="error-template" type="text/x-handlebars-template">
+                            <div class="error-message">
+                                {{this}}
+                            </div>
+                        </script>
+
+                        <div class="lm-btn-wrap">
+                            <a href="javascript:;" class="btn btn-loadmore loadmore" data-pagenumber="0">@Html.Glass().Editable(Model, x => x.Load_More_Label)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

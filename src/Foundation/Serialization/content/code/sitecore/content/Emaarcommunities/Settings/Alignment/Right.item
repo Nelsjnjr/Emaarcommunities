@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {0E13870A-48E1-4C66-9AA7-E2BBDF7F4F7A}
+database: master
+path: /sitecore/content/Emaarcommunities/Settings/Alignment/Right
+parent: {49D0219B-BFD2-4AF8-9E89-EDD7CD1C2855}
+name: Right
+master: {00000000-0000-0000-0000-000000000000}
+template: {CA138DC3-9C6D-42F5-8424-5F7C4C2E6BAB}
+templatekey: Settings
+created: 20190410T122851Z
+
+----version----
+language: en
+version: 1
+revision: 25d28b0c-f700-4ca3-b8ec-8c47af5140c1
+
+----field----
+field: {74950B52-2701-4909-82D1-325DC9297E87}
+name: Key
+key: key
+content-length: 5
+
+Right
+----field----
+field: {34B856F1-4932-49DC-ADAB-90C37866C0B2}
+name: Value
+key: value
+content-length: 5
+
+Right
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190410T070132Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25d28b0c-f700-4ca3-b8ec-8c47af5140c1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190410T070311Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

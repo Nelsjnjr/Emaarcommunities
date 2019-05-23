@@ -1,0 +1,66 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Content_Types.Hero.IHero
+@using Glass.Mapper.Sc.Web.Mvc
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions.Settings
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@using Glass.Mapper.Sc
+@using Sitecore.Data.Fields;
+@using Sitecore.Framework.Helper
+<!-- mainLayout starts here -->
+@{
+    if(Model ==null)
+    {
+        return;
+    }
+    //Spilting wxh(Ex: 300x900)
+    var pixel = SitecoreSettings.HeroImagepixel.ToLower().Split('x');
+    ImageField imageField = Model.ContextItem.Fields[CommonConstants.HeroImage];
+    string heroimage = String.Empty;
+    string mobheroimage = String.Empty;
+    if (!imageField.MediaID.IsNull)
+    {
+        heroimage = AdvancedImageHelper.GetImageFieldUrl(Model.ContextItem, CommonConstants.HeroImage, System.Convert.ToInt32(pixel[0]), System.Convert.ToInt32(pixel[1]));
+        //TODO:Mobile in HEro
+        mobheroimage = Model.Mobile_Hero_Image != null ? Model.Mobile_Hero_Image.Src : String.Empty;
+    }
+}
+
+@using (Html.BeginEditFrame(Model.FullPath, CommonConstants.FullBannerImage, CommonConstants.WebEditExperinceEditorImageEditingText))
+{
+    <section id="mainLayout">
+        <div style="background:url(@heroimage) no-repeat center center" class="sectionImage"></div>
+        <div style="background:url(@mobheroimage) no-repeat center center" class="sectionImageMobile"></div>
+        <div class="container">
+            <div class="contentBox">
+                <h1 class="sectionTitle wow fadeInUp">    @Html.Glass().Editable(Model, x => x.Title)</h1>
+                <!-- sectionTitle ends here  -->
+                <ul class="siteStats wow fadeInUp">
+                    @foreach (var item in Model.Statistics)
+                    {
+                        if (!Sitecore.Context.PageMode.IsExperienceEditor)
+                        {
+                            <li>
+                                <span class="timer count-number" data-to="@Html.Glass().Editable(item, x => x.Count)" data-speed="1500"><!-- 79 --></span>
+                                @Html.Glass().Editable(item, x => x.Title)
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <span>@Html.Glass().Editable(item, x => x.Count)<!-- 79 --></span>
+                                @Html.Glass().Editable(item, x => x.Title)
+                            </li>
+                        }
+
+                    }
+                </ul>
+                <!-- siteStats ends here -->
+            </div>
+        </div>
+        <a href="javascript:;" class="scrollIndicator">
+            <img src="@String.Format("{0}{1}",SitecoreSettings.IconRootPath,"scroll-down.svg")" alt="scrolldown">
+            @Sitecore.Globalization.Translate.Text(CommonConstants.ScrollDown)
+
+        </a>
+    </section>
+}
+<!-- mainLayout ends here -->

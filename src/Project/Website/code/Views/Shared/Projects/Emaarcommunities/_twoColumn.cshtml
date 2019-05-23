@@ -1,0 +1,11 @@
+﻿@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            @Html.Sitecore().Placeholder("ecm_leftnav")
+        </div>
+        <div class="@(CommonConstants.SitemapPageTemplateID==Sitecore.Context.Item.TemplateID.ToString()?"col-md-8 offset-md-2":"col-md-8")">
+            @Html.Sitecore().Placeholder("ecm_bodycontent")
+        </div>
+    </div>
+</div>

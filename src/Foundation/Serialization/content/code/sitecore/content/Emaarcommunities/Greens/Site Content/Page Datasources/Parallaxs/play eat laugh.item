@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {81A90BA4-9CDA-459A-88F2-FC18C0F50717}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Page Datasources/Parallaxs/play eat laugh
+parent: {3A0E0C23-ED11-4BF2-B4CB-05A3EED37A9B}
+name: play eat laugh
+master: {00000000-0000-0000-0000-000000000000}
+template: {6A9F0D09-6D4F-4814-8DEA-6054718A5CAC}
+templatekey: Parallax
+created: 20190501T132128Z
+
+----version----
+language: en
+version: 1
+revision: a0333cd2-16c6-4efc-8c5f-83833a9fa946
+
+----field----
+field: {CD52C386-4EBE-4916-85B9-7128D2028100}
+name: Button
+key: button
+content-length: 178
+
+<link id="{3438D58F-E377-446C-840C-8C0732EB0CEC}" querystring="" text="" anchor="" url="/Emaarcommunities/Greens/Home/Lifestyle/Overview" title="" class="" linktype="internal" />
+----field----
+field: {15B53931-2B97-438A-9254-06F70A60F952}
+name: Button Text
+key: button text
+content-length: 9
+
+Read more
+----field----
+field: {CDDD22F9-558A-4E98-A614-53C5E090FB96}
+name: Title
+key: title
+content-length: 27
+
+Play. Eat. Laugh. Together.
+----field----
+field: {86EF63D0-7E10-4DF7-80A7-28DF2D6BA18F}
+name: Summary
+key: summary
+content-length: 146
+
+Make most of the Dubai summer like none other. Get your sunscreen, grab your floats and sink in to these indulgences right here in your community.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190312T053720Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a0333cd2-16c6-4efc-8c5f-83833a9fa946
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190521T051512Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

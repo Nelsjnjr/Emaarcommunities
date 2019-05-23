@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {D0A1B807-FEA6-462B-B182-D9D0D54DADA0}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Navigation/Get in touch/We Care
+parent: {EFC7B1B4-78BF-4B37-8500-96E83257AB74}
+name: We Care
+master: {00000000-0000-0000-0000-000000000000}
+template: {29B114B8-EB5B-4E78-8DB7-FF419CEBE66D}
+templatekey: FooterContact
+created: 20190501T132134Z
+
+----version----
+language: en
+version: 1
+revision: a4365afe-d81f-4ad5-9461-6fd0beee7011
+
+----field----
+field: {8C21DA68-3647-4B11-AE50-F456692E678E}
+name: Title
+key: title
+content-length: 7
+
+We Care
+----field----
+field: {0A8939EA-CD6E-46C0-A61D-9489B4F660EA}
+name: LinkUrl
+key: linkurl
+content-length: 176
+
+<link text="We Care" linktype="external" url="https://wecare.emaar.com/NewHome.aspx?type=1&amp;from=vKteIARjY%2baJ2b6JsyhkZiLs7M%2b5KD0y%2fXUow0DFmQ0%3d" anchor="" target="" />
+----field----
+field: {DDEB70AE-536A-492A-9635-B363EDA13056}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{F799BC33-65B6-4AA4-BD93-186C73D58500}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190328T120417Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a4365afe-d81f-4ad5-9461-6fd0beee7011
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190508T123339Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 12
+
+sitecore\cat

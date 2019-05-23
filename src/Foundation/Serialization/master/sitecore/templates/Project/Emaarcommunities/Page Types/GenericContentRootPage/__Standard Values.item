@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {ADEF0A6C-E314-45A5-9E5F-C2E966F0FACC}
+database: master
+path: /sitecore/templates/Project/Emaarcommunities/Page Types/GenericContentRootPage/__Standard Values
+parent: {27B693EF-6229-4377-8FE9-FCF75D786007}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {27B693EF-6229-4377-8FE9-FCF75D786007}
+templatekey: GenericContentRootPage
+created: 20190417T055009Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{4FB05EC1-985E-46D3-A95B-A851FF0BE873}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 722
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B255404C-4183-4E11-BC30-74E4D4595BEC}"><r id="{28B71257-87C8-4F1F-B89C-1ED3B10C308C}" ph="ecm_content" uid="{2CD30647-EF67-40C3-AB31-607A5BD82B57}" /><r ds="" id="{00E5BEDC-930A-4E3C-BEB8-0901394E4040}" par="" ph="ecm_header" uid="{DA4C6702-2D80-49FD-A6E5-56AA1E7449ED}" /><r id="{597CAEAE-E891-4070-9C3F-CE6EF8F27B6F}" ph="ecm_leftnav" uid="{3AFEE0E4-C231-47BD-ADFE-CDD158F82287}" /><r id="{0B762C67-B738-4E9F-9DCE-3B6A1DD97541}" ph="ecm_seo" uid="{9EB03F88-4112-4125-8F84-361D4D35321C}" /><r ds="" id="{E77F7584-4498-4F34-84EB-E1C0E05DC042}" par="" ph="ecm_footer" uid="{5A4F1684-CDD2-4362-8A24-27FC91859AD8}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 1a0b9724-395c-4563-abe8-f2fb13e7059e
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190417T055009Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1a0b9724-395c-4563-abe8-f2fb13e7059e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190423T064930Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

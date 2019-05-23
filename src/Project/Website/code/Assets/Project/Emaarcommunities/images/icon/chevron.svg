@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="24px" viewBox="0 0 44 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>chevron</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-Mobile-submenu" transform="translate(-985.000000, -384.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="chevron" transform="translate(985.000000, 384.000000)">
+                <path d="M43.3776683,0.463768116 C42.7736276,-0.154589372 41.7920616,-0.154589372 41.188021,0.463768116 L21.9342256,20.2125604 L2.64267779,0.463768116 C2.03863715,-0.154589372 1.05707112,-0.154589372 0.453030478,0.463768116 C-0.151010159,1.0821256 -0.151010159,2.08695652 0.453030478,2.70531401 L20.8016495,23.5362319 C21.1036698,23.8454106 21.4811952,24 21.8964731,24 C22.2739985,24 22.6892764,23.8454106 22.9912968,23.5362319 L43.3399157,2.70531401 C43.9817089,2.08695652 43.9817089,1.0821256 43.3776683,0.463768116 Z" id="Shape-Copy-3" transform="translate(21.913043, 12.000000) rotate(-360.000000) translate(-21.913043, -12.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

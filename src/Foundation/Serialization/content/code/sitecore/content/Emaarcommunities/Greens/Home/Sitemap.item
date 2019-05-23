@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {A29D1071-95B9-453A-A771-00DBCF121020}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Home/Sitemap
+parent: {7CE60314-44F1-40D6-9FE9-255C21A3499F}
+name: Sitemap
+master: {00000000-0000-0000-0000-000000000000}
+template: {C814585C-A8DD-415A-BBAF-7412363CCF93}
+templatekey: SitemapPage
+created: 20190520T115931Z
+
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 7
+
+Sitemap
+----version----
+language: en
+version: 1
+revision: d6fae4e9-e89f-4db0-9831-3f4ab37ec98d
+
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 7
+
+Sitemap
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 7
+
+Sitemap
+----field----
+field: {8097066D-26C3-44B9-8527-551A2CBB5A84}
+name: Meta Title
+key: meta title
+content-length: 7
+
+Sitemap
+----field----
+field: {4F39872D-258B-45B8-926B-6297E2DC7CD4}
+name: og title
+key: og title
+content-length: 7
+
+Sitemap
+----field----
+field: {E4395580-B216-41E6-AD1F-8EC542DE11D6}
+name: twiiter title
+key: twiiter title
+content-length: 7
+
+Sitemap
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\Cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190520T115932Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\Cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d6fae4e9-e89f-4db0-9831-3f4ab37ec98d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T115932Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 12
+
+sitecore\Cat

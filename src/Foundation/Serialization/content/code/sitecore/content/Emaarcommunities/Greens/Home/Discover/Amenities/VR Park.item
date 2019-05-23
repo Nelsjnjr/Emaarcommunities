@@ -1,0 +1,159 @@
+----item----
+version: 1
+id: {8AF661C7-2186-4A8B-BC3E-1952C0C78231}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Home/Discover/Amenities/VR Park
+parent: {EA27F5D2-C113-433B-932C-16C9E4589D80}
+name: VR Park
+master: {00000000-0000-0000-0000-000000000000}
+template: {4FB05EC1-985E-46D3-A95B-A851FF0BE873}
+templatekey: Generic ContentPage
+created: 20190507T064407Z
+
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 7
+
+VR Park
+----version----
+language: en
+version: 1
+revision: 443d5b6a-7d7a-484d-ac3e-f49cc4f2daa6
+
+----field----
+field: {55768EBD-52C4-4340-9471-2C948D429BCF}
+name: Introduction
+key: introduction
+content-length: 56
+
+Push the limits of reality in an alternate universe.
+
+
+----field----
+field: {82677F75-244E-42A8-BCB4-48993767346E}
+name: Banner
+key: banner
+content-length: 58
+
+<image mediaid="{98BC5F53-A2EA-444C-8B3A-7DEE169820BF}" />
+----field----
+field: {0BC802F1-146C-454E-A508-E72E5A1CF61D}
+name: Content
+key: content
+content-length: 1094
+
+<p>A first-of-its-kind attraction for the Middle East, VR Park is centered on the concept of ‘shared escapism’, with an unprecedented breadth of games to suit all ages. VR Park offers attractions to suit all ages and interests, including adrenalin, horror, tranquility and more.Blow your mind with over 20 virtual experiences such as:</p><ul><li><strong>Dune Bash</strong>: Hop in your futuristic SUV and blitz through a desert infested with monstrous creatures.</li><li><strong>Hologate</strong>: Team up with your friends and explore a fascinating world crawling with dragons and zombies.</li><li><strong>VR Maze</strong>: Find your way in a maze brimming with the unexpected.</li><li><strong>Drifters</strong>: Take your family on bumper cars adventure as you slide around in the region's first drifting bumper cars.</li><li><strong>Payday</strong>: Live a Hollywood fantasy as you stage a Washington DC bank heist with your friends.</li></ul><p><strong>&nbsp;</strong></p><p><strong>Visit <a href="http://www.vrparkdubai.com">www.vrparkdubai.com</a> to book your tickets today!</strong></p>
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 7
+
+VR Park
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 7
+
+VR Park
+----field----
+field: {8097066D-26C3-44B9-8527-551A2CBB5A84}
+name: Meta Title
+key: meta title
+content-length: 44
+
+VR Park | Downtown Dubai Experiences | Emaar
+----field----
+field: {DACE23AF-D8B3-48F1-94E7-9AE3EE07CB35}
+name: Meta Keywords
+key: meta keywords
+content-length: 46
+
+VR Park, The Dubai Mall, Downtown Dubai, Emaar
+----field----
+field: {8453AF30-1477-46FB-8094-BD5FDE72C89A}
+name: Meta Description
+key: meta description
+content-length: 133
+
+Fight Monsters. Escape the Maze. Journey New Worlds. Visit VR Park and Defy Reality - Over 20 Virtual Adventures, Games for all ages.
+----field----
+field: {4F39872D-258B-45B8-926B-6297E2DC7CD4}
+name: og title
+key: og title
+content-length: 44
+
+VR Park | Downtown Dubai Experiences | Emaar
+----field----
+field: {89F0FE3C-744E-416C-B216-340E05F86EAC}
+name: og description
+key: og description
+content-length: 133
+
+Fight Monsters. Escape the Maze. Journey New Worlds. Visit VR Park and Defy Reality - Over 20 Virtual Adventures, Games for all ages.
+----field----
+field: {B41E43E9-8AB5-4A00-B76B-1664C7161F82}
+name: og site_name
+key: og site_name
+content-length: 14
+
+Downtown Dubai
+----field----
+field: {CD25BC97-065E-4F79-B991-7C515DEDAB45}
+name: og url
+key: og url
+content-length: 28
+
+www.downtowndubai.com/VRPark
+----field----
+field: {E4395580-B216-41E6-AD1F-8EC542DE11D6}
+name: twiiter title
+key: twiiter title
+content-length: 7
+
+VR Park
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190507T064407Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+443d5b6a-7d7a-484d-ac3e-f49cc4f2daa6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T083123Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

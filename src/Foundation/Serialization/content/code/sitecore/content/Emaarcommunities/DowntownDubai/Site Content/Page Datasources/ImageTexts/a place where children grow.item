@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {D14EE714-2DF9-4ADD-A991-A75F99E485DB}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Site Content/Page Datasources/ImageTexts/a place where children grow
+parent: {26517E48-96C5-4B17-B644-A9E62EFA4EB1}
+name: a place where children grow
+master: {00000000-0000-0000-0000-000000000000}
+template: {86217B8B-D63D-48F5-932C-CC46442B8243}
+templatekey: ImageText
+created: 20190312T053600Z
+
+----version----
+language: en
+version: 1
+revision: 50a5fa4b-f46a-40dd-a058-9d6e04174465
+
+----field----
+field: {31A2756E-9000-42E0-8F4C-D636C8B03849}
+name: Image Text Alignment
+key: image text alignment
+content-length: 38
+
+{9490C8D3-7932-4501-8553-0C80CAF749A6}
+----field----
+field: {CD52C386-4EBE-4916-85B9-7128D2028100}
+name: Button
+key: button
+content-length: 174
+
+<link id="{34853065-F482-4073-9AE0-73E2E2FBFEF3}" querystring="" linktype="internal" text="descript" anchor="" url="/Emaarcommunities" title="apply now" class="" target="" />
+----field----
+field: {15B53931-2B97-438A-9254-06F70A60F952}
+name: Button Text
+key: button text
+content-length: 9
+
+Apply now
+----field----
+field: {CDDD22F9-558A-4E98-A614-53C5E090FB96}
+name: Title
+key: title
+content-length: 75
+
+A place where children grow and learn at an important stage of their lives.
+----field----
+field: {86EF63D0-7E10-4DF7-80A7-28DF2D6BA18F}
+name: Summary
+key: summary
+content-length: 250
+
+Where children feel safe and secure, and where parents can take comfort in knowing that their children are receiving the highest level of care with a team of childcare professionals and experts in both child development and early childhood education.
+----field----
+field: {F4ED4C87-EC37-4DBF-8BC6-3771286D2646}
+name: Image
+key: image
+content-length: 132
+
+<image mediaid="{BE41F0E1-0D8D-49F1-AE27-DA3EBA404182}" cropx="0.66" cropy="0.79" focusx="0.32380948747907357" focusy="-0.578125" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190312T053600Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+50a5fa4b-f46a-40dd-a058-9d6e04174465
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190522T074945Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

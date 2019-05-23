@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {2820F84E-C50C-422C-AFF8-08050DFE74AE}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Site Content/Categories/Download Categories/Download Category1
+parent: {8080C888-0D30-4803-AF5F-1A02FC6C2891}
+name: Download Category1
+master: {00000000-0000-0000-0000-000000000000}
+template: {05185736-1180-445F-A35E-BAA16580190C}
+templatekey: Category Item
+created: 20190427T152754Z
+
+----version----
+language: en
+version: 1
+revision: b83581f4-5fa3-4aba-b88d-1bd4d5074270
+
+----field----
+field: {810CF7CD-8276-4FA9-9E91-379D4855EDEF}
+name: Title
+key: title
+content-length: 18
+
+Download Category1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190408T131926Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b83581f4-5fa3-4aba-b88d-1bd4d5074270
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190427T152809Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {F7A87F03-8BDE-47D6-BDF2-D587D791115A}
+database: master
+path: /sitecore/templates/Project/Emaarcommunities/Page Types/SearchPage/__Standard Values
+parent: {1E94036E-078A-4387-A541-9963D3AF9DBA}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {1E94036E-078A-4387-A541-9963D3AF9DBA}
+templatekey: SearchPage
+created: 20190509T081506Z
+
+----field----
+field: {44195A16-B523-44EF-B2FD-6304B28E16FB}
+name: No of Records
+key: no of records
+content-length: 1
+
+9
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 36
+
+Applications/32x32/document_view.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 787
+
+<r><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B255404C-4183-4E11-BC30-74E4D4595BEC}"><r ds="" id="{00E5BEDC-930A-4E3C-BEB8-0901394E4040}" par="" ph="ecm_header" uid="{6A741D4D-121C-4F08-A7CA-326C41C246EE}" /><r id="{0B762C67-B738-4E9F-9DCE-3B6A1DD97541}" ph="ecm_seo" uid="{B1767A54-FE71-4688-B625-537AC46EBFC1}" /><r id="{28B71257-87C8-4F1F-B89C-1ED3B10C308C}" ph="ecm_content" uid="{7C312381-DD1A-4C6C-AFA3-1E06CF64B5AB}" /><r id="{597CAEAE-E891-4070-9C3F-CE6EF8F27B6F}" ph="ecm_leftnav" uid="{B5364826-1990-41F0-81F9-B3140DEABA47}" /><r id="{AA6C343B-9C20-47F9-B71C-9E653F82335E}" ph="ecm_content" uid="{8FAEA353-C6C1-49D4-8816-9279F993890D}" /><r ds="" id="{E77F7584-4498-4F34-84EB-E1C0E05DC042}" par="" ph="ecm_footer" uid="{4017EC07-10C3-41BC-BC70-CBDA511B2B82}" /></d></r>
+----version----
+language: en
+version: 1
+revision: b8bca228-483d-461e-bf46-f05868cf3bfb
+
+----field----
+field: {FE683723-D22F-4A7E-A074-7E3BAB2817C4}
+name: Load More Label
+key: load more label
+content-length: 9
+
+Load More
+----field----
+field: {FD8D09C0-26C9-4C9B-BA05-8D4621A0F1F3}
+name: Error Message
+key: error message
+content-length: 10
+
+No Records
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190509T081506Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b8bca228-483d-461e-bf46-f05868cf3bfb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190509T084402Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

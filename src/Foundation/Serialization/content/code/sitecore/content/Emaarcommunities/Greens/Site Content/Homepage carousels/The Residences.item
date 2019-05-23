@@ -1,0 +1,70 @@
+----item----
+version: 1
+id: {B924670A-2C45-4983-829E-4399CEBCD40A}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Homepage carousels/The Residences
+parent: {9757BB09-2E82-4606-A907-5F2E95DAD77C}
+name: The Residences
+master: {00000000-0000-0000-0000-000000000000}
+template: {1FE16DFE-5B53-447E-BB34-D945F6DE8CD0}
+templatekey: Homepage carousel
+created: 20190501T132135Z
+
+----version----
+language: en
+version: 1
+revision: e5b815c1-9a83-4afb-88e1-8fe0f695d43c
+
+----field----
+field: {F9401C09-1121-4BB5-ABED-48BC2B29DE71}
+name: CTA
+key: cta
+content-length: 195
+
+<link id="{B9983979-83DB-4FC9-8D60-D7612C26C0B2}" querystring="" text="" anchor="" url="/Emaarcommunities/Greens/Home/Discover/Communities/The Residences" title="" class="" linktype="internal" />
+----field----
+field: {87F46FB3-8FF4-4318-BCC2-C4EBBB0C4963}
+name: Title
+key: title
+content-length: 14
+
+The Residences
+----field----
+field: {9DE3E904-B947-4547-BBF2-7983FF99FF1A}
+name: Summary
+key: summary
+content-length: 203
+
+<ul>
+    <li>Located around the Burj Lake.</li>
+    <li>Next-door to Emaar Square, Boulevard Plaza &amp; Al Saaha offices.</li>
+    <li>Features four parking levels and 24-hour security.&nbsp;</li>
+</ul>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190314T120822Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e5b815c1-9a83-4afb-88e1-8fe0f695d43c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T132107Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

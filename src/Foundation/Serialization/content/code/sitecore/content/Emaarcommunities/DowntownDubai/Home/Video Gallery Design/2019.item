@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {BE102405-8A15-4639-945A-5CF14112B3D0}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai/Home/Video Gallery Design/2019
+parent: {F36782A9-DC70-45D1-B2CF-9B23944E029B}
+name: 2019
+master: {00000000-0000-0000-0000-000000000000}
+template: {187707E8-702D-4C9D-A058-D39D62049416}
+templatekey: VideoGalleryFolder
+created: 20190425T080638Z
+
+----field----
+field: {6D6EEE6B-EDCC-4941-8BA3-4199566AD03E}
+name: Browser Title
+key: browser title
+content-length: 4
+
+2019
+----version----
+language: en
+version: 1
+revision: 963ef5f9-b7f3-4761-8b5e-c623b3d3cb7e
+
+----field----
+field: {AF055E82-A161-43EF-BC60-523C7EF01A81}
+name: Title
+key: title
+content-length: 4
+
+2019
+----field----
+field: {FEC285F7-9712-4224-97AF-D22AF1B3329E}
+name: Navigation Title
+key: navigation title
+content-length: 4
+
+2019
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190425T080638Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+963ef5f9-b7f3-4761-8b5e-c623b3d3cb7e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T082652Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser

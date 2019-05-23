@@ -1,0 +1,157 @@
+----item----
+version: 1
+id: {D19DCEB9-BE03-491E-9A68-B8A3B5944A3A}
+database: master
+path: /sitecore/content/Emaarcommunities/DowntownDubai
+parent: {34853065-F482-4073-9AE0-73E2E2FBFEF3}
+name: DowntownDubai
+master: {00000000-0000-0000-0000-000000000000}
+template: {407F6EA5-A542-4D83-9D03-B598E06D3422}
+templatekey: SiteRoot
+created: 20190311T112008Z
+
+----version----
+language: en
+version: 1
+revision: 0c289e6f-1617-44e0-9cd2-880ffdc12e34
+
+----field----
+field: {59C63C85-D835-4828-908E-0397F2C405AE}
+name: CSSFile
+key: cssfile
+content-length: 146
+
+<link target="" linktype="media" id="{E9B920BD-8D8C-461A-9A61-9F2F75745BE2}" url="/Project/Emaarcommunities/DowntownDubai/CSS/Downtowndubai-en" />
+----field----
+field: {45D89051-7992-4D9F-9979-85DD606CB56C}
+name: Brand Logo
+key: brand logo
+content-length: 58
+
+<image mediaid="{2FC16B39-3D30-473A-8028-EB239CCB76DF}" />
+----field----
+field: {63F10079-2B51-4DF1-92FE-7D4900DC738D}
+name: ContentPage BrandLogo
+key: contentpage brandlogo
+content-length: 58
+
+<image mediaid="{DAC94E00-398E-4B4F-A6D6-178CFD7FD43E}" />
+----field----
+field: {C1FCF0B0-F4D1-4866-BD3E-96FF23092858}
+name: Brand Logo Url
+key: brand logo url
+content-length: 166
+
+<link id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" querystring="" text="" anchor="" url="/Emaarcommunities/DowntownDubai/Home" title="" class="" linktype="internal" />
+----field----
+field: {59E823A8-3DA8-40BE-8799-03ACAE2A4457}
+name: Site Logo
+key: site logo
+content-length: 58
+
+<image mediaid="{BC145B74-089D-4001-AB35-FB205B8B73E3}" />
+----field----
+field: {761D2C09-0867-4684-9349-25EDF255400E}
+name: ContentPage SiteLogo
+key: contentpage sitelogo
+content-length: 58
+
+<image mediaid="{DAC94E00-398E-4B4F-A6D6-178CFD7FD43E}" />
+----field----
+field: {A241368F-8CB5-46DC-B3E3-1E9C4B29B0A6}
+name: Site Logo Url
+key: site logo url
+content-length: 166
+
+<link id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" querystring="" text="" anchor="" url="/Emaarcommunities/DowntownDubai/Home" title="" class="" linktype="internal" />
+----field----
+field: {E169167E-5F14-4F95-AF16-92FBABE99CE2}
+name: Search Page
+key: search page
+content-length: 166
+
+<link id="{DC6C08B6-7C39-47C9-AA17-D4CC585B405C}" querystring="" text="" anchor="" url="/Emaarcommunities/Greens/Home/Search" title="" class="" linktype="internal" />
+----field----
+field: {69DAF79B-946F-4ECF-BE15-6D6150080241}
+name: Login Page
+key: login page
+content-length: 176
+
+<link id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" querystring="" target="" text="" anchor="" url="/Emaarcommunities/DowntownDubai/Home" title="" class="" linktype="internal" />
+----field----
+field: {1F0AD353-B94C-4B2E-B135-DD129E1A2509}
+name: Robots File content
+key: robots file content
+content-length: 229
+
+User-agent: *
+Disallow: /sitecore
+Disallow: /content
+Disallow: /sitecore_files/
+Disallow: /sitecore modules/
+Disallow: /App_Browsers/
+Disallow: /App_config/
+Disallow: /App_Data/
+Disallow: /temp/
+Disallow: /upload/
+Disallow: /xsl/
+----field----
+field: {67C36A77-5A20-4FD3-AD59-54F50BE2D851}
+name: Pre Site scripts
+key: pre site scripts
+content-length: 133
+
+<script>
+//This is the place to add all kind of scripts that needs to added in the page for analytics /tracking/ranking etc
+</script>
+----field----
+field: {B0E24D12-34B3-4985-BE53-BDF2B3AD9711}
+name: Post Site scripts
+key: post site scripts
+content-length: 133
+
+<script>
+//This is the place to add all kind of scripts that needs to added in the page for analytics /tracking/ranking etc
+</script>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190311T112009Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0c289e6f-1617-44e0-9cd2-880ffdc12e34
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190521T051615Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

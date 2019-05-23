@@ -1,0 +1,75 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Page_Types.IEvents_Listing_Page
+@using Glass.Mapper.Sc.Web.Mvc
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@using EMAAR.Emaarcommunities.Foundation.Search.Helpers
+@{ 
+    
+    bool isfolder = Model.Parent.ContextItem.TemplateID.Equals(Sitecore.Data.ID.Parse(CommonConstants.EventsListingPageTemplateID)) ? true : false;
+    string parentItemId = isfolder ? Model.Parent.Id.ToString() : String.Empty;
+
+}
+<div class="event-section">
+    <div class="section-header">
+        <h1 class="heading">@Html.Glass().Editable(Model, x => x.Title)</h1>
+        <p>@Html.Glass().Editable(Model, x => x.Introduction)</p>
+    </div>
+    <div id="templateInitializor" data-service-url="/api/sitecore/listing/GetListingJSON" data-ItemYearName=""
+           data-page-size="@Model.No_Of_Records" data-item-id="@Model.Id" data-listParentItemId="@parentItemId" data-listItemTemplateId="@SearchHelper.FormatGuid(CommonConstants.EventsTemplateID)" data-error-message="@Model.Error_Message" data-show-filters="true">
+        <div class="selectFilters"></div>
+        <script id="filter-template" type="text/x-handlebars-template">
+            <div class="row">
+                {{#each this}}
+                <div class="col-sm-6">
+                    <div class="selectWrap pb-5">
+                        <select name="" id="{{this.filterLabel}}" class="js-example-basic-single imageGallery_year filters-support" data-label="{{this.filterLabel}}">
+                            {{#each this.filterValues}}
+                            {{#if this}}
+                            <option value="{{id}}">{{label}}</option>
+                            {{/if}}
+                            {{/each}}
+                        </select>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <div class="galleryWrap">
+            <div class="" id="filter-template-result">
+                <!-- template generate -->
+            </div>
+            <script id="gallery-template" type="text/x-handlebars-template">
+                <div class="event">
+                    {{#if pageUrl}}
+                    <a href="{{pageUrl}}" class="event-item">
+                        <div class="datesec">
+                            <span class="date">{{date}}</span>
+                            <span class="day">{{month}}</span>
+                        </div>
+                        <div class="descSec">
+                            <p class="title">{{title}}</p>
+                        </div>
+                    </a>
+                    {{else}}
+                    <a href="javascript:;" class="event-item">
+                        <div class="datesec">
+                            <span class="date">{{date}}</span>
+                            <span class="day">{{month}}</span>
+                        </div>
+                        <div class="descSec">
+                            <p class="title">{{title}}</p>
+                        </div>
+                    </a>
+                    {{/if}}
+                </div>
+            </script>
+            <script id="error-template" type="text/x-handlebars-template">
+                <div class="error-message">
+                    {{this}}
+                </div>
+            </script>
+            <div class="lm-btn-wrap">
+                <a href="javascript:;" class="btn btn-loadmore loadmore" data-pagenumber="0">@Html.Glass().Editable(Model, x => x.Load_More_Label)</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,104 @@
+----item----
+version: 1
+id: {FA69727F-69B8-4DE9-929B-C0032CFD2FFD}
+database: master
+path: /sitecore/media library/Images/Foundation/ECM/DowntownDubai/Icons/search-btn
+parent: {30F290E0-F0C2-417A-A9FD-20062AB8B58D}
+name: search-btn
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20190325T120022Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 1892
+
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjFweCIg
+aGVpZ2h0PSIyMXB4IiB2aWV3Qm94PSIwIDAgMjEgMjEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0
+dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcv
+MTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUzLjIgKDcyNjQzKSAtIGh0
+dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5zZWFyY2g8L3RpdGxlPgogICAgPGRl
+c2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9
+Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4K
+ICAgICAgICA8ZyBpZD0iMDEtTGFuZGluZy1QYWdlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTE3
+OC4wMDAwMDAsIC00NS4wMDAwMDApIiBmaWxsPSIjODE4Qjk2Ij4KICAgICAgICAgICAgPGcgaWQ9
+InNlYXJjaCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTE3OC4wMDAwMDAsIDQ1LjAwMDAwMCkiPgog
+ICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTMiPgogICAgICAgICAgICAgICAgICAgIDxwYXRo
+IGQ9Ik0yMC43NDI4NTcxLDE5LjUwODU3MTQgTDE1LjY5NDI4NTcsMTQuNDYgQzE2Ljk0NTcxNDMs
+MTIuOTM0Mjg1NyAxNy43LDEwLjk4IDE3LjcsOC44NSBDMTcuNywzLjk2NDI4NTcxIDEzLjczNTcx
+NDMsMCA4Ljg1LDAgQzMuOTYsMCAwLDMuOTY0Mjg1NzEgMCw4Ljg1IEMwLDEzLjczNTcxNDMgMy45
+NiwxNy43IDguODUsMTcuNyBDMTAuOTgsMTcuNyAxMi45MywxNi45NSAxNC40NTU3MTQzLDE1LjY5
+ODU3MTQgTDE5LjUwNDI4NTcsMjAuNzQyODU3MSBDMTkuODQ3MTQyOSwyMS4wODU3MTQzIDIwLjQs
+MjEuMDg1NzE0MyAyMC43NDI4NTcxLDIwLjc0Mjg1NzEgQzIxLjA4NTcxNDMsMjAuNDA0Mjg1NyAy
+MS4wODU3MTQzLDE5Ljg0NzE0MjkgMjAuNzQyODU3MSwxOS41MDg1NzE0IFogTTguODUsMTUuOTM4
+NTcxNCBDNC45MzcxNDI4NiwxNS45Mzg1NzE0IDEuNzU3MTQyODYsMTIuNzU4NTcxNCAxLjc1NzE0
+Mjg2LDguODUgQzEuNzU3MTQyODYsNC45NDE0Mjg1NyA0LjkzNzE0Mjg2LDEuNzU3MTQyODYgOC44
+NSwxLjc1NzE0Mjg2IEMxMi43NTg1NzE0LDEuNzU3MTQyODYgMTUuOTQyODU3MSw0Ljk0MTQyODU3
+IDE1Ljk0Mjg1NzEsOC44NSBDMTUuOTQyODU3MSwxMi43NTg1NzE0IDEyLjc1ODU3MTQsMTUuOTM4
+NTcxNCA4Ljg1LDE1LjkzODU3MTQgWiIgaWQ9IlNoYXBlIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjwv
+cGF0aD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4K
+ICAgIDwvZz4KPC9zdmc+
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+svg
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 13
+
+image/svg+xml
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+1383
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/FA69727F69B84DE9929BC0032CFD2FFD.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: a33169b5-ae4b-436e-9061-e52e016067b7
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190325T120022Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a33169b5-ae4b-436e-9061-e52e016067b7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190325T120022Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

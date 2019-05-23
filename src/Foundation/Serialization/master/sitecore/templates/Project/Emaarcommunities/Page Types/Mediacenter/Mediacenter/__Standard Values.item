@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {E6D3EBB8-54C6-4B5D-B3FF-C110FDC360A2}
+database: master
+path: /sitecore/templates/Project/Emaarcommunities/Page Types/Mediacenter/Mediacenter/__Standard Values
+parent: {AB4F05B9-0538-4014-835A-545DED4920C1}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB4F05B9-0538-4014-835A-545DED4920C1}
+templatekey: Mediacenter
+created: 20190422T102647Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 837
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B255404C-4183-4E11-BC30-74E4D4595BEC}"><r ds="" id="{00E5BEDC-930A-4E3C-BEB8-0901394E4040}" par="" ph="ecm_header" uid="{57054EFF-2CF2-42A8-B98A-D5195A89085F}" /><r id="{28B71257-87C8-4F1F-B89C-1ED3B10C308C}" ph="ecm_content" uid="{91A6C692-7677-44C2-B591-388ED18DC64B}" /><r id="{0B762C67-B738-4E9F-9DCE-3B6A1DD97541}" ph="ecm_seo" uid="{02F99952-162D-4329-9E8C-EA944849AA7C}" /><r id="{597CAEAE-E891-4070-9C3F-CE6EF8F27B6F}" ph="ecm_leftnav" uid="{02F3DA3F-B739-4C2E-B319-CE4C36B1D1F4}" /><r ds="" id="{E77F7584-4498-4F34-84EB-E1C0E05DC042}" par="" ph="ecm_footer" uid="{233978DB-238C-4B4E-ABE1-5FC4D711627A}" /><r id="{BF14C8E4-27E3-40FC-8029-5495486B27F4}" ph="ecm_bodycontent" uid="{BD395F28-84F9-4A4A-884C-C9A2517CE48C}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 1214bd0d-9d86-440f-b9dd-9a41f5a26377
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190422T102647Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1214bd0d-9d86-440f-b9dd-9a41f5a26377
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190425T093826Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

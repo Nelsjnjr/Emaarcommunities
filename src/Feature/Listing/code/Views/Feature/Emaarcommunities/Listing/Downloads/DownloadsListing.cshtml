@@ -1,0 +1,66 @@
+﻿@model EMAAR.Emaarcommunities.Foundation.ORM.Models.sitecore.templates.Project.Emaarcommunities.Page_Types.IDownloads_Page
+@using Glass.Mapper.Sc.Web.Mvc
+@using EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
+@using EMAAR.Emaarcommunities.Foundation.Search.Helpers
+
+<div class="download-section">
+    <div class="section-header">
+        <h1 class="heading">@Html.Glass().Editable(Model, x => x.Title)</h1>
+        <p>@Html.Glass().Editable(Model, x => x.Introduction)</p>
+    </div>
+    <div id="templateInitializor" data-service-url="/api/sitecore/listing/GetListingJSON" data-page-size="@Model.No_Of_Records" data-item-id="@Model.Id" data-listItemTemplateId="@SearchHelper.FormatGuid(CommonConstants.DownloadItemTemplateID)" data-error-message="@Model.Error_Message" data-show-filters="true">
+        <div class="selectFilters"></div>
+        <script id="filter-template" type="text/x-handlebars-template">
+            <div class="row">
+                {{#each this}}
+                <div class="col-sm-6">
+                    <div class="selectWrap pb-5">
+                        <select name="" id="" class="js-example-basic-single imageGallery_year filters-support" data-label="{{this.filterLabel}}">
+                            {{#each this.filterValues}}
+                            {{#if this}}
+                            <option value="{{id}}">{{label}}</option>
+                            {{/if}}
+                            {{/each}}
+                        </select>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <div class="galleryWrap">
+            <div class="row listingygrid" id="filter-template-result">
+                <!-- template generate -->
+            </div>
+            <script id="gallery-template" type="text/x-handlebars-template">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="download-item">
+                        <div class="imgholder">
+                            <span class="pdf"><img src="/Assets/project/Emaarcommunities/images/icon/Pdf.svg" alt="pdf icon"></span>
+                            <img src="{{thumbnailurl}}" alt="{{imageAlttext}}" class="img">
+                            <div class="hoverHolder">
+                                <a href="{{pageUrl}}" class="link">
+                                    <i class="icon"><img src="/Assets/project/Emaarcommunities/images/icon/download.svg" class="svg" alt="download icon"></i>
+                                    <div>@Sitecore.Globalization.Translate.Text(CommonConstants.DownloadKey)</div>
+                                </a>
+                                <a href="{{externalURL}}" class="link">
+                                    <i class="icon"><img src="/Assets/project/Emaarcommunities/images/icon/external.svg" class="svg" alt="external icon"></i>
+                                    <div>@Sitecore.Globalization.Translate.Text(CommonConstants.ReadOnlineKey)</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="title">{{title}}</div>
+                    </div>
+                </div>
+            </script>
+            <script id="error-template" type="text/x-handlebars-template">
+                <div class="error-message">
+                    {{this}}
+                </div>
+            </script>
+            <div class="lm-btn-wrap">
+                <a href="javascript:;" class="btn btn-loadmore loadmore" data-pagenumber="0">@Html.Glass().Editable(Model, x => x.Load_More_Label)</a>
+            </div>
+        </div>
+    </div>
+</div>
+

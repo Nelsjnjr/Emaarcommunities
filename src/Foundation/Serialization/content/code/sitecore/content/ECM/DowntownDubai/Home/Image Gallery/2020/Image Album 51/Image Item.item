@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {575C9350-85E6-4FC9-B199-D8CEC2200899}
+database: master
+path: /sitecore/content/ECM/DowntownDubai/Home/Image Gallery/2020/Image Album 51/Image Item
+parent: {7FD792D4-49D3-4B33-9CF9-5CC373C5C30C}
+name: Image Item
+master: {00000000-0000-0000-0000-000000000000}
+template: {E669E6DE-8064-4126-BDB7-1A12757A1A90}
+templatekey: Image Item
+created: 20190425T141927Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+12
+----version----
+language: en
+version: 1
+revision: 8779fd46-d088-49b0-ad15-2dc053b2fd67
+
+----field----
+field: {068BCCBE-353F-42A5-BF99-1B72C328DBC6}
+name: Title
+key: title
+content-length: 10
+
+Image Item
+----field----
+field: {515BD529-7017-4402-A1A0-B8158722CF74}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{4A8CEA77-AFE9-432C-8837-A698DBE8D941}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\NGeepalem
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190424T093044Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\NGeepalem
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8779fd46-d088-49b0-ad15-2dc053b2fd67
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190425T110751Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

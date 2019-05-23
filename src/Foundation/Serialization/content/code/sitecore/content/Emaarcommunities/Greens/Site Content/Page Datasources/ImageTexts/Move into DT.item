@@ -1,0 +1,82 @@
+----item----
+version: 1
+id: {45432D1C-889F-4A02-B68E-4F1355D3DCBB}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Page Datasources/ImageTexts/Move into DT
+parent: {3FF30D4E-DF8C-4299-A535-F61547724741}
+name: Move into DT
+master: {00000000-0000-0000-0000-000000000000}
+template: {86217B8B-D63D-48F5-932C-CC46442B8243}
+templatekey: ImageText
+created: 20190501T132127Z
+
+----version----
+language: en
+version: 1
+revision: 3c10b861-0c52-4a58-912d-b14207a1a12a
+
+----field----
+field: {31A2756E-9000-42E0-8F4C-D636C8B03849}
+name: Image Text Alignment
+key: image text alignment
+content-length: 38
+
+{9490C8D3-7932-4501-8553-0C80CAF749A6}
+----field----
+field: {CD52C386-4EBE-4916-85B9-7128D2028100}
+name: Button
+key: button
+content-length: 176
+
+<link text="descript" linktype="external" url="https://downtowndubaicommunity.sakani.ae/MoveInPermitForm.aspx?ProcessType=MoveInPermit" anchor="" title="Apply now" target="" />
+----field----
+field: {15B53931-2B97-438A-9254-06F70A60F952}
+name: Button Text
+key: button text
+content-length: 9
+
+Apply now
+----field----
+field: {CDDD22F9-558A-4E98-A614-53C5E090FB96}
+name: Title
+key: title
+content-length: 52
+
+Moving into the community has never been this easy! 
+----field----
+field: {86EF63D0-7E10-4DF7-80A7-28DF2D6BA18F}
+name: Summary
+key: summary
+content-length: 291
+
+Click, fill, move. How simple is that?
+
+In four simple steps, enter your details, select your community, fill out your property-related information and upload your documents. Get your Move In Permit in one business day and voila! - head off to your new home, right here in Downtown Dubai. 
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190312T053600Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3c10b861-0c52-4a58-912d-b14207a1a12a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T132106Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

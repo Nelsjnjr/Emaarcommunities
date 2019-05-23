@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {C2846863-A2DD-4B17-B46A-351AAEA6340D}
+database: master
+path: /sitecore/templates/Project/Emaarcommunities/Page Types/News Page/__Standard Values
+parent: {835DCB81-BBC5-4CB7-970D-4BE80A2D39D8}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {835DCB81-BBC5-4CB7-970D-4BE80A2D39D8}
+templatekey: News Page
+created: 20190426T110445Z
+
+----field----
+field: {CF42E222-73D6-460B-81EE-02DD95643CC0}
+name: Date
+key: date
+content-length: 5
+
+$date
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 36
+
+Applications/32x32/document_edit.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 838
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{B255404C-4183-4E11-BC30-74E4D4595BEC}"><r ds="" id="{00E5BEDC-930A-4E3C-BEB8-0901394E4040}" par="" ph="ecm_header" uid="{182F241F-8B32-4641-B1DB-DAC92A6C8006}" /><r id="{0B762C67-B738-4E9F-9DCE-3B6A1DD97541}" ph="ecm_seo" uid="{BBF5FA42-56A8-4836-8B93-A9A51D59397D}" /><r id="{28B71257-87C8-4F1F-B89C-1ED3B10C308C}" ph="ecm_content" uid="{F8372BCA-2029-4A8B-BD59-2C11C8C62D3E}" /><r id="{3199C575-1F49-43F8-A6DE-8E180A618E67}" ph="ecm_bodycontent" uid="{76356E84-EFB5-4C09-939C-09B56D7F2761}" /><r id="{597CAEAE-E891-4070-9C3F-CE6EF8F27B6F}" ph="ecm_leftnav" uid="{9D45F63E-C48F-41CA-8950-A6FC0CB0E229}" /><r ds="" id="{F07079B3-C84D-4354-BF03-B59CA3EC81BF}" par="" ph="ecm_content" uid="{A1C17D05-DA92-4A0D-8B91-4EF2FEA9C55F}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 01d5e31a-fa01-4c2c-b208-ae1ae0f4add1
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190426T110445Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+01d5e31a-fa01-4c2c-b208-ae1ae0f4add1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190507T073147Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

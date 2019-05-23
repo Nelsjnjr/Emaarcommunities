@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {8FAD6FF5-7E06-412C-91D9-E45288295FDC}
+database: master
+path: /sitecore/content/ECM/Greens/Home/Page Datasources/Banner/why should you make downtown dubai home
+parent: {1B3A845E-563A-4AB0-B68A-D18296AFBA6E}
+name: why should you make downtown dubai home
+master: {00000000-0000-0000-0000-000000000000}
+template: {86217B8B-D63D-48F5-932C-CC46442B8243}
+templatekey: ImageText
+created: 20190325T130539Z
+
+----version----
+language: en
+version: 1
+revision: 8e75901f-6583-4c5e-8ed6-bf1b550e489a
+
+----field----
+field: {CDDD22F9-558A-4E98-A614-53C5E090FB96}
+name: Title
+key: title
+content-length: 40
+
+Why should you make Downtown Dubai home?
+----field----
+field: {86EF63D0-7E10-4DF7-80A7-28DF2D6BA18F}
+name: Summary
+key: summary
+content-length: 332
+
+The Greens &amp; Views Master Community is strategically located next to Dubai’s Sheikh Zayed Road. From here, there is easy access to Dubai Internet City, Media City, Dubai Marina, the American University in Dubai and a selection of five star hotels and restaurants, as well as several world-class golf courses (see Community map).
+----field----
+field: {F6BA7B09-176F-4BB1-A680-C070D4B92C65}
+name: Image
+key: image
+content-length: 238
+
+<image mediapath="/Images/Feature/ECM/Image_Section4" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Feature/ECM/Image_Section4" mediaid="{BE41F0E1-0D8D-49F1-AE27-DA3EBA404182}" ></image>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190312T053532Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8e75901f-6583-4c5e-8ed6-bf1b550e489a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190319T111902Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

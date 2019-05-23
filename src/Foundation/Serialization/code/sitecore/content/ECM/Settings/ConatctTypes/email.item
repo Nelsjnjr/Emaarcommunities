@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {A443403A-614C-49C8-AA3C-4139B3AC5B91}
+database: master
+path: /sitecore/content/ECM/Settings/ConatctTypes/Email
+parent: {40E9CAAD-7D43-4617-84A9-8F1A5EC57555}
+name: Email
+master: {00000000-0000-0000-0000-000000000000}
+template: {CA138DC3-9C6D-42F5-8424-5F7C4C2E6BAB}
+templatekey: Settings
+created: 20190326T132828Z
+
+----version----
+language: en
+version: 1
+revision: 31112ea8-5a9e-4898-99ff-04f3128f6fc5
+
+----field----
+field: {74950B52-2701-4909-82D1-325DC9297E87}
+name: Key
+key: key
+content-length: 5
+
+Email
+----field----
+field: {34B856F1-4932-49DC-ADAB-90C37866C0B2}
+name: Value
+key: value
+content-length: 5
+
+Email
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190326T132828Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+31112ea8-5a9e-4898-99ff-04f3128f6fc5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190326T132925Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

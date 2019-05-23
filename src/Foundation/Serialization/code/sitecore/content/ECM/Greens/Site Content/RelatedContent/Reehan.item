@@ -1,0 +1,85 @@
+----item----
+version: 1
+id: {41159771-3B16-4F8D-972E-B36F9DF6E8AC}
+database: master
+path: /sitecore/content/ECM/Greens/Site Content/RelatedContent/Reehan
+parent: {C0B83677-4125-498F-B47D-DE32843FDD4B}
+name: Reehan
+master: {00000000-0000-0000-0000-000000000000}
+template: {1FE16DFE-5B53-447E-BB34-D945F6DE8CD0}
+templatekey: Homepage carousel
+created: 20190325T130539Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: d1e14c06-4f4a-4108-8f32-ec751eb96289
+
+----field----
+field: {F9401C09-1121-4BB5-ABED-48BC2B29DE71}
+name: CTA
+key: cta
+content-length: 158
+
+<link id="{D19DCEB9-BE03-491E-9A68-B8A3B5944A3A}" querystring="" linktype="internal" text="" anchor="" url="/ECM/DowntownDubai" title="" class="" target="" />
+----field----
+field: {CDDD22F9-558A-4E98-A614-53C5E090FB96}
+name: Title
+key: title
+content-length: 6
+
+Reehan
+----field----
+field: {86EF63D0-7E10-4DF7-80A7-28DF2D6BA18F}
+name: Summary
+key: summary
+content-length: 249
+
+<ul>
+    <li>Panoramic views of the dubai Fountain &amp; Burj Khalifa</li>
+    <li>Next door to the Dubai Opera, Burj Park, The Dubai Mall</li>
+    <li>Only steps away from the vibrant Sheikh Mohammed boulevard</li>
+    <li>Infinity Pool1</li>
+</ul>
+----field----
+field: {F6BA7B09-176F-4BB1-A680-C070D4B92C65}
+name: Image
+key: image
+content-length: 224
+
+<image mediapath="/Images/Feature/ECM/slider2" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Images/Feature/ECM/slider2" mediaid="{5AF38824-DD81-4940-9D25-C0EECD544990}" ></image>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190314T120806Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d1e14c06-4f4a-4108-8f32-ec751eb96289
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190319T111902Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

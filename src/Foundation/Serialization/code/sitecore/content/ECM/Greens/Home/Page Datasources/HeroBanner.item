@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {56B45402-9F40-42BA-B44A-079933AC48EF}
+database: master
+path: /sitecore/content/ECM/Greens/Home/Page Datasources/HeroBanner
+parent: {982613AC-FCEF-42E3-924D-FE4E510D4CB1}
+name: HeroBanner
+master: {00000000-0000-0000-0000-000000000000}
+template: {FA2C72F1-096B-4EC9-83BE-65C1EDCF3086}
+templatekey: HerosFolder
+created: 20190325T130539Z
+
+----version----
+language: en
+version: 1
+revision: 2335045b-d701-4fb6-82da-f7cae5339ccc
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190320T065704Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2335045b-d701-4fb6-82da-f7cae5339ccc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190321T090251Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

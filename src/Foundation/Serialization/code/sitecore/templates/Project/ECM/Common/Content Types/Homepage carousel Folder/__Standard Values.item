@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {8435C0CE-1FC0-430C-A6B0-65002979AA8C}
+database: master
+path: /sitecore/templates/Project/ECM/Common/Content Types/Homepage carousel Folder/__Standard Values
+parent: {019D6D65-1672-4E76-AA99-8E2E665939A7}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {019D6D65-1672-4E76-AA99-8E2E665939A7}
+templatekey: Homepage carousel Folder
+created: 20190318T062853Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{82FE2EE5-75C5-4959-8BA0-5BFD5F29E2F5}
+----version----
+language: en
+version: 1
+revision: 85e22e9a-1875-4ace-9850-eec8a5053d75
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190312T053225Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+85e22e9a-1875-4ace-9850-eec8a5053d75
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190321T085954Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

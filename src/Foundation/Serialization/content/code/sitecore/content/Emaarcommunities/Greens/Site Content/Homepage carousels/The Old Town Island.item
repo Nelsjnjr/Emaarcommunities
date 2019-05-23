@@ -1,0 +1,84 @@
+----item----
+version: 1
+id: {A668506E-2E60-41BB-BC9A-9F70BDD88F30}
+database: master
+path: /sitecore/content/Emaarcommunities/Greens/Site Content/Homepage carousels/The Old Town Island
+parent: {9757BB09-2E82-4606-A907-5F2E95DAD77C}
+name: The Old Town Island
+master: {00000000-0000-0000-0000-000000000000}
+template: {1FE16DFE-5B53-447E-BB34-D945F6DE8CD0}
+templatekey: Homepage carousel
+created: 20190509T075432Z
+
+----version----
+language: en
+version: 1
+revision: 4aed0da2-5199-4691-8ddd-88ed8c29e2d3
+
+----field----
+field: {F9401C09-1121-4BB5-ABED-48BC2B29DE71}
+name: CTA
+key: cta
+content-length: 200
+
+<link id="{AA2C2480-C7E0-40ED-A7A6-0FCBE7224A1F}" querystring="" text="" anchor="" url="/Emaarcommunities/Greens/Home/Discover/Communities/The Old Town Island" title="" class="" linktype="internal" />
+----field----
+field: {87F46FB3-8FF4-4318-BCC2-C4EBBB0C4963}
+name: Title
+key: title
+content-length: 19
+
+The Old Town Island
+----field----
+field: {9DE3E904-B947-4547-BBF2-7983FF99FF1A}
+name: Summary
+key: summary
+content-length: 210
+
+<ul>
+    <li>Features Souk Al Bahar, Tajer, Attareen and The Palace Downtown.</li>
+    <li>Quaint village-inspired development.</li>
+    <li>Has a market square, quiet alleyways and inner courtyards.</li>
+</ul>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 12
+
+sitecore\cat
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190509T075432Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 12
+
+sitecore\cat
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4aed0da2-5199-4691-8ddd-88ed8c29e2d3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190520T132107Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\virtualssuser
