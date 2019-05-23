@@ -13,6 +13,7 @@ namespace EMAAR.Emaarcommunities.Foundation.ErrorHandling.Pipelines.ErrorRedirec
 
     using EMAAR.Emaarcommunities.Foundation.ErrorHandling.Helpers;
     using EMAAR.Emaarcommunities.Foundation.ErrorHandling.Interfaces;
+    using EMAAR.Emaarcommunities.Foundation.ErrorHandling.Settings;
     using Sitecore;
     using Sitecore.Abstractions;
     using Sitecore.Configuration;
@@ -57,7 +58,7 @@ namespace EMAAR.Emaarcommunities.Foundation.ErrorHandling.Pipelines.ErrorRedirec
 			}
 
 			// need to retrieve not found item to account for sites utilizing virtualFolder attribute
-			var notFoundItem = Context.Database.GetItem(Context.Site.StartPath + Settings.ItemNotFoundUrl);
+			var notFoundItem = Context.Database.GetItem(Context.Site.StartPath + SitecoreSettings.ItemNotFoundUrl);
 
 			if (notFoundItem == null)
 			{

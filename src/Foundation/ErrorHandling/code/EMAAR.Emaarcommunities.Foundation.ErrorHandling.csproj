@@ -210,6 +210,7 @@
     <Compile Include="Pipelines\ErrorRedirect\SetErrorStatusCode.cs" />
     <Compile Include="Pipelines\MvcException\ExceptionProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\SitecoreSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Foundation\Emaarcommunities\ErrorHandling\Emaar.Emaarcommunities.Foundation.ErrorHandling.config">

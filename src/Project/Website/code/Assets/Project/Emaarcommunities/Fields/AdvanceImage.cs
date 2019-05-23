@@ -619,7 +619,7 @@ namespace Sitecore.Shell.Applications.ContentEditor
             var parameters = new UrlString(source);
 
             // SET THUMBNAIL FOLDER ID BY DEFAULT FROM SETTINGS, OR TAKE FROM FIELD SOURCE (IF DEFINED).
-            ThumbnailsFolderID = Settings.GetSetting("Sitecore.Framework.Fields.AdvanceImageField.DefaultThumbnailFolderId");
+            ThumbnailsFolderID = Settings.GetSetting("EMAAR.Emaarcommunities.Foundation.AdvanceImage.AdvanceImageField.DefaultThumbnailFolderId");
 
             if (!Sitecore.Data.ID.IsID(ThumbnailsFolderID) &&
                 !string.IsNullOrEmpty(parameters.Parameters[THUMBNAIL_FOLDER_FIELD_NAME]) &&
