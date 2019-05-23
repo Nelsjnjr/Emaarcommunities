@@ -59,8 +59,10 @@
                                                     if (level1.Navigation_Link.Type.ToString() == CommonConstants.Internal)
                                                     {
                                                         var level1ReferencedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level1.Navigation_Link.TargetId));
-
-                                                        @CommonUtility.GetTitle(level1ReferencedItem, level1.ContextItem)
+                                                        if (level1ReferencedItem != null)
+                                                        {
+                                                            @CommonUtility.GetTitle(level1ReferencedItem, level1.ContextItem)
+                                                        }
                                                     }
                                                     else //If in case of external url getting Navigation item Title
                                                     {
