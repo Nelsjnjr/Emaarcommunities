@@ -27,26 +27,26 @@ namespace EMAAR.Emaarcommunities.Foundation.SitecoreExtensions
         public static string GetTitle(Item Referreditem, Item NavigationItem)
         {
             //First look to Title in Navigation/Subnavigation Template
-            if (NavigationItem != null && !String.IsNullOrEmpty(NavigationItem.Fields[CommonConstants.NavigationTitle].Value))
+            if (NavigationItem!=null && !String.IsNullOrEmpty(NavigationItem.Fields[CommonConstants.NavigationTitle].Value))
             {
                 return NavigationItem.Fields[CommonConstants.NavigationTitle].Value;
-            }
+            }   
             //Then go the refered item and get its Navigation Title
-            else if (Referreditem != null && Referreditem.Fields[CommonConstants.NavigationTitle] != null && !String.IsNullOrEmpty(Referreditem.Fields[CommonConstants.NavigationTitle].Value))
+            else if (Referreditem!=null && Referreditem.Fields[CommonConstants.NavigationTitle] != null && !String.IsNullOrEmpty(Referreditem.Fields[CommonConstants.NavigationTitle].Value))
             {
                 return Referreditem.Fields[CommonConstants.NavigationTitle].Value;
             }
             //Take Refered item Title
-            else if (Referreditem != null && Referreditem.Fields[CommonConstants.Title] != null && !String.IsNullOrEmpty(Referreditem.Fields[CommonConstants.Title].Value))
+            else if (Referreditem != null &&  Referreditem.Fields[CommonConstants.Title] != null && !String.IsNullOrEmpty(Referreditem.Fields[CommonConstants.Title].Value))
             {
                 return Referreditem.Fields[CommonConstants.Title].Value;
             }
             //Take Navigation/Subnavigation Item Name(This will be used incase of external link)
             else
             {
-                return NavigationItem != null ? NavigationItem.Name : String.Empty;
+                return NavigationItem!=null?NavigationItem.Name:String.Empty;
             }
-
+            
         }
 
     }

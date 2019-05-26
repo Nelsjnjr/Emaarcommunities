@@ -22,7 +22,7 @@
             <a href="@(Model.NewsListingPageItem !=null?Sitecore.Links.LinkManager.GetItemUrl(Model.NewsListingPageItem, options):String.Empty)" class="link">
                 @Sitecore.Globalization.Translate.Text(CommonConstants.ViewAll)
                 <i>
-                    <img src="~/Assets/Project/ECM/images/icon/btn-arrow.svg" alt="arrow">
+                    <img src="~/Assets/Project/Emaarcommunities/images/icon/btn-arrow.svg" alt="arrow">
                 </i>
             </a>
         </div>
@@ -56,7 +56,7 @@
             <a href="@(Model.EventsListingPageItem !=null?Sitecore.Links.LinkManager.GetItemUrl(Model.EventsListingPageItem, options):String.Empty)" class="link">
                 @Sitecore.Globalization.Translate.Text(CommonConstants.ViewAll)
                 <i>
-                    <img src="~/Assets/Project/ECM/images/icon/btn-arrow.svg" alt="arrow">
+                    <img src="~/Assets/Project/Emaarcommunities/images/icon/btn-arrow.svg" alt="arrow">
                 </i>
             </a>
         </div>
@@ -107,7 +107,7 @@
             <a href="@(Model.DownloadPageItem != null ? Sitecore.Links.LinkManager.GetItemUrl(Model.DownloadPageItem, options) : String.Empty)" class="link">
                 @Sitecore.Globalization.Translate.Text(CommonConstants.ViewAll)
                 <i>
-                    <img src="~/Assets/Project/ECM/images/icon/btn-arrow.svg" alt="arrow">
+                    <img src="~/Assets/Project/Emaarcommunities/images/icon/btn-arrow.svg" alt="arrow">
                 </i>
             </a>
         </div>
@@ -118,20 +118,20 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="download-item">
                         <div class="imgholder">
-                            <span class="pdf"><img src="~/Assets/Project/ECM/images/icon/Pdf.svg" alt="pdf icon"></span>
+                            <span class="pdf"><img src="~/Assets/Project/Emaarcommunities/images/icon/Pdf.svg" alt="pdf icon"></span>
                             <img src="@albumDetails.thumbnailurl" alt="Downloads-thumbnail"
                                  class="img">
                             <div class="hoverHolder">
                                 <a href="@albumDetails.pageUrl" class="link">
                                     <i class="icon">
-                                        <img src="~/Assets/Project/ECM/images/icon/download.svg" class="svg"
+                                        <img src="~/Assets/Project/Emaarcommunities/images/icon/download.svg" class="svg"
                                              alt="download icon">
                                     </i>
                                     <div>@Sitecore.Globalization.Translate.Text(CommonConstants.Download)</div>
                                 </a>
                                 <a href="@albumDetails.externalURL" target="_blank" class="link">
                                     <i class="icon">
-                                        <img src="~/Assets/Project/ECM/images/icon/external.svg" class="svg"
+                                        <img src="~/Assets/Project/Emaarcommunities/images/icon/external.svg" class="svg"
                                              alt="external icon">
                                     </i>
                                     <div>@Sitecore.Globalization.Translate.Text(CommonConstants.ReadOnline)</div>
@@ -156,7 +156,7 @@
             <a href="@(Model.ImageGalleryItem != null ? Sitecore.Links.LinkManager.GetItemUrl(Model.ImageGalleryItem, options) : String.Empty)" class="link">
                 @Sitecore.Globalization.Translate.Text(CommonConstants.ViewAll)
                 <i>
-                    <img src="~/Assets/Project/ECM/images/icon/btn-arrow.svg" alt="arrow">
+                    <img src="~/Assets/Project/Emaarcommunities/images/icon/btn-arrow.svg" alt="arrow">
                 </i>
             </a>
         </div>
@@ -193,7 +193,7 @@
             <a href="@(Model.VideoGalleryItem != null ? Sitecore.Links.LinkManager.GetItemUrl(Model.VideoGalleryItem, options) : String.Empty)" class="link">
                 @Sitecore.Globalization.Translate.Text(CommonConstants.ViewAll)
                 <i>
-                    <img src="~/Assets/Project/ECM/images/icon/btn-arrow.svg" alt="arrow">
+                    <img src="~/Assets/Project/Emaarcommunities/images/icon/btn-arrow.svg" alt="arrow">
                 </i>
             </a>
         </div>
@@ -209,7 +209,7 @@
                             <img src="@albumDetails.thumbnailurl" alt="video" class="img">
                             @{ if (Model.IsVideoAlbum)
                                 {
-                                    <img src="~/Assets/Project/ECM/images/icon/play-button.svg" alt="playicon" class="playicon">
+                                    <img src="~/Assets/Project/Emaarcommunities/images/icon/play-button.svg" alt="playicon" class="playicon">
                                 }
                             }
                             <div class="title">@albumDetails.title</div>

@@ -8,111 +8,110 @@
         <div class="footer-logo">
             @if (Model.SiteRoot != null && Model.SiteRoot.Site_Logo != null)
             {
-                @Html.Glass().RenderImage(Model.SiteRoot, x => x.Site_Logo, new { alt = !String.IsNullOrEmpty(Model.SiteRoot.Site_Logo.Alt) ? Model.SiteRoot.Site_Logo.Alt : "image" }, isEditable: true)
+            @Html.Glass().RenderImage(Model.SiteRoot, x => x.Site_Logo, new { alt = !String.IsNullOrEmpty(Model.SiteRoot.Site_Logo.Alt) ? Model.SiteRoot.Site_Logo.Alt : "image" }, isEditable: true)
             }
 
         </div>
         <div class="row">
             @{
-                <!--Link with Navigation-->
-                foreach (var level1 in Model.Footer.Root_Navigations)
-                {
-                    <div class="col-6 col-md-3">
-                        <div class="footer-ul">
-                            @{
-                                //If has link set the link and referenced item Title ,if external url add Title of Navigation Item and Navigation_Link
-                                //If no Url available then no need to add Title even if  Navigation Item exists in Sitecore
-                                if (level1.Navigation_Link != null)
-                                {
-                                    //Checking Url referened item and getting its Title if Sitecore item,else displaying navigation item Name
-                                    if (level1.Navigation_Link.Type.ToString() == CommonConstants.Internal)
-                                    {
-                                        var level1ReferencedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level1.Navigation_Link.TargetId));
-                                        if (level1ReferencedItem != null)
-                                        {
-                                            <h2 class="footer-title upperCase">
-                                                <!--first Check Navigation title field Available if not Fall to Title Field again if not Fallback to Item name -->
-                                                @CommonUtility.GetTitle(level1ReferencedItem, level1.ContextItem)
-                                            </h2>
-                                        }
-                                    }
-                                    else //If in case of external url getting Navigation item Title
-                                    {
-                                        <h2 class="footer-title upperCase">   @Html.Raw(!String.IsNullOrEmpty(level1.Navigation_Title) ? level1.Navigation_Title : level1.Name)</h2>
-                                    }
-                                }
-                                else //If no Navigation url then have Name from Navigation Item Name
-                                {
-                                    <h2 class="footer-title upperCase">  @Html.Raw(!String.IsNullOrEmpty(level1.Navigation_Title) ? level1.Navigation_Title : level1.Name)</h2>
-                                }
-                            }
-                            @{
-                                <!--Link with Sub navigation-->
-
-                                if (level1.Sub_Navigations.Any())
-                                {
-                                    <ul>
-                                        @foreach (var level2 in level1.Sub_Navigations)
-                                        {
-                                            //If has link set the link and referenced item Title ,if external url add Title of Navigation Item and Navigation_Link
-                                            if (level2.Navigation_Link != null)
-                                            {
-                                                <li>
-                                                    @using (Html.Glass().BeginRenderLink(level2, x => x.Navigation_Link, isEditable: true))
-                                                    {
-                                                        //Checking Url referened item and getting its Title if Sitecore item,else displaying navigation item Name
-                                                        if (level2.Navigation_Link.Type.ToString() == CommonConstants.Internal)
-                                                        {
-                                                            var level2ReferencedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level2.Navigation_Link.TargetId));
-                                                            if (level2ReferencedItem != null)
-                                                            {
-                                                                @CommonUtility.GetTitle(level2ReferencedItem, level2.ContextItem)
-                                                            }
-                                                        }
-                                                        else //If in case of external url getting Navigation item Title
-                                                        {
-                                                            @Html.Raw(!String.IsNullOrEmpty(level2.Navigation_Title) ? level2.Navigation_Title : level2.Name)
-                                                        }
-
-                                                    }
-                                                </li>
-                                            }
-                                        }
-                                    </ul>
-                                }
-                            }
-
-                        </div>
-                    </div>
-                }
-                <div class="col-6 col-md-3">
-                    <div class="footer-ul icons">
-                        <h2 class="footer-title upperCase">@Html.Glass().Editable(Model.Footer.Contact_Info, x => x.Title)</h2>
-                        @{
-                            //Loading Contact Types
-
-                            foreach (var contactInfo in Model.Footer.Contact_Info.Contact_Infos)
+            <!--Link with Navigation-->
+            foreach (var level1 in Model.Footer.Root_Navigations)
+            {
+            <div class="col-6 col-md-3">
+                <div class="footer-ul">
+                    @{
+                    //If has link set the link and referenced item Title ,if external url add Title of Navigation Item and Navigation_Link
+                    //If no Url available then no need to add Title even if  Navigation Item exists in Sitecore
+                    if (level1.Navigation_Link != null)
+                    {
+                    //Checking Url referened item and getting its Title if Sitecore item,else displaying navigation item Name
+                    if (level1.Navigation_Link.Type.ToString() == CommonConstants.Internal)
+                    {
+                    var level1ReferencedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level1.Navigation_Link.TargetId));
+                    if (level1ReferencedItem != null)
+                    {
+                    <h2 class="footer-title upperCase">
+                        <!--first Check Navigation title field Available if not Fall to Title Field again if not Fallback to Item name -->
+                        @CommonUtility.GetTitle(level1ReferencedItem, level1.ContextItem)
+                    </h2>
+                    }
+                    }
+                    else //If in case of external url getting Navigation item Title
+                    {
+                    <h2 class="footer-title upperCase">   @Html.Raw(!String.IsNullOrEmpty(level1.Navigation_Title) ? level1.Navigation_Title : level1.Name)</h2>
+                    }
+                    }
+                    else //If no Navigation url then have Name from Navigation Item Name
+                    {
+                    <h2 class="footer-title upperCase">  @Html.Raw(!String.IsNullOrEmpty(level1.Navigation_Title) ? level1.Navigation_Title : level1.Name)</h2>
+                    }
+                    }
+                    @{
+                    <!--Link with Sub navigation-->
+                    if (level1.Sub_Navigations.Any())
+                    {
+                    <ul>
+                        @foreach (var level2 in level1.Sub_Navigations)
+                        {
+                        //If has link set the link and referenced item Title ,if external url add Title of Navigation Item and Navigation_Link
+                        if (level2.Navigation_Link != null)
+                        {
+                        <li>
+                            @using (Html.Glass().BeginRenderLink(level2, x => x.Navigation_Link, isEditable: true))
                             {
-                                <ul>
-                                    <li>
-                                        @if (contactInfo.LinkUrl != null)
-                                        {
-                                            using (Html.Glass().BeginRenderLink(contactInfo, x => x.LinkUrl, isEditable: true))
-                                            {
-                                                <i>
-                                                    @Html.Glass().RenderImage(contactInfo, x => x.Image, new { @class = "svg", alt = !String.IsNullOrEmpty(contactInfo.Image.Alt) ? contactInfo.Image.Alt : "image" }, isEditable: true)
-
-                                                </i>
-                                                @Html.Glass().Editable(contactInfo, x => x.Title)
-
-                                            }
-                                        }
-                                    </li>
-                                </ul>
+                            //Checking Url referened item and getting its Title if Sitecore item,else displaying navigation item Name
+                            if (level2.Navigation_Link.Type.ToString() == CommonConstants.Internal)
+                            {
+                            var level2ReferencedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level2.Navigation_Link.TargetId));
+                            if (level2ReferencedItem != null)
+                            {
+                            @CommonUtility.GetTitle(level2ReferencedItem, level2.ContextItem)
                             }
+                            }
+                            else //If in case of external url getting Navigation item Title
+                            {
+                            @Html.Raw(!String.IsNullOrEmpty(level2.Navigation_Title) ? level2.Navigation_Title : level2.Name)
+                            }
+
+                            }
+                        </li>
                         }
-                    </div>
+                        }
+                    </ul>
+                    }
+                    }
+
                 </div>
+            </div>
+            }
+            <div class="col-6 col-md-3">
+                <div class="footer-ul icons">
+                    <h2 class="footer-title upperCase">@Html.Glass().Editable(Model.Footer.Contact_Info, x => x.Title)</h2>
+                    @{
+                    //Loading Contact Types
+
+                    foreach (var contactInfo in Model.Footer.Contact_Info.Contact_Infos)
+                    {
+                    <ul>
+                        <li>
+                            @if (contactInfo.LinkUrl != null)
+                            {
+                            using (Html.Glass().BeginRenderLink(contactInfo, x => x.LinkUrl, isEditable: true))
+                            {
+                            <i>
+                                @Html.Glass().RenderImage(contactInfo, x => x.Image, new { @class = "svg", alt = !String.IsNullOrEmpty(contactInfo.Image.Alt) ? contactInfo.Image.Alt : "image" }, isEditable: true)
+
+                            </i>
+                            @Html.Glass().Editable(contactInfo, x => x.Title)
+
+                            }
+                            }
+                        </li>
+                    </ul>
+                    }
+                    }
+                </div>
+            </div>
 
             }
         </div>
@@ -121,27 +120,27 @@
                 <!--Loading Legal pages-->
                 @foreach (var legalPages in Model.Footer.Legal_Pages)
                 {
-                    if (legalPages.Navigation_Link != null)
+                if (legalPages.Navigation_Link != null)
+                {
+                <li>
+                    @using (Html.Glass().BeginRenderLink(legalPages, x => x.Navigation_Link, isEditable: true))
                     {
-                        <li>
-                            @using (Html.Glass().BeginRenderLink(legalPages, x => x.Navigation_Link, isEditable: true))
-                            {
-                                @Html.Glass().Editable(legalPages, x => x.Navigation_Title)
-                            }
-
-                        </li>
+                    @Html.Glass().Editable(legalPages, x => x.Navigation_Title)
                     }
+
+                </li>
+                }
 
                 }
                 <!--Adding Sitemap link-->
                 @if (Model.SiteRoot != null && Model.SiteRoot.Sitemap_Page != null)
                 {
-                    <li>
-                        @using (Html.Glass().BeginRenderLink(Model.SiteRoot, x => x.Sitemap_Page, isEditable: true))
-                        {
-                            @Sitecore.Globalization.Translate.Text(CommonConstants.Sitemap)
-                        }
-                    </li>
+                <li>
+                    @using (Html.Glass().BeginRenderLink(Model.SiteRoot, x => x.Sitemap_Page, isEditable: true))
+                    {
+                    @Sitecore.Globalization.Translate.Text(CommonConstants.Sitemap)
+                    }
+                </li>
                 }
             </ul>
             <p class="rights">  @Model.Footer.Copyright.ToString().Replace(CommonConstants.YearToken, System.DateTime.Now.Year.ToString())</p>
@@ -150,10 +149,10 @@
 
             @if (Model.SiteRoot != null && Model.SiteRoot.Brand_Logo != null)
             {
-                using (Html.Glass().BeginRenderLink(Model.SiteRoot, x => x.Brand_Logo_Url, isEditable: true))
-                {
-                    @Html.Glass().RenderImage(Model.SiteRoot, x => x.Brand_Logo, new { alt = "emaar" }, isEditable: true)
-                }
+            using (Html.Glass().BeginRenderLink(Model.SiteRoot, x => x.Brand_Logo_Url, isEditable: true))
+            {
+            @Html.Glass().RenderImage(Model.SiteRoot, x => x.Brand_Logo, new { alt = "emaar" }, isEditable: true)
+            }
             }
 
         </div>

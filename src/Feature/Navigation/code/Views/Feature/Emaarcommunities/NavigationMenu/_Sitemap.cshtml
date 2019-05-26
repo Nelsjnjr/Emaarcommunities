@@ -18,20 +18,20 @@
                     var urlreferedItem = Sitecore.Context.Database.GetItem(Sitecore.Data.ID.Parse(level1.Navigation_Link.TargetId));
                     if (urlreferedItem != null)
                     {
-                        <a href="@level1.Navigation_Link.Url" class="parent-page"> @Html.Sitecore().Field(CommonConstants.Title, urlreferedItem)</a>
+                        <a href="@level1.Navigation_Link.Url" class="parent-page">@CommonUtility.GetTitle(urlreferedItem, level1.ContextItem)</a>
                     }
                 }
                 else //If in case of external url getting Navigation item Title
                 {
-                    <a href="@level1.Navigation_Link.Url" class="parent-page">@level1.Name</a>
+                    <a href="@level1.Navigation_Link.Url" class="parent-page">@(!string.IsNullOrEmpty(level1.NavigationTitle) ? level1.NavigationTitle : level1.Name)</a>
                 }
             }
-            else if(level1.Sub_Navigations.Any())
+            else if (level1.Sub_Navigations.Any())
             {
-                <a class="parent-page">@level1.Name</a>
+                <a class="parent-page">@(!string.IsNullOrEmpty(level1.NavigationTitle) ? level1.NavigationTitle : level1.Name)</a>
             }
             @{
-              
+
                 if (level1.Sub_Navigations.Any())
                 {
                     <ul class="listing">
@@ -46,14 +46,14 @@
                                     if (urlreferedItem != null)
                                     {
                                         <li>
-                                            <a href="@level2.Navigation_Link.Url">  @Html.Sitecore().Field(CommonConstants.Title, urlreferedItem)</a>
+                                            <a href="@level2.Navigation_Link.Url">  @CommonUtility.GetTitle(urlreferedItem, level2.ContextItem)</a>
                                         </li>
                                     }
                                 }
                                 else //If in case of external url getting Navigation item Title
                                 {
                                     <li>
-                                        <a href="@level2.Navigation_Link.Url"> @level2.Name</a>
+                                        <a href="@level2.Navigation_Link.Url"> @(!string.IsNullOrEmpty(level1.NavigationTitle) ? level2.NavigationTitle : level2.Name)</a>
                                     </li>
                                 }
                             }
@@ -66,4 +66,5 @@
             }
         </div>
     }
+
 </div>
